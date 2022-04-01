@@ -1,0 +1,4 @@
+halt
+loadFile ./start.hex
+exit
+
