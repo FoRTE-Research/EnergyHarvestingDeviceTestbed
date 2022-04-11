@@ -1,0 +1,3 @@
+halt
+SaveBin ./exec_time.bin 0x2000383c 0x4
+exit
