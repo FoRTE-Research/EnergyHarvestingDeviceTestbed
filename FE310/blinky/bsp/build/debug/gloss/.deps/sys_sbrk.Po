@@ -1,0 +1,50 @@
+gloss/sys_sbrk.o: \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/gloss/sys_sbrk.c \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/scrub.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/types.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_ansi.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/newlib-nano/newlib.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/config.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/ieeefp.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/cdefs.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_types.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_types.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/endian.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_endian.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/select.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_sigset.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_timeval.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/timespec.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_timespec.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_pthreadtypes.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/sched.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/types.h
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/scrub.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/types.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_ansi.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/newlib-nano/newlib.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/config.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/ieeefp.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/cdefs.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_types.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_types.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/endian.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_endian.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/select.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_sigset.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_timeval.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/timespec.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_timespec.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_pthreadtypes.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/sched.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/types.h:

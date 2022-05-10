@@ -1,0 +1,4 @@
+src/drivers/sifive_trace.o: \
+ /home/jubayer/Documents/riscV/sifive_hifive1_revb_hello/freedom-metal/src/drivers/sifive_trace.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

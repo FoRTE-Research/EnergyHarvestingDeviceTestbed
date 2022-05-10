@@ -1,0 +1,2 @@
+src/scrub.o: \
+ /home/jubayer/Documents/riscV/AES_test/freedom-metal/src/scrub.S

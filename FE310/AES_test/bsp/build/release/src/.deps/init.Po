@@ -1,0 +1,4 @@
+src/init.o: \
+ /home/jubayer/Documents/riscV/sifive_hifive1_revb_hello/freedom-metal/src/init.c \
+ /home/jubayer/Documents/riscV/sifive_hifive1_revb_hello/freedom-metal/metal/init.h
+/home/jubayer/Documents/riscV/sifive_hifive1_revb_hello/freedom-metal/metal/init.h:

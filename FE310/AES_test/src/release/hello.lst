@@ -1,0 +1,3762 @@
+
+/home/jubayer/Documents/riscV/sifive_hifive1_revb_hello/src/release/hello.elf:     file format elf32-littleriscv
+/home/jubayer/Documents/riscV/sifive_hifive1_revb_hello/src/release/hello.elf
+architecture: riscv:rv32, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x20010000
+
+Program Header:
+    LOAD off    0x00001000 vaddr 0x20010000 paddr 0x20010000 align 2**12
+         filesz 0x00000f48 memsz 0x00000f48 flags rwx
+    LOAD off    0x00004000 vaddr 0x80000000 paddr 0x20012ca0 align 2**12
+         filesz 0x000004a4 memsz 0x000004a4 flags rw-
+     TLS off    0x00000000 vaddr 0x00000000 paddr 0x00000000 align 2**2
+         filesz 0x00000000 memsz 0x00000000 flags ---
+    LOAD off    0x000004a8 vaddr 0x800004a8 paddr 0x800004a8 align 2**12
+         filesz 0x00000000 memsz 0x00000c98 flags rw-
+    LOAD off    0x00000114 vaddr 0x00000000 paddr 0x00000000 align 2**12
+         filesz 0x00000000 memsz 0x00000000 flags ---
+    LOAD off    0x00001f80 vaddr 0x20010f80 paddr 0x20010f80 align 2**12
+         filesz 0x00001d1e memsz 0x00001d1e flags r-x
+    LOAD off    0x00000114 vaddr 0x00000000 paddr 0x00000000 align 2**12
+         filesz 0x00000000 memsz 0x00000000 flags ---
+
+Sections:
+Idx Name              Size      VMA       LMA       File off  Algn  Flags
+  0 .init             000002d0  20010000  20010000  00001000  2**4  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .init_array       00000008  200102d0  200102d0  000012d0  2**3  CONTENTS, ALLOC, LOAD, DATA
+  2 .ctors            00000042  200102d8  200102d8  000012d8  2**1  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .rodata           00000c2c  2001031c  2001031c  0000131c  2**2  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .text             00001d1e  20010f80  20010f80  00001f80  2**7  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data             000004a4  80000000  20012ca0  00004000  2**3  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss              00000098  800004a8  800004a8  000044a8  2**3  ALLOC
+  7 .stack            00000400  80000540  80000540  000044a8  2**4  ALLOC
+  8 .heap             00000800  80000940  80000940  000044a8  2**3  ALLOC
+  9 .comment          00000030  00000000  00000000  000044a4  2**0  CONTENTS, READONLY
+ 10 .riscv.attributes 0000002f  00000000  00000000  000044d4  2**0  CONTENTS, READONLY
+SYMBOL TABLE:
+20010000 l    d  .init	00000000 .init
+200102d0 l    d  .init_array	00000000 .init_array
+200102d8 l    d  .ctors	00000000 .ctors
+2001031c l    d  .rodata	00000000 .rodata
+20010f80 l    d  .text	00000000 .text
+80000000 l    d  .data	00000000 .data
+800004a8 l    d  .bss	00000000 .bss
+80000540 l    d  .stack	00000000 .stack
+80000940 l    d  .heap	00000000 .heap
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    df *ABS*	00000000 scrub.o
+200100c0 l     F .init	00000000 __metal_memory_scrub
+2001012e l       .init	00000000 skip_scrub
+00000000 l    df *ABS*	00000000 synchronize_harts.c
+00000000 l    df *ABS*	00000000 crt0.o
+20010234 l       .init	00000000 _skip_init
+20010574 l       .rodata	00000000 argv
+20010578 l       .rodata	00000000 envp
+2001057c l       .rodata	00000000 name
+00000000 l    df *ABS*	00000000 sifive_fe310-g000_pll.c
+200106a0 l     O .rodata	00000880 pll_configs
+00000000 l    df *ABS*	00000000 aes.c
+20010f88 l     F .text	000000da KeyExpansion
+20011062 l     F .text	00000032 AddRoundKey
+20011094 l     F .text	00000018 xtime
+200110ac l     F .text	000001f2 InvCipher
+20010368 l     O .rodata	0000000b Rcon
+20010374 l     O .rodata	00000100 rsbox
+20010474 l     O .rodata	00000100 sbox
+00000000 l    df *ABS*	00000000 riscv_clint0.c
+200116ac l     F .text	00000010 _get_cpu_intc
+00000000 l    df *ABS*	00000000 riscv_cpu.c
+20010f24 l     O .rodata	00000003 CSWTCH.79
+00000000 l    df *ABS*	00000000 impure.c
+80000000 l     O .data	00000060 impure_data
+00000000 l    df *ABS*	00000000 sifive_fe310-g000_hfrosc.c
+00000000 l    df *ABS*	00000000 sifive_fe310-g000_hfxosc.c
+00000000 l    df *ABS*	00000000 sifive_fe310-g000_prci.c
+00000000 l    df *ABS*	00000000 fixed-clock.c
+00000000 l    df *ABS*	00000000 hello.c
+00000000 l    df *ABS*	00000000 memcmp.c
+00000000 l    df *ABS*	00000000 atexit.c
+00000000 l    df *ABS*	00000000 exit.c
+00000000 l    df *ABS*	00000000 fini.c
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    df *ABS*	00000000 __atexit.c
+800004b4 l     O .bss	0000008c _global_atexit0
+00000000 l    df *ABS*	00000000 __call_atexit.c
+00000000 l    df *ABS*	00000000 cpu.c
+00000000 l    df *ABS*	00000000 init.c
+800004ac l     O .bss	00000004 fini_done.0
+800004b0 l     O .bss	00000004 init_done.1
+00000000 l    df *ABS*	00000000 clock.c
+00000000 l    df *ABS*	00000000 shutdown.c
+00000000 l    df *ABS*	00000000 vector.o
+20012b80 l       .text	00000000 IRQ_0
+20012b84 l       .text	00000000 IRQ_1
+20012b88 l       .text	00000000 IRQ_2
+20012b8c l       .text	00000000 IRQ_3
+20012b90 l       .text	00000000 IRQ_4
+20012b94 l       .text	00000000 IRQ_5
+20012b98 l       .text	00000000 IRQ_6
+20012b9c l       .text	00000000 IRQ_7
+20012ba0 l       .text	00000000 IRQ_8
+20012ba4 l       .text	00000000 IRQ_9
+20012ba8 l       .text	00000000 IRQ_10
+20012bac l       .text	00000000 IRQ_11
+20012bb0 l       .text	00000000 IRQ_12
+20012bb4 l       .text	00000000 IRQ_13
+20012bb8 l       .text	00000000 IRQ_14
+20012bbc l       .text	00000000 IRQ_15
+20012bc0 l       .text	00000000 IRQ_LC0
+20012bc4 l       .text	00000000 IRQ_LC1
+20012bc8 l       .text	00000000 IRQ_LC2
+20012bcc l       .text	00000000 IRQ_LC3
+20012bd0 l       .text	00000000 IRQ_LC4
+20012bd4 l       .text	00000000 IRQ_LC5
+20012bd8 l       .text	00000000 IRQ_LC6
+20012bdc l       .text	00000000 IRQ_LC7
+20012be0 l       .text	00000000 IRQ_LC8
+20012be4 l       .text	00000000 IRQ_LC9
+20012be8 l       .text	00000000 IRQ_LC10
+20012bec l       .text	00000000 IRQ_LC11
+20012bf0 l       .text	00000000 IRQ_LC12
+20012bf4 l       .text	00000000 IRQ_LC13
+20012bf8 l       .text	00000000 IRQ_LC14
+20012bfc l       .text	00000000 IRQ_LC15
+00000000 l    df *ABS*	00000000 sys_exit.c
+00000000 l    df *ABS*	00000000 inline.c
+00000000 l    df *ABS*	00000000 
+200102d8 l       .init_array	00000000 metal_constructors_end
+200102d8 l       .init_array	00000000 __fini_array_end
+200102d8 l       .init_array	00000000 metal_destructors_end
+200102d8 l       .init_array	00000000 metal_destructors_start
+200102d8 l       .init_array	00000000 __fini_array_start
+200102d0 l       .init_array	00000000 __init_array_end
+200102d0 l       .init_array	00000000 __preinit_array_end
+200102d0 l       .init_array	00000000 __init_array_start
+200102d0 l       .init_array	00000000 metal_constructors_start
+200102d0 l       .init_array	00000000 __preinit_array_start
+20012018  w    F .text	00000080 metal_lc4_interrupt_vector_handler
+20012b6a g     F .text	00000006 metal_clock_get_rate_hz
+2001172a g     F .text	00000024 __metal_driver_riscv_clint0_set_vector_mode
+20011f98  w    F .text	00000080 metal_lc3_interrupt_vector_handler
+2001263c g     F .text	0000002e __metal_valid_interrupt_id
+200102d0 g     O .init_array	00000004 _use_hfxosc_ptr
+2001263a g     F .text	00000002 __metal_driver_riscv_cpu_controller_get_vector_mode
+80000c88 g       .data	00000000 __global_pointer$
+2001266a g     F .text	000000d4 __metal_driver_riscv_cpu_controller_interrupt_register
+200102d4 g     O .init_array	00000004 _metal_sifive_fe310_g000_pll_init_ptr
+800004a8 g       .data	00000000 __tls_base
+20011578 g     F .text	00000010 metal_cpu_get
+20010588 g     O .rodata	00000064 __metal_driver_vtable_riscv_clint0
+80000540 g       .bss	00000000 metal_segment_bss_target_end
+200117fa g     F .text	0000002a __metal_clint0_mtime_get
+20011bb8 g     F .text	00000012 __metal_driver_cpu_get_instruction_length
+00000001 g       *ABS*	00000000 __metal_chicken_bit
+08000000 g       .rodata	00000000 metal_segment_itim_target_start
+20010142 g     F .init	00000002 __metal_synchronize_harts
+800004a8 g       .data	00000000 metal_segment_bss_target_start
+20011622 g     F .text	0000002c __metal_driver_riscv_clint0_mtimecmp_set
+200128b0 g     F .text	000000bc __metal_driver_sifive_fe310_g000_pll_get_rate_hz
+00000400 g       *ABS*	00000000 __stack_size
+20012298  w    F .text	00000080 metal_lc9_interrupt_vector_handler
+200100cc  w    F .init	00000000 __metal_before_start
+2001161e  w    F .text	00000002 metal_init_run
+200105ec g     O .rodata	00000044 __metal_driver_vtable_cpu
+00000000 g       *ABS*	00000000 __metal_eccscrub_bit
+20011a82 g     F .text	00000012 __metal_driver_cpu_mcycle_get
+20010694 g     O .rodata	0000000c __metal_driver_vtable_sifive_fe310_g000_pll
+80000494 g     O .data	00000008 __metal_dt_cpu_0
+20012218  w    F .text	00000080 metal_lc8_interrupt_vector_handler
+2001296c g     F .text	000001cc __metal_driver_sifive_fe310_g000_pll_set_rate_hz
+20012498  w    F .text	00000080 metal_lc13_interrupt_vector_handler
+20011bdc g     F .text	0000000c __metal_default_exception_handler
+200118c4 g     F .text	0000001c __metal_driver_riscv_clint0_set_interrupt
+20011c82 g     F .text	00000032 __metal_driver_riscv_cpu_controller_set_vector_mode
+20011cb4 g     F .text	00000014 __metal_driver_cpu_get
+20010630 g     O .rodata	00000064 __metal_driver_vtable_riscv_cpu_intc
+20012198  w    F .text	00000080 metal_lc7_interrupt_vector_handler
+20012318  w    F .text	00000080 metal_lc10_interrupt_vector_handler
+200127b4 g     F .text	0000001c __metal_exception_register
+2001158e g     F .text	00000048 metal_init
+20011af0 g     F .text	0000000a __metal_driver_cpu_timer_controller_interrupt
+80000000 g       .rodata	00000000 metal_segment_lim_target_end
+200118e0 g     F .text	00000044 __metal_default_sw_handler
+80000078 g     O .data	0000000c __metal_dt_clock_2
+20010f40 g     O .rodata	00000008 __metal_driver_vtable_fixed_clock
+20010f20 g     O .rodata	00000004 _global_impure_ptr
+20011d98  w    F .text	00000080 metal_timer_interrupt_vector_handler
+200113d0 g     F .text	0000005e __libc_init_array
+20012398  w    F .text	00000080 metal_lc11_interrupt_vector_handler
+20012864 g     F .text	00000002 __metal_driver_sifive_fe310_g000_hfxosc_set_rate_hz
+200127ac g     F .text	00000004 __metal_driver_riscv_cpu_controller_interrupt_enable
+20012b4e g     F .text	0000001c _metal_clock_call_all_callbacks
+200102ae g     F .init	00000002 _init
+20011b36 g     F .text	00000034 __metal_driver_cpu_clear_sw_ipi
+2001139a g     F .text	00000036 __libc_fini_array
+80000090 g     O .data	0000000c __metal_dt_clock_4
+200115d6 g     F .text	00000048 metal_fini
+20011afe g     F .text	00000004 __metal_driver_cpu_get_sw_interrupt_id
+20011bd8 g     F .text	00000004 __metal_driver_cpu_get_buserror
+80000000 g       .data	00000000 metal_segment_data_target_start
+200118a8 g     F .text	0000001c __metal_driver_riscv_clint0_clear_interrupt
+00000000 g       *ABS*	00000000 __tbss_size
+80000060 g     O .data	0000000c __metal_dt_clock_0
+00000800 g       *ABS*	00000000 __heap_size
+20011924 g     F .text	00000002 __metal_default_beu_handler
+20011a7e g     F .text	00000004 __metal_driver_riscv_cpu_controller_command_request
+20011c1a g     F .text	0000005e __metal_driver_riscv_cpu_controller_interrupt_init
+200127d0 g     F .text	0000001a __metal_driver_cpu_exception_register
+20011e98  w    F .text	00000080 metal_lc1_interrupt_vector_handler
+800004a8 g     O .bss	00000004 _global_atexit
+20012618 g     F .text	00000022 __metal_controller_interrupt_vector_mode
+200114aa g     F .text	000000c8 __call_exitprocs
+80000940 g       .stack	00000000 _sp
+20010144 g     F .init	00000000 _start
+200127ea g     F .text	00000042 __metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz
+20011b9e g     F .text	0000001a __metal_driver_cpu_controller_interrupt
+20011bca g     F .text	00000006 __metal_driver_cpu_get_exception_pc
+2001142e g     F .text	0000007c __register_exitproc
+20012118  w    F .text	00000080 metal_lc6_interrupt_vector_handler
+20011d18  w    F .text	00000080 metal_software_interrupt_vector_handler
+200127b0 g     F .text	00000004 __metal_driver_riscv_cpu_controller_interrupt_disable
+20011340 g     F .text	00000026 memcmp
+200116bc g     F .text	0000006e __metal_driver_riscv_clint0_register
+8000048c g     O .data	00000008 __metal_dt_clint_2000000
+200102b0  w    F .init	00000000 secondary_main
+20011cee  w    F .text	0000002a metal_interrupt_vector_handler
+20012b38 g     F .text	0000000a __metal_driver_sifive_fe310_g000_prci_get_reg
+2001273e g     F .text	0000006e __metal_local_interrupt_enable
+20011824 g     F .text	00000084 __metal_driver_riscv_clint0_command_request
+20012098  w    F .text	00000080 metal_lc5_interrupt_vector_handler
+20010f80 g     F .text	00000008 main
+800004a8 g       .data	00000000 metal_segment_data_target_end
+20010f28 g     O .rodata	00000008 __metal_driver_vtable_sifive_fe310_g000_hfrosc
+20011b02 g     F .text	00000034 __metal_driver_cpu_set_sw_ipi
+20011b6a g     F .text	00000034 __metal_driver_cpu_get_msip
+20012b70 g     F .text	00000004 metal_shutdown
+08000000 g       .rodata	00000000 metal_segment_itim_target_end
+20011bd0 g     F .text	00000008 __metal_driver_cpu_set_exception_pc
+20012418  w    F .text	00000080 metal_lc12_interrupt_vector_handler
+2001008a g     F .init	00000000 metal_mem_scrub
+200116a8 g     F .text	00000004 __metal_driver_riscv_clint0_get_vector_mode
+8000049c g     O .data	00000004 __metal_dt_prci_10008000
+20011a94 g     F .text	00000026 __metal_driver_cpu_timebase_get
+20010000 g       .init	00000000 _enter
+20011588 g     F .text	00000006 metal_cpu_get_current_hartid
+2001282e g     F .text	00000036 __metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz
+20012b80 g       .text	00000000 __metal_vector_table
+20010f48 g       *ABS*	00000000 metal_segment_itim_source_start
+80000488  w    O .data	00000004 __metal_cpu_table
+800000b8 g     O .data	000003d0 __metal_dt_cpu_0_interrupt_controller
+200102ae g     F .init	00000002 _fini
+80000000 g       .rodata	00000000 metal_segment_lim_target_start
+200102e4 g     F .ctors	00000036 use_hfxosc
+20011366 g     F .text	0000000a atexit
+200117a4 g     F .text	00000056 __metal_driver_riscv_clint0_disable
+20011bf4 g     F .text	00000026 __metal_driver_cpu_mtimecmp_set
+20012866 g     F .text	0000004a __metal_driver_sifive_fe310_g000_pll_init
+8000009c g     O .data	0000000c __metal_dt_clock_5
+20012b42 g     F .text	0000000c __metal_driver_sifive_fe310_g000_prci_set_reg
+20012c00 g     F .text	0000004c __metal_driver_fixed_clock_get_rate_hz
+2001174e g     F .text	00000056 __metal_driver_riscv_clint0_enable
+20012ca0 g       *ABS*	00000000 metal_segment_data_source_start
+20010134 g       .init	00000000 early_trap_vector
+8000006c g     O .data	0000000c __metal_dt_clock_1
+20011cc8 g     F .text	00000026 __metal_default_timer_handler
+20011f18  w    F .text	00000080 metal_lc2_interrupt_vector_handler
+20012598  w    F .text	00000080 metal_lc15_interrupt_vector_handler
+20011572 g     F .text	00000006 metal_cpu_interrupt_controller
+20011370 g     F .text	0000002a exit
+20012c4c g     F .text	0000004c __metal_driver_fixed_clock_set_rate_hz
+20010f48 g       *ABS*	00000000 metal_segment_lim_source_start
+20011be8 g     F .text	0000000c __metal_default_interrupt_handler
+20011620  w    F .text	00000002 metal_fini_run
+20011980 g     F .text	000000e2 __metal_exception_handler
+20011e18  w    F .text	00000080 metal_lc0_interrupt_vector_handler
+20012c98 g     F .text	00000006 _exit
+20011aba g     F .text	00000036 __metal_driver_cpu_mtime_get
+200116a4 g     F .text	00000004 __metal_driver_riscv_clint0_vector_register
+20012518  w    F .text	00000080 metal_lc14_interrupt_vector_handler
+20010f30 g     O .rodata	00000008 __metal_driver_vtable_sifive_fe310_g000_hfxosc
+2001164e g     F .text	00000056 __metal_driver_riscv_clint0_init
+200102d8 g     F .ctors	0000000c metal_sifive_fe310_g000_pll_init
+2001129e g     F .text	000000a2 test_AES_decrypt
+20011afa g     F .text	00000004 __metal_driver_cpu_get_timer_interrupt_id
+20010088  w      .init	00000000 __register_frame_info
+2001282c g     F .text	00000002 __metal_driver_sifive_fe310_g000_hfrosc_set_rate_hz
+20011c78 g     F .text	0000000a __metal_driver_cpu_sw_controller_interrupt
+80000084 g     O .data	0000000c __metal_dt_clock_3
+800000a8 g     O .data	0000000c __metal_dt_clock_6
+20010f38 g     O .rodata	00000008 __metal_driver_vtable_sifive_fe310_g000_prci
+00000000 g       *ABS*	00000000 __metal_boot_hart
+
+
+
+Disassembly of section .init:
+
+20010000 <_enter>:
+_enter():
+20010000:	5fff1197          	auipc	gp,0x5fff1
+20010004:	c8818193          	addi	gp,gp,-888 # 80000c88 <__global_pointer$>
+20010008:	00000297          	auipc	t0,0x0
+2001000c:	01828293          	addi	t0,t0,24 # 20010020 <_enter+0x20>
+20010010:	30529073          	csrw	mtvec,t0
+20010014:	00100293          	li	t0,1
+20010018:	00028463          	beqz	t0,20010020 <_enter+0x20>
+2001001c:	7c105073          	csrwi	0x7c1,0
+20010020:	00000297          	auipc	t0,0x0
+20010024:	11428293          	addi	t0,t0,276 # 20010134 <early_trap_vector>
+20010028:	30529073          	csrw	mtvec,t0
+2001002c:	00000113          	li	sp,0
+20010030:	00011463          	bnez	sp,20010038 <_enter+0x38>
+20010034:	cb818113          	addi	sp,gp,-840 # 80000940 <_sp>
+20010038:	f1402573          	csrr	a0,mhartid
+2001003c:	4281                	li	t0,0
+2001003e:	40000313          	li	t1,1024
+20010042:	ff017113          	andi	sp,sp,-16
+20010046:	00a28563          	beq	t0,a0,20010050 <_enter+0x50>
+2001004a:	911a                	add	sp,sp,t1
+2001004c:	0285                	addi	t0,t0,1
+2001004e:	bfd5                	j	20010042 <_enter+0x42>
+20010050:	00000097          	auipc	ra,0x0
+20010054:	07c08093          	addi	ra,ra,124 # 200100cc <__metal_before_start>
+20010058:	00008363          	beqz	ra,2001005e <_enter+0x5e>
+2001005c:	9082                	jalr	ra
+2001005e:	f1402573          	csrr	a0,mhartid
+20010062:	4581                	li	a1,0
+20010064:	4601                	li	a2,0
+20010066:	28f9                	jal	20010144 <_start>
+20010068:	00000093          	li	ra,0
+2001006c:	00008363          	beqz	ra,20010072 <_enter+0x72>
+20010070:	9082                	jalr	ra
+20010072:	00000297          	auipc	t0,0x0
+20010076:	00c28293          	addi	t0,t0,12 # 2001007e <_enter+0x7e>
+2001007a:	30529073          	csrw	mtvec,t0
+2001007e:	00002303          	lw	t1,0(zero) # 0 <__metal_boot_hart>
+20010082:	bff5                	j	2001007e <_enter+0x7e>
+20010084:	0000                	unimp
+	...
+
+20010088 <__register_frame_info>:
+__register_frame_info():
+20010088:	8082                	ret
+
+2001008a <metal_mem_scrub>:
+metal_mem_scrub():
+2001008a:	46a1                	li	a3,8
+2001008c:	3006b373          	csrrc	t1,mstatus,a3
+20010090:	4291                	li	t0,4
+20010092:	0055c563          	blt	a1,t0,2001009c <metal_mem_scrub+0x12>
+20010096:	00357613          	andi	a2,a0,3
+2001009a:	ca11                	beqz	a2,200100ae <metal_mem_scrub+0x24>
+2001009c:	00050023          	sb	zero,0(a0)
+200100a0:	0505                	addi	a0,a0,1
+200100a2:	15fd                	addi	a1,a1,-1
+200100a4:	feb047e3          	bgtz	a1,20010092 <metal_mem_scrub+0x8>
+200100a8:	30031073          	csrw	mstatus,t1
+200100ac:	8082                	ret
+200100ae:	00052023          	sw	zero,0(a0)
+200100b2:	0511                	addi	a0,a0,4
+200100b4:	15f1                	addi	a1,a1,-4
+200100b6:	fcb04ee3          	bgtz	a1,20010092 <metal_mem_scrub+0x8>
+200100ba:	30031073          	csrw	mstatus,t1
+200100be:	8082                	ret
+
+200100c0 <__metal_memory_scrub>:
+__metal_memory_scrub():
+200100c0:	00032023          	sw	zero,0(t1)
+200100c4:	0311                	addi	t1,t1,4
+200100c6:	fe734de3          	blt	t1,t2,200100c0 <__metal_memory_scrub>
+200100ca:	8082                	ret
+
+200100cc <__metal_before_start>:
+__metal_before_start():
+200100cc:	8406                	mv	s0,ra
+200100ce:	dfff0297          	auipc	t0,0xdfff0
+200100d2:	f3228293          	addi	t0,t0,-206 # 0 <__metal_boot_hart>
+200100d6:	04028c63          	beqz	t0,2001012e <skip_scrub>
+200100da:	dfff0297          	auipc	t0,0xdfff0
+200100de:	f2628293          	addi	t0,t0,-218 # 0 <__metal_boot_hart>
+200100e2:	f14027f3          	csrr	a5,mhartid
+200100e6:	46a1                	li	a3,8
+200100e8:	3006b073          	csrc	mstatus,a3
+200100ec:	830a                	mv	t1,sp
+200100ee:	dfff0397          	auipc	t2,0xdfff0
+200100f2:	31238393          	addi	t2,t2,786 # 400 <__stack_size>
+200100f6:	938a                	add	t2,t2,sp
+200100f8:	00730363          	beq	t1,t2,200100fe <__metal_before_start+0x32>
+200100fc:	37d1                	jal	200100c0 <__metal_memory_scrub>
+200100fe:	02579863          	bne	a5,t0,2001012e <skip_scrub>
+20010102:	5fff0317          	auipc	t1,0x5fff0
+20010106:	efe30313          	addi	t1,t1,-258 # 80000000 <impure_data>
+2001010a:	5fff0397          	auipc	t2,0x5fff0
+2001010e:	39e38393          	addi	t2,t2,926 # 800004a8 <_global_atexit>
+20010112:	00730363          	beq	t1,t2,20010118 <__metal_before_start+0x4c>
+20010116:	376d                	jal	200100c0 <__metal_memory_scrub>
+20010118:	e7ff0317          	auipc	t1,0xe7ff0
+2001011c:	ee830313          	addi	t1,t1,-280 # 8000000 <metal_segment_itim_target_end>
+20010120:	e7ff0397          	auipc	t2,0xe7ff0
+20010124:	ee038393          	addi	t2,t2,-288 # 8000000 <metal_segment_itim_target_end>
+20010128:	00730363          	beq	t1,t2,2001012e <skip_scrub>
+2001012c:	3f51                	jal	200100c0 <__metal_memory_scrub>
+
+2001012e <skip_scrub>:
+skip_scrub():
+2001012e:	80a2                	mv	ra,s0
+20010130:	8082                	ret
+	...
+
+20010134 <early_trap_vector>:
+early_trap_vector():
+20010134:	342022f3          	csrr	t0,mcause
+20010138:	34102373          	csrr	t1,mepc
+2001013c:	343023f3          	csrr	t2,mtval
+20010140:	bfd5                	j	20010134 <early_trap_vector>
+
+20010142 <__metal_synchronize_harts>:
+__metal_synchronize_harts():
+20010142:	8082                	ret
+
+20010144 <_start>:
+_start():
+20010144:	8406                	mv	s0,ra
+20010146:	5fff1197          	auipc	gp,0x5fff1
+2001014a:	b4218193          	addi	gp,gp,-1214 # 80000c88 <__global_pointer$>
+2001014e:	00000293          	li	t0,0
+20010152:	0e551163          	bne	a0,t0,20010234 <_skip_init>
+20010156:	00003297          	auipc	t0,0x3
+2001015a:	b4a28293          	addi	t0,t0,-1206 # 20012ca0 <metal_segment_data_source_start>
+2001015e:	5fff0317          	auipc	t1,0x5fff0
+20010162:	ea230313          	addi	t1,t1,-350 # 80000000 <impure_data>
+20010166:	5fff0397          	auipc	t2,0x5fff0
+2001016a:	34238393          	addi	t2,t2,834 # 800004a8 <_global_atexit>
+2001016e:	00628c63          	beq	t0,t1,20010186 <_start+0x42>
+20010172:	00735a63          	bge	t1,t2,20010186 <_start+0x42>
+20010176:	0002a503          	lw	a0,0(t0)
+2001017a:	0291                	addi	t0,t0,4
+2001017c:	00a32023          	sw	a0,0(t1)
+20010180:	0311                	addi	t1,t1,4
+20010182:	fe734ae3          	blt	t1,t2,20010176 <_start+0x32>
+20010186:	00001297          	auipc	t0,0x1
+2001018a:	dc228293          	addi	t0,t0,-574 # 20010f48 <metal_segment_itim_source_start>
+2001018e:	e7ff0317          	auipc	t1,0xe7ff0
+20010192:	e7230313          	addi	t1,t1,-398 # 8000000 <metal_segment_itim_target_end>
+20010196:	e7ff0397          	auipc	t2,0xe7ff0
+2001019a:	e6a38393          	addi	t2,t2,-406 # 8000000 <metal_segment_itim_target_end>
+2001019e:	00628c63          	beq	t0,t1,200101b6 <_start+0x72>
+200101a2:	00735a63          	bge	t1,t2,200101b6 <_start+0x72>
+200101a6:	0002a503          	lw	a0,0(t0)
+200101aa:	0291                	addi	t0,t0,4
+200101ac:	00a32023          	sw	a0,0(t1)
+200101b0:	0311                	addi	t1,t1,4
+200101b2:	fe734ae3          	blt	t1,t2,200101a6 <_start+0x62>
+200101b6:	0000100f          	fence.i
+200101ba:	00001297          	auipc	t0,0x1
+200101be:	d8e28293          	addi	t0,t0,-626 # 20010f48 <metal_segment_itim_source_start>
+200101c2:	5fff0317          	auipc	t1,0x5fff0
+200101c6:	e3e30313          	addi	t1,t1,-450 # 80000000 <impure_data>
+200101ca:	5fff0397          	auipc	t2,0x5fff0
+200101ce:	e3638393          	addi	t2,t2,-458 # 80000000 <impure_data>
+200101d2:	00628c63          	beq	t0,t1,200101ea <_start+0xa6>
+200101d6:	00735a63          	bge	t1,t2,200101ea <_start+0xa6>
+200101da:	0002a503          	lw	a0,0(t0)
+200101de:	0291                	addi	t0,t0,4
+200101e0:	00a32023          	sw	a0,0(t1)
+200101e4:	0311                	addi	t1,t1,4
+200101e6:	fe734ae3          	blt	t1,t2,200101da <_start+0x96>
+200101ea:	0000100f          	fence.i
+200101ee:	5fff0317          	auipc	t1,0x5fff0
+200101f2:	2ba30313          	addi	t1,t1,698 # 800004a8 <_global_atexit>
+200101f6:	8b818393          	addi	t2,gp,-1864 # 80000540 <metal_segment_bss_target_end>
+200101fa:	00735763          	bge	t1,t2,20010208 <_start+0xc4>
+200101fe:	00032023          	sw	zero,0(t1)
+20010202:	0311                	addi	t1,t1,4
+20010204:	fe734de3          	blt	t1,t2,200101fe <_start+0xba>
+20010208:	5fff0217          	auipc	tp,0x5fff0
+2001020c:	2a020213          	addi	tp,tp,672 # 800004a8 <_global_atexit>
+20010210:	c211                	beqz	a2,20010214 <_start+0xd0>
+20010212:	9602                	jalr	a2
+20010214:	00001517          	auipc	a0,0x1
+20010218:	18650513          	addi	a0,a0,390 # 2001139a <__libc_fini_array>
+2001021c:	14a010ef          	jal	ra,20011366 <atexit>
+20010220:	1b0010ef          	jal	ra,200113d0 <__libc_init_array>
+20010224:	00001517          	auipc	a0,0x1
+20010228:	3fc50513          	addi	a0,a0,1020 # 20011620 <metal_fini_run>
+2001022c:	13a010ef          	jal	ra,20011366 <atexit>
+20010230:	3ee010ef          	jal	ra,2001161e <metal_init_run>
+
+20010234 <_skip_init>:
+_skip_init():
+20010234:	3739                	jal	20010142 <__metal_synchronize_harts>
+20010236:	56fd                	li	a3,-1
+20010238:	3046b073          	csrc	mie,a3
+2001023c:	3446b073          	csrc	mip,a3
+20010240:	301027f3          	csrr	a5,misa
+20010244:	00042737          	lui	a4,0x42
+20010248:	8f7d                	and	a4,a4,a5
+2001024a:	c709                	beqz	a4,20010254 <_skip_init+0x20>
+2001024c:	3036b073          	csrc	mideleg,a3
+20010250:	3026b073          	csrc	medeleg,a3
+20010254:	00040737          	lui	a4,0x40
+20010258:	8f7d                	and	a4,a4,a5
+2001025a:	c319                	beqz	a4,20010260 <_skip_init+0x2c>
+2001025c:	1806b073          	csrc	satp,a3
+20010260:	6741                	lui	a4,0x10
+20010262:	02870713          	addi	a4,a4,40 # 10028 <__heap_size+0xf828>
+20010266:	8ff9                	and	a5,a5,a4
+20010268:	cb89                	beqz	a5,2001027a <_skip_init+0x46>
+2001026a:	300027f3          	csrr	a5,mstatus
+2001026e:	6709                	lui	a4,0x2
+20010270:	8fd9                	or	a5,a5,a4
+20010272:	30079073          	csrw	mstatus,a5
+20010276:	00305073          	csrwi	fcsr,0
+2001027a:	301027f3          	csrr	a5,misa
+2001027e:	00200737          	lui	a4,0x200
+20010282:	8ff9                	and	a5,a5,a4
+20010284:	c799                	beqz	a5,20010292 <_skip_init+0x5e>
+20010286:	300027f3          	csrr	a5,mstatus
+2001028a:	2007e793          	ori	a5,a5,512
+2001028e:	30079073          	csrw	mstatus,a5
+20010292:	4505                	li	a0,1
+20010294:	00000597          	auipc	a1,0x0
+20010298:	2e058593          	addi	a1,a1,736 # 20010574 <argv>
+2001029c:	00000617          	auipc	a2,0x0
+200102a0:	2dc60613          	addi	a2,a2,732 # 20010578 <envp>
+200102a4:	2031                	jal	200102b0 <secondary_main>
+200102a6:	0ca010ef          	jal	ra,20011370 <exit>
+200102aa:	80a2                	mv	ra,s0
+200102ac:	8082                	ret
+
+200102ae <_fini>:
+_init():
+200102ae:	8082                	ret
+
+200102b0 <secondary_main>:
+secondary_main():
+200102b0:	1141                	addi	sp,sp,-16
+200102b2:	c206                	sw	ra,4(sp)
+200102b4:	f14022f3          	csrr	t0,mhartid
+200102b8:	00000313          	li	t1,0
+200102bc:	00628563          	beq	t0,t1,200102c6 <secondary_main+0x16>
+200102c0:	10500073          	wfi
+200102c4:	bff5                	j	200102c0 <secondary_main+0x10>
+200102c6:	4bb000ef          	jal	ra,20010f80 <main>
+200102ca:	4092                	lw	ra,4(sp)
+200102cc:	0141                	addi	sp,sp,16
+200102ce:	8082                	ret
+
+Disassembly of section .ctors:
+
+200102d8 <metal_sifive_fe310_g000_pll_init>:
+metal_sifive_fe310_g000_pll_init():
+200102d8:	80000537          	lui	a0,0x80000
+200102dc:	09050513          	addi	a0,a0,144 # 80000090 <__global_pointer$+0xfffff408>
+200102e0:	5860206f          	j	20012866 <__metal_driver_sifive_fe310_g000_pll_init>
+
+200102e4 <use_hfxosc>:
+use_hfxosc():
+200102e4:	1141                	addi	sp,sp,-16
+200102e6:	c226                	sw	s1,4(sp)
+200102e8:	800004b7          	lui	s1,0x80000
+200102ec:	c422                	sw	s0,8(sp)
+200102ee:	09048413          	addi	s0,s1,144 # 80000090 <__global_pointer$+0xfffff408>
+200102f2:	4048                	lw	a0,4(s0)
+200102f4:	c606                	sw	ra,12(sp)
+200102f6:	059020ef          	jal	ra,20012b4e <_metal_clock_call_all_callbacks>
+200102fa:	401c                	lw	a5,0(s0)
+200102fc:	00f425b7          	lui	a1,0xf42
+20010300:	09048513          	addi	a0,s1,144
+20010304:	43dc                	lw	a5,4(a5)
+20010306:	40058593          	addi	a1,a1,1024 # f42400 <__heap_size+0xf41c00>
+2001030a:	9782                	jalr	a5
+2001030c:	4408                	lw	a0,8(s0)
+2001030e:	4422                	lw	s0,8(sp)
+20010310:	40b2                	lw	ra,12(sp)
+20010312:	4492                	lw	s1,4(sp)
+20010314:	0141                	addi	sp,sp,16
+20010316:	0390206f          	j	20012b4e <_metal_clock_call_all_callbacks>
+
+Disassembly of section .text:
+
+20010f80 <main>:
+main():
+20010f80:	1141                	addi	sp,sp,-16
+20010f82:	c606                	sw	ra,12(sp)
+20010f84:	2e29                	jal	2001129e <test_AES_decrypt>
+20010f86:	bffd                	j	20010f84 <main+0x4>
+
+20010f88 <KeyExpansion>:
+KeyExpansion():
+20010f88:	882a                	mv	a6,a0
+20010f8a:	02058713          	addi	a4,a1,32
+20010f8e:	0005c783          	lbu	a5,0(a1)
+20010f92:	00f50023          	sb	a5,0(a0)
+20010f96:	0015c783          	lbu	a5,1(a1)
+20010f9a:	00f500a3          	sb	a5,1(a0)
+20010f9e:	0025c783          	lbu	a5,2(a1)
+20010fa2:	00f50123          	sb	a5,2(a0)
+20010fa6:	0035c783          	lbu	a5,3(a1)
+20010faa:	00f501a3          	sb	a5,3(a0)
+20010fae:	0591                	addi	a1,a1,4
+20010fb0:	0511                	addi	a0,a0,4
+20010fb2:	fce59ee3          	bne	a1,a4,20010f8e <KeyExpansion+0x6>
+20010fb6:	4521                	li	a0,8
+20010fb8:	4f11                	li	t5,4
+20010fba:	200108b7          	lui	a7,0x20010
+20010fbe:	47488893          	addi	a7,a7,1140 # 20010474 <sbox>
+20010fc2:	20010eb7          	lui	t4,0x20010
+20010fc6:	368e8e93          	addi	t4,t4,872 # 20010368 <Rcon>
+20010fca:	03c00e13          	li	t3,60
+20010fce:	a881                	j	2001101e <KeyExpansion+0x96>
+20010fd0:	01e31e63          	bne	t1,t5,20010fec <KeyExpansion+0x64>
+20010fd4:	9746                	add	a4,a4,a7
+20010fd6:	00074703          	lbu	a4,0(a4) # 200000 <__heap_size+0x1ff800>
+20010fda:	95c6                	add	a1,a1,a7
+20010fdc:	0005c583          	lbu	a1,0(a1)
+20010fe0:	9646                	add	a2,a2,a7
+20010fe2:	00064603          	lbu	a2,0(a2)
+20010fe6:	96c6                	add	a3,a3,a7
+20010fe8:	0006c683          	lbu	a3,0(a3)
+20010fec:	0007c303          	lbu	t1,0(a5)
+20010ff0:	00674733          	xor	a4,a4,t1
+20010ff4:	02e78023          	sb	a4,32(a5)
+20010ff8:	0017c703          	lbu	a4,1(a5)
+20010ffc:	8db9                	xor	a1,a1,a4
+20010ffe:	02b780a3          	sb	a1,33(a5)
+20011002:	0027c703          	lbu	a4,2(a5)
+20011006:	8e39                	xor	a2,a2,a4
+20011008:	02c78123          	sb	a2,34(a5)
+2001100c:	0037c703          	lbu	a4,3(a5)
+20011010:	8eb9                	xor	a3,a3,a4
+20011012:	02d781a3          	sb	a3,35(a5)
+20011016:	0505                	addi	a0,a0,1
+20011018:	0811                	addi	a6,a6,4
+2001101a:	05c50363          	beq	a0,t3,20011060 <KeyExpansion+0xd8>
+2001101e:	87c2                	mv	a5,a6
+20011020:	01c84703          	lbu	a4,28(a6)
+20011024:	01d84583          	lbu	a1,29(a6)
+20011028:	01e84603          	lbu	a2,30(a6)
+2001102c:	01f84683          	lbu	a3,31(a6)
+20011030:	00757313          	andi	t1,a0,7
+20011034:	f8031ee3          	bnez	t1,20010fd0 <KeyExpansion+0x48>
+20011038:	95c6                	add	a1,a1,a7
+2001103a:	0005c303          	lbu	t1,0(a1)
+2001103e:	9646                	add	a2,a2,a7
+20011040:	00064583          	lbu	a1,0(a2)
+20011044:	96c6                	add	a3,a3,a7
+20011046:	0006c603          	lbu	a2,0(a3)
+2001104a:	9746                	add	a4,a4,a7
+2001104c:	00074683          	lbu	a3,0(a4)
+20011050:	00355713          	srli	a4,a0,0x3
+20011054:	9776                	add	a4,a4,t4
+20011056:	00074703          	lbu	a4,0(a4)
+2001105a:	00e34733          	xor	a4,t1,a4
+2001105e:	b779                	j	20010fec <KeyExpansion+0x64>
+20011060:	8082                	ret
+
+20011062 <AddRoundKey>:
+AddRoundKey():
+20011062:	0512                	slli	a0,a0,0x4
+20011064:	00460813          	addi	a6,a2,4
+20011068:	982a                	add	a6,a6,a0
+2001106a:	0651                	addi	a2,a2,20
+2001106c:	9532                	add	a0,a0,a2
+2001106e:	ffc80713          	addi	a4,a6,-4
+20011072:	87ae                	mv	a5,a1
+20011074:	0007c683          	lbu	a3,0(a5)
+20011078:	00074603          	lbu	a2,0(a4)
+2001107c:	8eb1                	xor	a3,a3,a2
+2001107e:	00d78023          	sb	a3,0(a5)
+20011082:	0785                	addi	a5,a5,1
+20011084:	0705                	addi	a4,a4,1
+20011086:	ff0717e3          	bne	a4,a6,20011074 <AddRoundKey+0x12>
+2001108a:	0591                	addi	a1,a1,4
+2001108c:	0811                	addi	a6,a6,4
+2001108e:	fea810e3          	bne	a6,a0,2001106e <AddRoundKey+0xc>
+20011092:	8082                	ret
+
+20011094 <xtime>:
+xtime():
+20011094:	00755713          	srli	a4,a0,0x7
+20011098:	00371793          	slli	a5,a4,0x3
+2001109c:	8f99                	sub	a5,a5,a4
+2001109e:	078a                	slli	a5,a5,0x2
+200110a0:	8f99                	sub	a5,a5,a4
+200110a2:	0506                	slli	a0,a0,0x1
+200110a4:	8d3d                	xor	a0,a0,a5
+200110a6:	0ff57513          	zext.b	a0,a0
+200110aa:	8082                	ret
+
+200110ac <InvCipher>:
+InvCipher():
+200110ac:	7159                	addi	sp,sp,-112
+200110ae:	d686                	sw	ra,108(sp)
+200110b0:	d4a2                	sw	s0,104(sp)
+200110b2:	d2a6                	sw	s1,100(sp)
+200110b4:	d0ca                	sw	s2,96(sp)
+200110b6:	cece                	sw	s3,92(sp)
+200110b8:	ccd2                	sw	s4,88(sp)
+200110ba:	cad6                	sw	s5,84(sp)
+200110bc:	c8da                	sw	s6,80(sp)
+200110be:	c6de                	sw	s7,76(sp)
+200110c0:	c4e2                	sw	s8,72(sp)
+200110c2:	c2e6                	sw	s9,68(sp)
+200110c4:	c0ea                	sw	s10,64(sp)
+200110c6:	de6e                	sw	s11,60(sp)
+200110c8:	8aaa                	mv	s5,a0
+200110ca:	862e                	mv	a2,a1
+200110cc:	d62e                	sw	a1,44(sp)
+200110ce:	85aa                	mv	a1,a0
+200110d0:	4539                	li	a0,14
+200110d2:	3f41                	jal	20011062 <AddRoundKey>
+200110d4:	47b5                	li	a5,13
+200110d6:	d43e                	sw	a5,40(sp)
+200110d8:	010a8793          	addi	a5,s5,16
+200110dc:	d03e                	sw	a5,32(sp)
+200110de:	014a8793          	addi	a5,s5,20
+200110e2:	d23e                	sw	a5,36(sp)
+200110e4:	20010db7          	lui	s11,0x20010
+200110e8:	374d8d93          	addi	s11,s11,884 # 20010374 <rsbox>
+200110ec:	a031                	j	200110f8 <InvCipher+0x4c>
+200110ee:	57a2                	lw	a5,40(sp)
+200110f0:	17fd                	addi	a5,a5,-1
+200110f2:	0ff7f793          	zext.b	a5,a5
+200110f6:	d43e                	sw	a5,40(sp)
+200110f8:	00dac783          	lbu	a5,13(s5)
+200110fc:	009ac703          	lbu	a4,9(s5)
+20011100:	00ea86a3          	sb	a4,13(s5)
+20011104:	005ac703          	lbu	a4,5(s5)
+20011108:	00ea84a3          	sb	a4,9(s5)
+2001110c:	001ac703          	lbu	a4,1(s5)
+20011110:	00ea82a3          	sb	a4,5(s5)
+20011114:	00fa80a3          	sb	a5,1(s5)
+20011118:	002ac783          	lbu	a5,2(s5)
+2001111c:	00aac703          	lbu	a4,10(s5)
+20011120:	00ea8123          	sb	a4,2(s5)
+20011124:	00fa8523          	sb	a5,10(s5)
+20011128:	006ac783          	lbu	a5,6(s5)
+2001112c:	00eac703          	lbu	a4,14(s5)
+20011130:	00ea8323          	sb	a4,6(s5)
+20011134:	00fa8723          	sb	a5,14(s5)
+20011138:	003ac783          	lbu	a5,3(s5)
+2001113c:	007ac703          	lbu	a4,7(s5)
+20011140:	00ea81a3          	sb	a4,3(s5)
+20011144:	00bac703          	lbu	a4,11(s5)
+20011148:	00ea83a3          	sb	a4,7(s5)
+2001114c:	00fac703          	lbu	a4,15(s5)
+20011150:	00ea85a3          	sb	a4,11(s5)
+20011154:	00fa87a3          	sb	a5,15(s5)
+20011158:	84d6                	mv	s1,s5
+2001115a:	5682                	lw	a3,32(sp)
+2001115c:	ff068793          	addi	a5,a3,-16
+20011160:	0007c703          	lbu	a4,0(a5)
+20011164:	976e                	add	a4,a4,s11
+20011166:	00074703          	lbu	a4,0(a4)
+2001116a:	00e78023          	sb	a4,0(a5)
+2001116e:	0791                	addi	a5,a5,4
+20011170:	fed798e3          	bne	a5,a3,20011160 <InvCipher+0xb4>
+20011174:	0685                	addi	a3,a3,1
+20011176:	5792                	lw	a5,36(sp)
+20011178:	fed792e3          	bne	a5,a3,2001115c <InvCipher+0xb0>
+2001117c:	5632                	lw	a2,44(sp)
+2001117e:	85d6                	mv	a1,s5
+20011180:	5422                	lw	s0,40(sp)
+20011182:	8522                	mv	a0,s0
+20011184:	3df9                	jal	20011062 <AddRoundKey>
+20011186:	0e040d63          	beqz	s0,20011280 <InvCipher+0x1d4>
+2001118a:	0004cc03          	lbu	s8,0(s1)
+2001118e:	0014cb83          	lbu	s7,1(s1)
+20011192:	0024cb03          	lbu	s6,2(s1)
+20011196:	0034cd03          	lbu	s10,3(s1)
+2001119a:	8562                	mv	a0,s8
+2001119c:	3de5                	jal	20011094 <xtime>
+2001119e:	c42a                	sw	a0,8(sp)
+200111a0:	3dd5                	jal	20011094 <xtime>
+200111a2:	8a2a                	mv	s4,a0
+200111a4:	3dc5                	jal	20011094 <xtime>
+200111a6:	8caa                	mv	s9,a0
+200111a8:	855e                	mv	a0,s7
+200111aa:	35ed                	jal	20011094 <xtime>
+200111ac:	842a                	mv	s0,a0
+200111ae:	35dd                	jal	20011094 <xtime>
+200111b0:	c62a                	sw	a0,12(sp)
+200111b2:	35cd                	jal	20011094 <xtime>
+200111b4:	89aa                	mv	s3,a0
+200111b6:	855a                	mv	a0,s6
+200111b8:	3df1                	jal	20011094 <xtime>
+200111ba:	c82a                	sw	a0,16(sp)
+200111bc:	3de1                	jal	20011094 <xtime>
+200111be:	ca2a                	sw	a0,20(sp)
+200111c0:	3dd1                	jal	20011094 <xtime>
+200111c2:	892a                	mv	s2,a0
+200111c4:	856a                	mv	a0,s10
+200111c6:	35f9                	jal	20011094 <xtime>
+200111c8:	cc2a                	sw	a0,24(sp)
+200111ca:	35e9                	jal	20011094 <xtime>
+200111cc:	ce2a                	sw	a0,28(sp)
+200111ce:	35d9                	jal	20011094 <xtime>
+200111d0:	4722                	lw	a4,8(sp)
+200111d2:	014747b3          	xor	a5,a4,s4
+200111d6:	00fcc7b3          	xor	a5,s9,a5
+200111da:	8fa1                	xor	a5,a5,s0
+200111dc:	00f9c7b3          	xor	a5,s3,a5
+200111e0:	46d2                	lw	a3,20(sp)
+200111e2:	8fb5                	xor	a5,a5,a3
+200111e4:	00f947b3          	xor	a5,s2,a5
+200111e8:	8fa9                	xor	a5,a5,a0
+200111ea:	00fbc7b3          	xor	a5,s7,a5
+200111ee:	00fb47b3          	xor	a5,s6,a5
+200111f2:	00fd47b3          	xor	a5,s10,a5
+200111f6:	00f48023          	sb	a5,0(s1)
+200111fa:	008cc7b3          	xor	a5,s9,s0
+200111fe:	4632                	lw	a2,12(sp)
+20011200:	8fb1                	xor	a5,a5,a2
+20011202:	00f9c7b3          	xor	a5,s3,a5
+20011206:	45c2                	lw	a1,16(sp)
+20011208:	8fad                	xor	a5,a5,a1
+2001120a:	00f947b3          	xor	a5,s2,a5
+2001120e:	4472                	lw	s0,28(sp)
+20011210:	8fa1                	xor	a5,a5,s0
+20011212:	8fa9                	xor	a5,a5,a0
+20011214:	00fc47b3          	xor	a5,s8,a5
+20011218:	00fb47b3          	xor	a5,s6,a5
+2001121c:	00fd47b3          	xor	a5,s10,a5
+20011220:	00f480a3          	sb	a5,1(s1)
+20011224:	019a47b3          	xor	a5,s4,s9
+20011228:	00f9c7b3          	xor	a5,s3,a5
+2001122c:	8fad                	xor	a5,a5,a1
+2001122e:	8fb5                	xor	a5,a5,a3
+20011230:	00f947b3          	xor	a5,s2,a5
+20011234:	46e2                	lw	a3,24(sp)
+20011236:	8fb5                	xor	a5,a5,a3
+20011238:	8fa9                	xor	a5,a5,a0
+2001123a:	00fc47b3          	xor	a5,s8,a5
+2001123e:	00fbc7b3          	xor	a5,s7,a5
+20011242:	00fd47b3          	xor	a5,s10,a5
+20011246:	00f48123          	sb	a5,2(s1)
+2001124a:	01974cb3          	xor	s9,a4,s9
+2001124e:	01964cb3          	xor	s9,a2,s9
+20011252:	0199c9b3          	xor	s3,s3,s9
+20011256:	01394933          	xor	s2,s2,s3
+2001125a:	0126c933          	xor	s2,a3,s2
+2001125e:	01244933          	xor	s2,s0,s2
+20011262:	01254533          	xor	a0,a0,s2
+20011266:	00ac4c33          	xor	s8,s8,a0
+2001126a:	018bcbb3          	xor	s7,s7,s8
+2001126e:	017b4b33          	xor	s6,s6,s7
+20011272:	016481a3          	sb	s6,3(s1)
+20011276:	0491                	addi	s1,s1,4
+20011278:	5782                	lw	a5,32(sp)
+2001127a:	f0f498e3          	bne	s1,a5,2001118a <InvCipher+0xde>
+2001127e:	bd85                	j	200110ee <InvCipher+0x42>
+20011280:	50b6                	lw	ra,108(sp)
+20011282:	5426                	lw	s0,104(sp)
+20011284:	5496                	lw	s1,100(sp)
+20011286:	5906                	lw	s2,96(sp)
+20011288:	49f6                	lw	s3,92(sp)
+2001128a:	4a66                	lw	s4,88(sp)
+2001128c:	4ad6                	lw	s5,84(sp)
+2001128e:	4b46                	lw	s6,80(sp)
+20011290:	4bb6                	lw	s7,76(sp)
+20011292:	4c26                	lw	s8,72(sp)
+20011294:	4c96                	lw	s9,68(sp)
+20011296:	4d06                	lw	s10,64(sp)
+20011298:	5df2                	lw	s11,60(sp)
+2001129a:	6165                	addi	sp,sp,112
+2001129c:	8082                	ret
+
+2001129e <test_AES_decrypt>:
+test_AES_decrypt():
+2001129e:	714d                	addi	sp,sp,-336
+200112a0:	14112623          	sw	ra,332(sp)
+200112a4:	200107b7          	lui	a5,0x20010
+200112a8:	31c78793          	addi	a5,a5,796 # 2001031c <use_hfxosc+0x38>
+200112ac:	0007a883          	lw	a7,0(a5)
+200112b0:	0047a803          	lw	a6,4(a5)
+200112b4:	4788                	lw	a0,8(a5)
+200112b6:	47cc                	lw	a1,12(a5)
+200112b8:	4b90                	lw	a2,16(a5)
+200112ba:	4bd4                	lw	a3,20(a5)
+200112bc:	4f98                	lw	a4,24(a5)
+200112be:	4fdc                	lw	a5,28(a5)
+200112c0:	13112023          	sw	a7,288(sp)
+200112c4:	13012223          	sw	a6,292(sp)
+200112c8:	12a12423          	sw	a0,296(sp)
+200112cc:	12b12623          	sw	a1,300(sp)
+200112d0:	12c12823          	sw	a2,304(sp)
+200112d4:	12d12a23          	sw	a3,308(sp)
+200112d8:	12e12c23          	sw	a4,312(sp)
+200112dc:	12f12e23          	sw	a5,316(sp)
+200112e0:	200107b7          	lui	a5,0x20010
+200112e4:	34078793          	addi	a5,a5,832 # 20010340 <use_hfxosc+0x5c>
+200112e8:	4390                	lw	a2,0(a5)
+200112ea:	43d4                	lw	a3,4(a5)
+200112ec:	4798                	lw	a4,8(a5)
+200112ee:	47dc                	lw	a5,12(a5)
+200112f0:	10c12823          	sw	a2,272(sp)
+200112f4:	10d12a23          	sw	a3,276(sp)
+200112f8:	10e12c23          	sw	a4,280(sp)
+200112fc:	10f12e23          	sw	a5,284(sp)
+20011300:	200107b7          	lui	a5,0x20010
+20011304:	35478793          	addi	a5,a5,852 # 20010354 <use_hfxosc+0x70>
+20011308:	4390                	lw	a2,0(a5)
+2001130a:	43d4                	lw	a3,4(a5)
+2001130c:	4798                	lw	a4,8(a5)
+2001130e:	47dc                	lw	a5,12(a5)
+20011310:	10c12023          	sw	a2,256(sp)
+20011314:	10d12223          	sw	a3,260(sp)
+20011318:	10e12423          	sw	a4,264(sp)
+2001131c:	10f12623          	sw	a5,268(sp)
+20011320:	120c                	addi	a1,sp,288
+20011322:	850a                	mv	a0,sp
+20011324:	3195                	jal	20010f88 <KeyExpansion>
+20011326:	858a                	mv	a1,sp
+20011328:	0a08                	addi	a0,sp,272
+2001132a:	3349                	jal	200110ac <InvCipher>
+2001132c:	4641                	li	a2,16
+2001132e:	0a0c                	addi	a1,sp,272
+20011330:	0208                	addi	a0,sp,256
+20011332:	2039                	jal	20011340 <memcmp>
+20011334:	00a03533          	snez	a0,a0
+20011338:	14c12083          	lw	ra,332(sp)
+2001133c:	6171                	addi	sp,sp,336
+2001133e:	8082                	ret
+
+20011340 <memcmp>:
+memcmp():
+20011340:	4701                	li	a4,0
+20011342:	00e61463          	bne	a2,a4,2001134a <memcmp+0xa>
+20011346:	4501                	li	a0,0
+20011348:	8082                	ret
+2001134a:	00e507b3          	add	a5,a0,a4
+2001134e:	0705                	addi	a4,a4,1
+20011350:	00e586b3          	add	a3,a1,a4
+20011354:	0007c783          	lbu	a5,0(a5)
+20011358:	fff6c683          	lbu	a3,-1(a3)
+2001135c:	fed783e3          	beq	a5,a3,20011342 <memcmp+0x2>
+20011360:	40d78533          	sub	a0,a5,a3
+20011364:	8082                	ret
+
+20011366 <atexit>:
+atexit():
+20011366:	85aa                	mv	a1,a0
+20011368:	4681                	li	a3,0
+2001136a:	4601                	li	a2,0
+2001136c:	4501                	li	a0,0
+2001136e:	a0c1                	j	2001142e <__register_exitproc>
+
+20011370 <exit>:
+exit():
+20011370:	1141                	addi	sp,sp,-16
+20011372:	c422                	sw	s0,8(sp)
+20011374:	c606                	sw	ra,12(sp)
+20011376:	00000797          	auipc	a5,0x0
+2001137a:	13478793          	addi	a5,a5,308 # 200114aa <__call_exitprocs>
+2001137e:	842a                	mv	s0,a0
+20011380:	c399                	beqz	a5,20011386 <exit+0x16>
+20011382:	4581                	li	a1,0
+20011384:	221d                	jal	200114aa <__call_exitprocs>
+20011386:	00000517          	auipc	a0,0x0
+2001138a:	b9a52503          	lw	a0,-1126(a0) # 20010f20 <_global_impure_ptr>
+2001138e:	551c                	lw	a5,40(a0)
+20011390:	c391                	beqz	a5,20011394 <exit+0x24>
+20011392:	9782                	jalr	a5
+20011394:	8522                	mv	a0,s0
+20011396:	103010ef          	jal	ra,20012c98 <_exit>
+
+2001139a <__libc_fini_array>:
+__libc_fini_array():
+2001139a:	1141                	addi	sp,sp,-16
+2001139c:	c422                	sw	s0,8(sp)
+2001139e:	c226                	sw	s1,4(sp)
+200113a0:	fffff417          	auipc	s0,0xfffff
+200113a4:	f3840413          	addi	s0,s0,-200 # 200102d8 <metal_sifive_fe310_g000_pll_init>
+200113a8:	fffff497          	auipc	s1,0xfffff
+200113ac:	f3048493          	addi	s1,s1,-208 # 200102d8 <metal_sifive_fe310_g000_pll_init>
+200113b0:	8c05                	sub	s0,s0,s1
+200113b2:	c606                	sw	ra,12(sp)
+200113b4:	8409                	srai	s0,s0,0x2
+200113b6:	e411                	bnez	s0,200113c2 <__libc_fini_array+0x28>
+200113b8:	40b2                	lw	ra,12(sp)
+200113ba:	4422                	lw	s0,8(sp)
+200113bc:	4492                	lw	s1,4(sp)
+200113be:	0141                	addi	sp,sp,16
+200113c0:	8082                	ret
+200113c2:	147d                	addi	s0,s0,-1
+200113c4:	00241793          	slli	a5,s0,0x2
+200113c8:	97a6                	add	a5,a5,s1
+200113ca:	439c                	lw	a5,0(a5)
+200113cc:	9782                	jalr	a5
+200113ce:	b7e5                	j	200113b6 <__libc_fini_array+0x1c>
+
+200113d0 <__libc_init_array>:
+__libc_init_array():
+200113d0:	1141                	addi	sp,sp,-16
+200113d2:	c422                	sw	s0,8(sp)
+200113d4:	c226                	sw	s1,4(sp)
+200113d6:	fffff417          	auipc	s0,0xfffff
+200113da:	efa40413          	addi	s0,s0,-262 # 200102d0 <_use_hfxosc_ptr>
+200113de:	fffff497          	auipc	s1,0xfffff
+200113e2:	ef248493          	addi	s1,s1,-270 # 200102d0 <_use_hfxosc_ptr>
+200113e6:	8c81                	sub	s1,s1,s0
+200113e8:	c04a                	sw	s2,0(sp)
+200113ea:	c606                	sw	ra,12(sp)
+200113ec:	8489                	srai	s1,s1,0x2
+200113ee:	4901                	li	s2,0
+200113f0:	02991563          	bne	s2,s1,2001141a <__libc_init_array+0x4a>
+200113f4:	fffff417          	auipc	s0,0xfffff
+200113f8:	edc40413          	addi	s0,s0,-292 # 200102d0 <_use_hfxosc_ptr>
+200113fc:	fffff497          	auipc	s1,0xfffff
+20011400:	ed448493          	addi	s1,s1,-300 # 200102d0 <_use_hfxosc_ptr>
+20011404:	8c81                	sub	s1,s1,s0
+20011406:	8489                	srai	s1,s1,0x2
+20011408:	4901                	li	s2,0
+2001140a:	00991d63          	bne	s2,s1,20011424 <__libc_init_array+0x54>
+2001140e:	40b2                	lw	ra,12(sp)
+20011410:	4422                	lw	s0,8(sp)
+20011412:	4492                	lw	s1,4(sp)
+20011414:	4902                	lw	s2,0(sp)
+20011416:	0141                	addi	sp,sp,16
+20011418:	8082                	ret
+2001141a:	401c                	lw	a5,0(s0)
+2001141c:	0905                	addi	s2,s2,1
+2001141e:	0411                	addi	s0,s0,4
+20011420:	9782                	jalr	a5
+20011422:	b7f9                	j	200113f0 <__libc_init_array+0x20>
+20011424:	401c                	lw	a5,0(s0)
+20011426:	0905                	addi	s2,s2,1
+20011428:	0411                	addi	s0,s0,4
+2001142a:	9782                	jalr	a5
+2001142c:	bff9                	j	2001140a <__libc_init_array+0x3a>
+
+2001142e <__register_exitproc>:
+__register_exitproc():
+2001142e:	88aa                	mv	a7,a0
+20011430:	5ffef517          	auipc	a0,0x5ffef
+20011434:	07850513          	addi	a0,a0,120 # 800004a8 <_global_atexit>
+20011438:	411c                	lw	a5,0(a0)
+2001143a:	ef91                	bnez	a5,20011456 <__register_exitproc+0x28>
+2001143c:	5ffef717          	auipc	a4,0x5ffef
+20011440:	07870713          	addi	a4,a4,120 # 800004b4 <_global_atexit0>
+20011444:	c118                	sw	a4,0(a0)
+20011446:	00000513          	li	a0,0
+2001144a:	87ba                	mv	a5,a4
+2001144c:	c509                	beqz	a0,20011456 <__register_exitproc+0x28>
+2001144e:	411c                	lw	a5,0(a0)
+20011450:	08f72423          	sw	a5,136(a4)
+20011454:	87ba                	mv	a5,a4
+20011456:	43d8                	lw	a4,4(a5)
+20011458:	487d                	li	a6,31
+2001145a:	557d                	li	a0,-1
+2001145c:	04e84663          	blt	a6,a4,200114a8 <__register_exitproc+0x7a>
+20011460:	02088d63          	beqz	a7,2001149a <__register_exitproc+0x6c>
+20011464:	0887a803          	lw	a6,136(a5)
+20011468:	04080063          	beqz	a6,200114a8 <__register_exitproc+0x7a>
+2001146c:	00271513          	slli	a0,a4,0x2
+20011470:	9542                	add	a0,a0,a6
+20011472:	c110                	sw	a2,0(a0)
+20011474:	10082303          	lw	t1,256(a6)
+20011478:	4605                	li	a2,1
+2001147a:	00e61633          	sll	a2,a2,a4
+2001147e:	00c36333          	or	t1,t1,a2
+20011482:	10682023          	sw	t1,256(a6)
+20011486:	08d52023          	sw	a3,128(a0)
+2001148a:	4689                	li	a3,2
+2001148c:	00d89763          	bne	a7,a3,2001149a <__register_exitproc+0x6c>
+20011490:	10482683          	lw	a3,260(a6)
+20011494:	8e55                	or	a2,a2,a3
+20011496:	10c82223          	sw	a2,260(a6)
+2001149a:	00170693          	addi	a3,a4,1
+2001149e:	070a                	slli	a4,a4,0x2
+200114a0:	c3d4                	sw	a3,4(a5)
+200114a2:	97ba                	add	a5,a5,a4
+200114a4:	c78c                	sw	a1,8(a5)
+200114a6:	4501                	li	a0,0
+200114a8:	8082                	ret
+
+200114aa <__call_exitprocs>:
+__call_exitprocs():
+200114aa:	7179                	addi	sp,sp,-48
+200114ac:	ca56                	sw	s5,20(sp)
+200114ae:	c85a                	sw	s6,16(sp)
+200114b0:	c65e                	sw	s7,12(sp)
+200114b2:	c462                	sw	s8,8(sp)
+200114b4:	d606                	sw	ra,44(sp)
+200114b6:	d422                	sw	s0,40(sp)
+200114b8:	d226                	sw	s1,36(sp)
+200114ba:	d04a                	sw	s2,32(sp)
+200114bc:	ce4e                	sw	s3,28(sp)
+200114be:	cc52                	sw	s4,24(sp)
+200114c0:	c266                	sw	s9,4(sp)
+200114c2:	8b2a                	mv	s6,a0
+200114c4:	8aae                	mv	s5,a1
+200114c6:	5ffefb97          	auipc	s7,0x5ffef
+200114ca:	fe2b8b93          	addi	s7,s7,-30 # 800004a8 <_global_atexit>
+200114ce:	4c05                	li	s8,1
+200114d0:	000ba483          	lw	s1,0(s7)
+200114d4:	cc81                	beqz	s1,200114ec <__call_exitprocs+0x42>
+200114d6:	40c0                	lw	s0,4(s1)
+200114d8:	0884a983          	lw	s3,136(s1)
+200114dc:	fff40913          	addi	s2,s0,-1
+200114e0:	040a                	slli	s0,s0,0x2
+200114e2:	00898a33          	add	s4,s3,s0
+200114e6:	9426                	add	s0,s0,s1
+200114e8:	00095f63          	bgez	s2,20011506 <__call_exitprocs+0x5c>
+200114ec:	50b2                	lw	ra,44(sp)
+200114ee:	5422                	lw	s0,40(sp)
+200114f0:	5492                	lw	s1,36(sp)
+200114f2:	5902                	lw	s2,32(sp)
+200114f4:	49f2                	lw	s3,28(sp)
+200114f6:	4a62                	lw	s4,24(sp)
+200114f8:	4ad2                	lw	s5,20(sp)
+200114fa:	4b42                	lw	s6,16(sp)
+200114fc:	4bb2                	lw	s7,12(sp)
+200114fe:	4c22                	lw	s8,8(sp)
+20011500:	4c92                	lw	s9,4(sp)
+20011502:	6145                	addi	sp,sp,48
+20011504:	8082                	ret
+20011506:	000a8c63          	beqz	s5,2001151e <__call_exitprocs+0x74>
+2001150a:	00099663          	bnez	s3,20011516 <__call_exitprocs+0x6c>
+2001150e:	197d                	addi	s2,s2,-1
+20011510:	1a71                	addi	s4,s4,-4
+20011512:	1471                	addi	s0,s0,-4
+20011514:	bfd1                	j	200114e8 <__call_exitprocs+0x3e>
+20011516:	07ca2783          	lw	a5,124(s4)
+2001151a:	ff579ae3          	bne	a5,s5,2001150e <__call_exitprocs+0x64>
+2001151e:	40d8                	lw	a4,4(s1)
+20011520:	405c                	lw	a5,4(s0)
+20011522:	177d                	addi	a4,a4,-1
+20011524:	03271863          	bne	a4,s2,20011554 <__call_exitprocs+0xaa>
+20011528:	0124a223          	sw	s2,4(s1)
+2001152c:	d3ed                	beqz	a5,2001150e <__call_exitprocs+0x64>
+2001152e:	0044ac83          	lw	s9,4(s1)
+20011532:	00098863          	beqz	s3,20011542 <__call_exitprocs+0x98>
+20011536:	1009a683          	lw	a3,256(s3)
+2001153a:	012c1733          	sll	a4,s8,s2
+2001153e:	8ef9                	and	a3,a3,a4
+20011540:	ee89                	bnez	a3,2001155a <__call_exitprocs+0xb0>
+20011542:	9782                	jalr	a5
+20011544:	40d8                	lw	a4,4(s1)
+20011546:	000ba783          	lw	a5,0(s7)
+2001154a:	f99713e3          	bne	a4,s9,200114d0 <__call_exitprocs+0x26>
+2001154e:	fcf480e3          	beq	s1,a5,2001150e <__call_exitprocs+0x64>
+20011552:	bfbd                	j	200114d0 <__call_exitprocs+0x26>
+20011554:	00042223          	sw	zero,4(s0)
+20011558:	bfd1                	j	2001152c <__call_exitprocs+0x82>
+2001155a:	1049a683          	lw	a3,260(s3)
+2001155e:	ffca2583          	lw	a1,-4(s4)
+20011562:	8f75                	and	a4,a4,a3
+20011564:	e701                	bnez	a4,2001156c <__call_exitprocs+0xc2>
+20011566:	855a                	mv	a0,s6
+20011568:	9782                	jalr	a5
+2001156a:	bfe9                	j	20011544 <__call_exitprocs+0x9a>
+2001156c:	852e                	mv	a0,a1
+2001156e:	9782                	jalr	a5
+20011570:	bfd1                	j	20011544 <__call_exitprocs+0x9a>
+
+20011572 <metal_cpu_interrupt_controller>:
+metal_cpu_interrupt_controller():
+20011572:	411c                	lw	a5,0(a0)
+20011574:	57dc                	lw	a5,44(a5)
+20011576:	8782                	jr	a5
+
+20011578 <metal_cpu_get>:
+metal_cpu_get():
+20011578:	e511                	bnez	a0,20011584 <metal_cpu_get+0xc>
+2001157a:	800007b7          	lui	a5,0x80000
+2001157e:	4887a503          	lw	a0,1160(a5) # 80000488 <__global_pointer$+0xfffff800>
+20011582:	8082                	ret
+20011584:	4501                	li	a0,0
+20011586:	8082                	ret
+
+20011588 <metal_cpu_get_current_hartid>:
+metal_cpu_get_current_hartid():
+20011588:	f1402573          	csrr	a0,mhartid
+2001158c:	8082                	ret
+
+2001158e <metal_init>:
+metal_init():
+2001158e:	800007b7          	lui	a5,0x80000
+20011592:	4b078793          	addi	a5,a5,1200 # 800004b0 <__global_pointer$+0xfffff828>
+20011596:	4398                	lw	a4,0(a5)
+20011598:	ef15                	bnez	a4,200115d4 <metal_init+0x46>
+2001159a:	1141                	addi	sp,sp,-16
+2001159c:	c422                	sw	s0,8(sp)
+2001159e:	c226                	sw	s1,4(sp)
+200115a0:	20010437          	lui	s0,0x20010
+200115a4:	c606                	sw	ra,12(sp)
+200115a6:	4705                	li	a4,1
+200115a8:	200104b7          	lui	s1,0x20010
+200115ac:	c398                	sw	a4,0(a5)
+200115ae:	2d848493          	addi	s1,s1,728 # 200102d8 <metal_sifive_fe310_g000_pll_init>
+200115b2:	2d040793          	addi	a5,s0,720 # 200102d0 <_use_hfxosc_ptr>
+200115b6:	2d040413          	addi	s0,s0,720
+200115ba:	0097ea63          	bltu	a5,s1,200115ce <metal_init+0x40>
+200115be:	40b2                	lw	ra,12(sp)
+200115c0:	4422                	lw	s0,8(sp)
+200115c2:	4492                	lw	s1,4(sp)
+200115c4:	0141                	addi	sp,sp,16
+200115c6:	8082                	ret
+200115c8:	401c                	lw	a5,0(s0)
+200115ca:	0411                	addi	s0,s0,4
+200115cc:	9782                	jalr	a5
+200115ce:	fe941de3          	bne	s0,s1,200115c8 <metal_init+0x3a>
+200115d2:	b7f5                	j	200115be <metal_init+0x30>
+200115d4:	8082                	ret
+
+200115d6 <metal_fini>:
+metal_fini():
+200115d6:	800007b7          	lui	a5,0x80000
+200115da:	4ac78793          	addi	a5,a5,1196 # 800004ac <__global_pointer$+0xfffff824>
+200115de:	4398                	lw	a4,0(a5)
+200115e0:	ef15                	bnez	a4,2001161c <metal_fini+0x46>
+200115e2:	1141                	addi	sp,sp,-16
+200115e4:	c422                	sw	s0,8(sp)
+200115e6:	c226                	sw	s1,4(sp)
+200115e8:	20010437          	lui	s0,0x20010
+200115ec:	c606                	sw	ra,12(sp)
+200115ee:	4705                	li	a4,1
+200115f0:	200104b7          	lui	s1,0x20010
+200115f4:	c398                	sw	a4,0(a5)
+200115f6:	2d848493          	addi	s1,s1,728 # 200102d8 <metal_sifive_fe310_g000_pll_init>
+200115fa:	2d840793          	addi	a5,s0,728 # 200102d8 <metal_sifive_fe310_g000_pll_init>
+200115fe:	2d840413          	addi	s0,s0,728
+20011602:	0097ea63          	bltu	a5,s1,20011616 <metal_fini+0x40>
+20011606:	40b2                	lw	ra,12(sp)
+20011608:	4422                	lw	s0,8(sp)
+2001160a:	4492                	lw	s1,4(sp)
+2001160c:	0141                	addi	sp,sp,16
+2001160e:	8082                	ret
+20011610:	401c                	lw	a5,0(s0)
+20011612:	0411                	addi	s0,s0,4
+20011614:	9782                	jalr	a5
+20011616:	fe941de3          	bne	s0,s1,20011610 <metal_fini+0x3a>
+2001161a:	b7f5                	j	20011606 <metal_fini+0x30>
+2001161c:	8082                	ret
+
+2001161e <metal_init_run>:
+metal_init_run():
+2001161e:	bf85                	j	2001158e <metal_init>
+
+20011620 <metal_fini_run>:
+metal_fini_run():
+20011620:	bf5d                	j	200115d6 <metal_fini>
+
+20011622 <__metal_driver_riscv_clint0_mtimecmp_set>:
+__metal_driver_riscv_clint0_mtimecmp_set():
+20011622:	800007b7          	lui	a5,0x80000
+20011626:	48c78793          	addi	a5,a5,1164 # 8000048c <__global_pointer$+0xfffff804>
+2001162a:	02000737          	lui	a4,0x2000
+2001162e:	00a78363          	beq	a5,a0,20011634 <__metal_driver_riscv_clint0_mtimecmp_set+0x12>
+20011632:	4701                	li	a4,0
+20011634:	058e                	slli	a1,a1,0x3
+20011636:	95ba                	add	a1,a1,a4
+20011638:	6711                	lui	a4,0x4
+2001163a:	00470793          	addi	a5,a4,4 # 4004 <__heap_size+0x3804>
+2001163e:	97ae                	add	a5,a5,a1
+20011640:	557d                	li	a0,-1
+20011642:	c388                	sw	a0,0(a5)
+20011644:	95ba                	add	a1,a1,a4
+20011646:	c190                	sw	a2,0(a1)
+20011648:	c394                	sw	a3,0(a5)
+2001164a:	4501                	li	a0,0
+2001164c:	8082                	ret
+
+2001164e <__metal_driver_riscv_clint0_init>:
+__metal_driver_riscv_clint0_init():
+2001164e:	1101                	addi	sp,sp,-32
+20011650:	800007b7          	lui	a5,0x80000
+20011654:	cc22                	sw	s0,24(sp)
+20011656:	c84a                	sw	s2,16(sp)
+20011658:	ce06                	sw	ra,28(sp)
+2001165a:	ca26                	sw	s1,20(sp)
+2001165c:	c64e                	sw	s3,12(sp)
+2001165e:	48c78793          	addi	a5,a5,1164 # 8000048c <__global_pointer$+0xfffff804>
+20011662:	842a                	mv	s0,a0
+20011664:	4901                	li	s2,0
+20011666:	00f51363          	bne	a0,a5,2001166c <__metal_driver_riscv_clint0_init+0x1e>
+2001166a:	4909                	li	s2,2
+2001166c:	4044                	lw	s1,4(s0)
+2001166e:	e499                	bnez	s1,2001167c <__metal_driver_riscv_clint0_init+0x2e>
+20011670:	800009b7          	lui	s3,0x80000
+20011674:	01249b63          	bne	s1,s2,2001168a <__metal_driver_riscv_clint0_init+0x3c>
+20011678:	4785                	li	a5,1
+2001167a:	c05c                	sw	a5,4(s0)
+2001167c:	40f2                	lw	ra,28(sp)
+2001167e:	4462                	lw	s0,24(sp)
+20011680:	44d2                	lw	s1,20(sp)
+20011682:	4942                	lw	s2,16(sp)
+20011684:	49b2                	lw	s3,12(sp)
+20011686:	6105                	addi	sp,sp,32
+20011688:	8082                	ret
+2001168a:	458d                	li	a1,3
+2001168c:	c091                	beqz	s1,20011690 <__metal_driver_riscv_clint0_init+0x42>
+2001168e:	459d                	li	a1,7
+20011690:	0b89a783          	lw	a5,184(s3) # 800000b8 <__global_pointer$+0xfffff430>
+20011694:	86a2                	mv	a3,s0
+20011696:	4601                	li	a2,0
+20011698:	4fdc                	lw	a5,28(a5)
+2001169a:	0b898513          	addi	a0,s3,184
+2001169e:	0485                	addi	s1,s1,1
+200116a0:	9782                	jalr	a5
+200116a2:	bfc9                	j	20011674 <__metal_driver_riscv_clint0_init+0x26>
+
+200116a4 <__metal_driver_riscv_clint0_vector_register>:
+__metal_driver_riscv_clint0_vector_register():
+200116a4:	557d                	li	a0,-1
+200116a6:	8082                	ret
+
+200116a8 <__metal_driver_riscv_clint0_get_vector_mode>:
+__metal_driver_riscv_clint0_get_vector_mode():
+200116a8:	7710006f          	j	20012618 <__metal_controller_interrupt_vector_mode>
+
+200116ac <_get_cpu_intc>:
+_get_cpu_intc():
+200116ac:	1141                	addi	sp,sp,-16
+200116ae:	c606                	sw	ra,12(sp)
+200116b0:	f1402573          	csrr	a0,mhartid
+200116b4:	35d1                	jal	20011578 <metal_cpu_get>
+200116b6:	40b2                	lw	ra,12(sp)
+200116b8:	0141                	addi	sp,sp,16
+200116ba:	bd65                	j	20011572 <metal_cpu_interrupt_controller>
+
+200116bc <__metal_driver_riscv_clint0_register>:
+__metal_driver_riscv_clint0_register():
+200116bc:	1101                	addi	sp,sp,-32
+200116be:	c62e                	sw	a1,12(sp)
+200116c0:	c432                	sw	a2,8(sp)
+200116c2:	c236                	sw	a3,4(sp)
+200116c4:	ce06                	sw	ra,28(sp)
+200116c6:	cc22                	sw	s0,24(sp)
+200116c8:	ca26                	sw	s1,20(sp)
+200116ca:	84aa                	mv	s1,a0
+200116cc:	74d000ef          	jal	ra,20012618 <__metal_controller_interrupt_vector_mode>
+200116d0:	842a                	mv	s0,a0
+200116d2:	3fe9                	jal	200116ac <_get_cpu_intc>
+200116d4:	800007b7          	lui	a5,0x80000
+200116d8:	48c78793          	addi	a5,a5,1164 # 8000048c <__global_pointer$+0xfffff804>
+200116dc:	4692                	lw	a3,4(sp)
+200116de:	4622                	lw	a2,8(sp)
+200116e0:	45b2                	lw	a1,12(sp)
+200116e2:	4801                	li	a6,0
+200116e4:	00f49363          	bne	s1,a5,200116ea <__metal_driver_riscv_clint0_register+0x2e>
+200116e8:	4809                	li	a6,2
+200116ea:	4785                	li	a5,1
+200116ec:	0087e963          	bltu	a5,s0,200116fe <__metal_driver_riscv_clint0_register+0x42>
+200116f0:	80000737          	lui	a4,0x80000
+200116f4:	4781                	li	a5,0
+200116f6:	0b870713          	addi	a4,a4,184 # 800000b8 <__global_pointer$+0xfffff430>
+200116fa:	01079863          	bne	a5,a6,2001170a <__metal_driver_riscv_clint0_register+0x4e>
+200116fe:	40f2                	lw	ra,28(sp)
+20011700:	4462                	lw	s0,24(sp)
+20011702:	44d2                	lw	s1,20(sp)
+20011704:	557d                	li	a0,-1
+20011706:	6105                	addi	sp,sp,32
+20011708:	8082                	ret
+2001170a:	488d                	li	a7,3
+2001170c:	c391                	beqz	a5,20011710 <__metal_driver_riscv_clint0_register+0x54>
+2001170e:	489d                	li	a7,7
+20011710:	00e51463          	bne	a0,a4,20011718 <__metal_driver_riscv_clint0_register+0x5c>
+20011714:	01158463          	beq	a1,a7,2001171c <__metal_driver_riscv_clint0_register+0x60>
+20011718:	0785                	addi	a5,a5,1
+2001171a:	b7c5                	j	200116fa <__metal_driver_riscv_clint0_register+0x3e>
+2001171c:	411c                	lw	a5,0(a0)
+2001171e:	4462                	lw	s0,24(sp)
+20011720:	40f2                	lw	ra,28(sp)
+20011722:	44d2                	lw	s1,20(sp)
+20011724:	4fdc                	lw	a5,28(a5)
+20011726:	6105                	addi	sp,sp,32
+20011728:	8782                	jr	a5
+
+2001172a <__metal_driver_riscv_clint0_set_vector_mode>:
+__metal_driver_riscv_clint0_set_vector_mode():
+2001172a:	1101                	addi	sp,sp,-32
+2001172c:	ce06                	sw	ra,28(sp)
+2001172e:	c62e                	sw	a1,12(sp)
+20011730:	3fb5                	jal	200116ac <_get_cpu_intc>
+20011732:	c911                	beqz	a0,20011746 <__metal_driver_riscv_clint0_set_vector_mode+0x1c>
+20011734:	45b2                	lw	a1,12(sp)
+20011736:	4705                	li	a4,1
+20011738:	00b76763          	bltu	a4,a1,20011746 <__metal_driver_riscv_clint0_set_vector_mode+0x1c>
+2001173c:	411c                	lw	a5,0(a0)
+2001173e:	40f2                	lw	ra,28(sp)
+20011740:	43dc                	lw	a5,4(a5)
+20011742:	6105                	addi	sp,sp,32
+20011744:	8782                	jr	a5
+20011746:	40f2                	lw	ra,28(sp)
+20011748:	557d                	li	a0,-1
+2001174a:	6105                	addi	sp,sp,32
+2001174c:	8082                	ret
+
+2001174e <__metal_driver_riscv_clint0_enable>:
+__metal_driver_riscv_clint0_enable():
+2001174e:	1101                	addi	sp,sp,-32
+20011750:	ce06                	sw	ra,28(sp)
+20011752:	cc22                	sw	s0,24(sp)
+20011754:	c62e                	sw	a1,12(sp)
+20011756:	c19d                	beqz	a1,2001177c <__metal_driver_riscv_clint0_enable+0x2e>
+20011758:	842a                	mv	s0,a0
+2001175a:	3f89                	jal	200116ac <_get_cpu_intc>
+2001175c:	800007b7          	lui	a5,0x80000
+20011760:	48c78793          	addi	a5,a5,1164 # 8000048c <__global_pointer$+0xfffff804>
+20011764:	45b2                	lw	a1,12(sp)
+20011766:	4689                	li	a3,2
+20011768:	00f40363          	beq	s0,a5,2001176e <__metal_driver_riscv_clint0_enable+0x20>
+2001176c:	4681                	li	a3,0
+2001176e:	80000737          	lui	a4,0x80000
+20011772:	4781                	li	a5,0
+20011774:	0b870713          	addi	a4,a4,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011778:	00d79763          	bne	a5,a3,20011786 <__metal_driver_riscv_clint0_enable+0x38>
+2001177c:	40f2                	lw	ra,28(sp)
+2001177e:	4462                	lw	s0,24(sp)
+20011780:	557d                	li	a0,-1
+20011782:	6105                	addi	sp,sp,32
+20011784:	8082                	ret
+20011786:	460d                	li	a2,3
+20011788:	c391                	beqz	a5,2001178c <__metal_driver_riscv_clint0_enable+0x3e>
+2001178a:	461d                	li	a2,7
+2001178c:	00e51463          	bne	a0,a4,20011794 <__metal_driver_riscv_clint0_enable+0x46>
+20011790:	00c58463          	beq	a1,a2,20011798 <__metal_driver_riscv_clint0_enable+0x4a>
+20011794:	0785                	addi	a5,a5,1
+20011796:	b7cd                	j	20011778 <__metal_driver_riscv_clint0_enable+0x2a>
+20011798:	411c                	lw	a5,0(a0)
+2001179a:	4462                	lw	s0,24(sp)
+2001179c:	40f2                	lw	ra,28(sp)
+2001179e:	53dc                	lw	a5,36(a5)
+200117a0:	6105                	addi	sp,sp,32
+200117a2:	8782                	jr	a5
+
+200117a4 <__metal_driver_riscv_clint0_disable>:
+__metal_driver_riscv_clint0_disable():
+200117a4:	1101                	addi	sp,sp,-32
+200117a6:	ce06                	sw	ra,28(sp)
+200117a8:	cc22                	sw	s0,24(sp)
+200117aa:	c62e                	sw	a1,12(sp)
+200117ac:	c19d                	beqz	a1,200117d2 <__metal_driver_riscv_clint0_disable+0x2e>
+200117ae:	842a                	mv	s0,a0
+200117b0:	3df5                	jal	200116ac <_get_cpu_intc>
+200117b2:	800007b7          	lui	a5,0x80000
+200117b6:	48c78793          	addi	a5,a5,1164 # 8000048c <__global_pointer$+0xfffff804>
+200117ba:	45b2                	lw	a1,12(sp)
+200117bc:	4689                	li	a3,2
+200117be:	00f40363          	beq	s0,a5,200117c4 <__metal_driver_riscv_clint0_disable+0x20>
+200117c2:	4681                	li	a3,0
+200117c4:	80000737          	lui	a4,0x80000
+200117c8:	4781                	li	a5,0
+200117ca:	0b870713          	addi	a4,a4,184 # 800000b8 <__global_pointer$+0xfffff430>
+200117ce:	00d79763          	bne	a5,a3,200117dc <__metal_driver_riscv_clint0_disable+0x38>
+200117d2:	40f2                	lw	ra,28(sp)
+200117d4:	4462                	lw	s0,24(sp)
+200117d6:	557d                	li	a0,-1
+200117d8:	6105                	addi	sp,sp,32
+200117da:	8082                	ret
+200117dc:	460d                	li	a2,3
+200117de:	c391                	beqz	a5,200117e2 <__metal_driver_riscv_clint0_disable+0x3e>
+200117e0:	461d                	li	a2,7
+200117e2:	00e51463          	bne	a0,a4,200117ea <__metal_driver_riscv_clint0_disable+0x46>
+200117e6:	00c58463          	beq	a1,a2,200117ee <__metal_driver_riscv_clint0_disable+0x4a>
+200117ea:	0785                	addi	a5,a5,1
+200117ec:	b7cd                	j	200117ce <__metal_driver_riscv_clint0_disable+0x2a>
+200117ee:	411c                	lw	a5,0(a0)
+200117f0:	4462                	lw	s0,24(sp)
+200117f2:	40f2                	lw	ra,28(sp)
+200117f4:	579c                	lw	a5,40(a5)
+200117f6:	6105                	addi	sp,sp,32
+200117f8:	8782                	jr	a5
+
+200117fa <__metal_clint0_mtime_get>:
+__metal_clint0_mtime_get():
+200117fa:	80000737          	lui	a4,0x80000
+200117fe:	48c70713          	addi	a4,a4,1164 # 8000048c <__global_pointer$+0xfffff804>
+20011802:	020007b7          	lui	a5,0x2000
+20011806:	00a70363          	beq	a4,a0,2001180c <__metal_clint0_mtime_get+0x12>
+2001180a:	4781                	li	a5,0
+2001180c:	66b1                	lui	a3,0xc
+2001180e:	ffc68713          	addi	a4,a3,-4 # bffc <__heap_size+0xb7fc>
+20011812:	16e1                	addi	a3,a3,-8
+20011814:	973e                	add	a4,a4,a5
+20011816:	97b6                	add	a5,a5,a3
+20011818:	4314                	lw	a3,0(a4)
+2001181a:	4388                	lw	a0,0(a5)
+2001181c:	430c                	lw	a1,0(a4)
+2001181e:	fed59de3          	bne	a1,a3,20011818 <__metal_clint0_mtime_get+0x1e>
+20011822:	8082                	ret
+
+20011824 <__metal_driver_riscv_clint0_command_request>:
+__metal_driver_riscv_clint0_command_request():
+20011824:	1141                	addi	sp,sp,-16
+20011826:	800007b7          	lui	a5,0x80000
+2001182a:	c422                	sw	s0,8(sp)
+2001182c:	c606                	sw	ra,12(sp)
+2001182e:	48c78793          	addi	a5,a5,1164 # 8000048c <__global_pointer$+0xfffff804>
+20011832:	8432                	mv	s0,a2
+20011834:	4701                	li	a4,0
+20011836:	00f51463          	bne	a0,a5,2001183e <__metal_driver_riscv_clint0_command_request+0x1a>
+2001183a:	02000737          	lui	a4,0x2000
+2001183e:	478d                	li	a5,3
+20011840:	04f58963          	beq	a1,a5,20011892 <__metal_driver_riscv_clint0_command_request+0x6e>
+20011844:	00b7ce63          	blt	a5,a1,20011860 <__metal_driver_riscv_clint0_command_request+0x3c>
+20011848:	4785                	li	a5,1
+2001184a:	02f58563          	beq	a1,a5,20011874 <__metal_driver_riscv_clint0_command_request+0x50>
+2001184e:	4789                	li	a5,2
+20011850:	02f58963          	beq	a1,a5,20011882 <__metal_driver_riscv_clint0_command_request+0x5e>
+20011854:	57fd                	li	a5,-1
+20011856:	40b2                	lw	ra,12(sp)
+20011858:	4422                	lw	s0,8(sp)
+2001185a:	853e                	mv	a0,a5
+2001185c:	0141                	addi	sp,sp,16
+2001185e:	8082                	ret
+20011860:	4791                	li	a5,4
+20011862:	fef599e3          	bne	a1,a5,20011854 <__metal_driver_riscv_clint0_command_request+0x30>
+20011866:	4781                	li	a5,0
+20011868:	d47d                	beqz	s0,20011856 <__metal_driver_riscv_clint0_command_request+0x32>
+2001186a:	401c                	lw	a5,0(s0)
+2001186c:	078a                	slli	a5,a5,0x2
+2001186e:	97ba                	add	a5,a5,a4
+20011870:	439c                	lw	a5,0(a5)
+20011872:	b7d5                	j	20011856 <__metal_driver_riscv_clint0_command_request+0x32>
+20011874:	57fd                	li	a5,-1
+20011876:	d065                	beqz	s0,20011856 <__metal_driver_riscv_clint0_command_request+0x32>
+20011878:	3749                	jal	200117fa <__metal_clint0_mtime_get>
+2001187a:	c008                	sw	a0,0(s0)
+2001187c:	c04c                	sw	a1,4(s0)
+2001187e:	4781                	li	a5,0
+20011880:	bfd9                	j	20011856 <__metal_driver_riscv_clint0_command_request+0x32>
+20011882:	57fd                	li	a5,-1
+20011884:	d869                	beqz	s0,20011856 <__metal_driver_riscv_clint0_command_request+0x32>
+20011886:	401c                	lw	a5,0(s0)
+20011888:	078a                	slli	a5,a5,0x2
+2001188a:	97ba                	add	a5,a5,a4
+2001188c:	0007a023          	sw	zero,0(a5)
+20011890:	b7fd                	j	2001187e <__metal_driver_riscv_clint0_command_request+0x5a>
+20011892:	57fd                	li	a5,-1
+20011894:	d069                	beqz	s0,20011856 <__metal_driver_riscv_clint0_command_request+0x32>
+20011896:	401c                	lw	a5,0(s0)
+20011898:	078a                	slli	a5,a5,0x2
+2001189a:	97ba                	add	a5,a5,a4
+2001189c:	4705                	li	a4,1
+2001189e:	c398                	sw	a4,0(a5)
+200118a0:	0480000f          	fence	o,i
+200118a4:	439c                	lw	a5,0(a5)
+200118a6:	bfe1                	j	2001187e <__metal_driver_riscv_clint0_command_request+0x5a>
+
+200118a8 <__metal_driver_riscv_clint0_clear_interrupt>:
+__metal_driver_riscv_clint0_clear_interrupt():
+200118a8:	1101                	addi	sp,sp,-32
+200118aa:	ce06                	sw	ra,28(sp)
+200118ac:	cc22                	sw	s0,24(sp)
+200118ae:	842a                	mv	s0,a0
+200118b0:	39e1                	jal	20011588 <metal_cpu_get_current_hartid>
+200118b2:	c62a                	sw	a0,12(sp)
+200118b4:	0070                	addi	a2,sp,12
+200118b6:	8522                	mv	a0,s0
+200118b8:	4589                	li	a1,2
+200118ba:	37ad                	jal	20011824 <__metal_driver_riscv_clint0_command_request>
+200118bc:	40f2                	lw	ra,28(sp)
+200118be:	4462                	lw	s0,24(sp)
+200118c0:	6105                	addi	sp,sp,32
+200118c2:	8082                	ret
+
+200118c4 <__metal_driver_riscv_clint0_set_interrupt>:
+__metal_driver_riscv_clint0_set_interrupt():
+200118c4:	1101                	addi	sp,sp,-32
+200118c6:	ce06                	sw	ra,28(sp)
+200118c8:	cc22                	sw	s0,24(sp)
+200118ca:	842a                	mv	s0,a0
+200118cc:	3975                	jal	20011588 <metal_cpu_get_current_hartid>
+200118ce:	c62a                	sw	a0,12(sp)
+200118d0:	0070                	addi	a2,sp,12
+200118d2:	8522                	mv	a0,s0
+200118d4:	458d                	li	a1,3
+200118d6:	37b9                	jal	20011824 <__metal_driver_riscv_clint0_command_request>
+200118d8:	40f2                	lw	ra,28(sp)
+200118da:	4462                	lw	s0,24(sp)
+200118dc:	6105                	addi	sp,sp,32
+200118de:	8082                	ret
+
+200118e0 <__metal_default_sw_handler>:
+__metal_default_sw_handler():
+200118e0:	85aa                	mv	a1,a0
+200118e2:	f14027f3          	csrr	a5,mhartid
+200118e6:	00279713          	slli	a4,a5,0x2
+200118ea:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+200118ee:	97ba                	add	a5,a5,a4
+200118f0:	4388                	lw	a0,0(a5)
+200118f2:	342027f3          	csrr	a5,mcause
+200118f6:	c515                	beqz	a0,20011922 <__metal_default_sw_handler+0x42>
+200118f8:	80000737          	lui	a4,0x80000
+200118fc:	3ff7f793          	andi	a5,a5,1023
+20011900:	49470713          	addi	a4,a4,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011904:	0e878793          	addi	a5,a5,232
+20011908:	00e51a63          	bne	a0,a4,2001191c <__metal_default_sw_handler+0x3c>
+2001190c:	80000737          	lui	a4,0x80000
+20011910:	078a                	slli	a5,a5,0x2
+20011912:	0b870713          	addi	a4,a4,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011916:	97ba                	add	a5,a5,a4
+20011918:	439c                	lw	a5,0(a5)
+2001191a:	8782                	jr	a5
+2001191c:	078a                	slli	a5,a5,0x2
+2001191e:	439c                	lw	a5,0(a5)
+20011920:	9002                	ebreak
+20011922:	8082                	ret
+
+20011924 <__metal_default_beu_handler>:
+__metal_default_beu_handler():
+20011924:	8082                	ret
+	...
+
+20011980 <__metal_exception_handler>:
+__metal_exception_handler():
+20011980:	7139                	addi	sp,sp,-64
+20011982:	de06                	sw	ra,60(sp)
+20011984:	dc16                	sw	t0,56(sp)
+20011986:	da1a                	sw	t1,52(sp)
+20011988:	d81e                	sw	t2,48(sp)
+2001198a:	d62a                	sw	a0,44(sp)
+2001198c:	d42e                	sw	a1,40(sp)
+2001198e:	d232                	sw	a2,36(sp)
+20011990:	d036                	sw	a3,32(sp)
+20011992:	ce3a                	sw	a4,28(sp)
+20011994:	cc3e                	sw	a5,24(sp)
+20011996:	ca42                	sw	a6,20(sp)
+20011998:	c846                	sw	a7,16(sp)
+2001199a:	c672                	sw	t3,12(sp)
+2001199c:	c476                	sw	t4,8(sp)
+2001199e:	c27a                	sw	t5,4(sp)
+200119a0:	c07e                	sw	t6,0(sp)
+200119a2:	f14027f3          	csrr	a5,mhartid
+200119a6:	00279713          	slli	a4,a5,0x2
+200119aa:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+200119ae:	97ba                	add	a5,a5,a4
+200119b0:	4394                	lw	a3,0(a5)
+200119b2:	34202673          	csrr	a2,mcause
+200119b6:	341027f3          	csrr	a5,mepc
+200119ba:	343027f3          	csrr	a5,mtval
+200119be:	30502773          	csrr	a4,mtvec
+200119c2:	c69d                	beqz	a3,200119f0 <__metal_exception_handler+0x70>
+200119c4:	800007b7          	lui	a5,0x80000
+200119c8:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+200119cc:	04f68563          	beq	a3,a5,20011a16 <__metal_exception_handler+0x96>
+200119d0:	4781                	li	a5,0
+200119d2:	3ff67513          	andi	a0,a2,1023
+200119d6:	06065d63          	bgez	a2,20011a50 <__metal_exception_handler+0xd0>
+200119da:	08000693          	li	a3,128
+200119de:	04d51163          	bne	a0,a3,20011a20 <__metal_exception_handler+0xa0>
+200119e2:	3907a703          	lw	a4,912(a5)
+200119e6:	3987a583          	lw	a1,920(a5)
+200119ea:	08000513          	li	a0,128
+200119ee:	9702                	jalr	a4
+200119f0:	50f2                	lw	ra,60(sp)
+200119f2:	52e2                	lw	t0,56(sp)
+200119f4:	5352                	lw	t1,52(sp)
+200119f6:	53c2                	lw	t2,48(sp)
+200119f8:	5532                	lw	a0,44(sp)
+200119fa:	55a2                	lw	a1,40(sp)
+200119fc:	5612                	lw	a2,36(sp)
+200119fe:	5682                	lw	a3,32(sp)
+20011a00:	4772                	lw	a4,28(sp)
+20011a02:	47e2                	lw	a5,24(sp)
+20011a04:	4852                	lw	a6,20(sp)
+20011a06:	48c2                	lw	a7,16(sp)
+20011a08:	4e32                	lw	t3,12(sp)
+20011a0a:	4ea2                	lw	t4,8(sp)
+20011a0c:	4f12                	lw	t5,4(sp)
+20011a0e:	4f82                	lw	t6,0(sp)
+20011a10:	6121                	addi	sp,sp,64
+20011a12:	30200073          	mret
+20011a16:	800007b7          	lui	a5,0x80000
+20011a1a:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011a1e:	bf55                	j	200119d2 <__metal_exception_handler+0x52>
+20011a20:	46ad                	li	a3,11
+20011a22:	00a6d563          	bge	a3,a0,20011a2c <__metal_exception_handler+0xac>
+20011a26:	03f77713          	andi	a4,a4,63
+20011a2a:	eb11                	bnez	a4,20011a3e <__metal_exception_handler+0xbe>
+20011a2c:	4761                	li	a4,24
+20011a2e:	02e50733          	mul	a4,a0,a4
+20011a32:	97ba                	add	a5,a5,a4
+20011a34:	0907a703          	lw	a4,144(a5)
+20011a38:	0987a583          	lw	a1,152(a5)
+20011a3c:	bf4d                	j	200119ee <__metal_exception_handler+0x6e>
+20011a3e:	4689                	li	a3,2
+20011a40:	fad718e3          	bne	a4,a3,200119f0 <__metal_exception_handler+0x70>
+20011a44:	30702773          	csrr	a4,mtvt
+20011a48:	4318                	lw	a4,0(a4)
+20011a4a:	0dc7a583          	lw	a1,220(a5)
+20011a4e:	b745                	j	200119ee <__metal_exception_handler+0x6e>
+20011a50:	0e850713          	addi	a4,a0,232
+20011a54:	070a                	slli	a4,a4,0x2
+20011a56:	97ba                	add	a5,a5,a4
+20011a58:	439c                	lw	a5,0(a5)
+20011a5a:	85aa                	mv	a1,a0
+20011a5c:	8536                	mv	a0,a3
+20011a5e:	9782                	jalr	a5
+20011a60:	bf41                	j	200119f0 <__metal_exception_handler+0x70>
+	...
+
+20011a7e <__metal_driver_riscv_cpu_controller_command_request>:
+__metal_driver_riscv_cpu_controller_command_request():
+20011a7e:	4501                	li	a0,0
+20011a80:	8082                	ret
+
+20011a82 <__metal_driver_cpu_mcycle_get>:
+__metal_driver_cpu_mcycle_get():
+20011a82:	b80025f3          	csrr	a1,mcycleh
+20011a86:	b0002573          	csrr	a0,mcycle
+20011a8a:	b80027f3          	csrr	a5,mcycleh
+20011a8e:	fef59ae3          	bne	a1,a5,20011a82 <__metal_driver_cpu_mcycle_get>
+20011a92:	8082                	ret
+
+20011a94 <__metal_driver_cpu_timebase_get>:
+__metal_driver_cpu_timebase_get():
+20011a94:	c105                	beqz	a0,20011ab4 <__metal_driver_cpu_timebase_get+0x20>
+20011a96:	800007b7          	lui	a5,0x80000
+20011a9a:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011a9e:	00f50663          	beq	a0,a5,20011aaa <__metal_driver_cpu_timebase_get+0x16>
+20011aa2:	4501                	li	a0,0
+20011aa4:	41f55593          	srai	a1,a0,0x1f
+20011aa8:	8082                	ret
+20011aaa:	00f42537          	lui	a0,0xf42
+20011aae:	40050513          	addi	a0,a0,1024 # f42400 <__heap_size+0xf41c00>
+20011ab2:	bfcd                	j	20011aa4 <__metal_driver_cpu_timebase_get+0x10>
+20011ab4:	4501                	li	a0,0
+20011ab6:	4581                	li	a1,0
+20011ab8:	8082                	ret
+
+20011aba <__metal_driver_cpu_mtime_get>:
+__metal_driver_cpu_mtime_get():
+20011aba:	1101                	addi	sp,sp,-32
+20011abc:	4781                	li	a5,0
+20011abe:	4801                	li	a6,0
+20011ac0:	c43e                	sw	a5,8(sp)
+20011ac2:	800007b7          	lui	a5,0x80000
+20011ac6:	ce06                	sw	ra,28(sp)
+20011ac8:	c642                	sw	a6,12(sp)
+20011aca:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011ace:	00a79c63          	bne	a5,a0,20011ae6 <__metal_driver_cpu_mtime_get+0x2c>
+20011ad2:	800007b7          	lui	a5,0x80000
+20011ad6:	1f47a503          	lw	a0,500(a5) # 800001f4 <__global_pointer$+0xfffff56c>
+20011ada:	c511                	beqz	a0,20011ae6 <__metal_driver_cpu_mtime_get+0x2c>
+20011adc:	411c                	lw	a5,0(a0)
+20011ade:	0030                	addi	a2,sp,8
+20011ae0:	4585                	li	a1,1
+20011ae2:	47fc                	lw	a5,76(a5)
+20011ae4:	9782                	jalr	a5
+20011ae6:	40f2                	lw	ra,28(sp)
+20011ae8:	4522                	lw	a0,8(sp)
+20011aea:	45b2                	lw	a1,12(sp)
+20011aec:	6105                	addi	sp,sp,32
+20011aee:	8082                	ret
+
+20011af0 <__metal_driver_cpu_timer_controller_interrupt>:
+__metal_driver_cpu_timer_controller_interrupt():
+20011af0:	80000537          	lui	a0,0x80000
+20011af4:	48c50513          	addi	a0,a0,1164 # 8000048c <__global_pointer$+0xfffff804>
+20011af8:	8082                	ret
+
+20011afa <__metal_driver_cpu_get_timer_interrupt_id>:
+__metal_driver_cpu_get_timer_interrupt_id():
+20011afa:	451d                	li	a0,7
+20011afc:	8082                	ret
+
+20011afe <__metal_driver_cpu_get_sw_interrupt_id>:
+__metal_driver_cpu_get_sw_interrupt_id():
+20011afe:	450d                	li	a0,3
+20011b00:	8082                	ret
+
+20011b02 <__metal_driver_cpu_set_sw_ipi>:
+__metal_driver_cpu_set_sw_ipi():
+20011b02:	1101                	addi	sp,sp,-32
+20011b04:	800007b7          	lui	a5,0x80000
+20011b08:	ce06                	sw	ra,28(sp)
+20011b0a:	c62e                	sw	a1,12(sp)
+20011b0c:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011b10:	02a79163          	bne	a5,a0,20011b32 <__metal_driver_cpu_set_sw_ipi+0x30>
+20011b14:	800007b7          	lui	a5,0x80000
+20011b18:	1947a783          	lw	a5,404(a5) # 80000194 <__global_pointer$+0xfffff50c>
+20011b1c:	557d                	li	a0,-1
+20011b1e:	c799                	beqz	a5,20011b2c <__metal_driver_cpu_set_sw_ipi+0x2a>
+20011b20:	4398                	lw	a4,0(a5)
+20011b22:	0070                	addi	a2,sp,12
+20011b24:	458d                	li	a1,3
+20011b26:	4778                	lw	a4,76(a4)
+20011b28:	853e                	mv	a0,a5
+20011b2a:	9702                	jalr	a4
+20011b2c:	40f2                	lw	ra,28(sp)
+20011b2e:	6105                	addi	sp,sp,32
+20011b30:	8082                	ret
+20011b32:	557d                	li	a0,-1
+20011b34:	bfe5                	j	20011b2c <__metal_driver_cpu_set_sw_ipi+0x2a>
+
+20011b36 <__metal_driver_cpu_clear_sw_ipi>:
+__metal_driver_cpu_clear_sw_ipi():
+20011b36:	1101                	addi	sp,sp,-32
+20011b38:	800007b7          	lui	a5,0x80000
+20011b3c:	ce06                	sw	ra,28(sp)
+20011b3e:	c62e                	sw	a1,12(sp)
+20011b40:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011b44:	02a79163          	bne	a5,a0,20011b66 <__metal_driver_cpu_clear_sw_ipi+0x30>
+20011b48:	800007b7          	lui	a5,0x80000
+20011b4c:	1947a783          	lw	a5,404(a5) # 80000194 <__global_pointer$+0xfffff50c>
+20011b50:	557d                	li	a0,-1
+20011b52:	c799                	beqz	a5,20011b60 <__metal_driver_cpu_clear_sw_ipi+0x2a>
+20011b54:	4398                	lw	a4,0(a5)
+20011b56:	0070                	addi	a2,sp,12
+20011b58:	4589                	li	a1,2
+20011b5a:	4778                	lw	a4,76(a4)
+20011b5c:	853e                	mv	a0,a5
+20011b5e:	9702                	jalr	a4
+20011b60:	40f2                	lw	ra,28(sp)
+20011b62:	6105                	addi	sp,sp,32
+20011b64:	8082                	ret
+20011b66:	557d                	li	a0,-1
+20011b68:	bfe5                	j	20011b60 <__metal_driver_cpu_clear_sw_ipi+0x2a>
+
+20011b6a <__metal_driver_cpu_get_msip>:
+__metal_driver_cpu_get_msip():
+20011b6a:	1101                	addi	sp,sp,-32
+20011b6c:	800007b7          	lui	a5,0x80000
+20011b70:	ce06                	sw	ra,28(sp)
+20011b72:	c62e                	sw	a1,12(sp)
+20011b74:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011b78:	02a79163          	bne	a5,a0,20011b9a <__metal_driver_cpu_get_msip+0x30>
+20011b7c:	800007b7          	lui	a5,0x80000
+20011b80:	1947a783          	lw	a5,404(a5) # 80000194 <__global_pointer$+0xfffff50c>
+20011b84:	4501                	li	a0,0
+20011b86:	c799                	beqz	a5,20011b94 <__metal_driver_cpu_get_msip+0x2a>
+20011b88:	4398                	lw	a4,0(a5)
+20011b8a:	0070                	addi	a2,sp,12
+20011b8c:	4591                	li	a1,4
+20011b8e:	4778                	lw	a4,76(a4)
+20011b90:	853e                	mv	a0,a5
+20011b92:	9702                	jalr	a4
+20011b94:	40f2                	lw	ra,28(sp)
+20011b96:	6105                	addi	sp,sp,32
+20011b98:	8082                	ret
+20011b9a:	4501                	li	a0,0
+20011b9c:	bfe5                	j	20011b94 <__metal_driver_cpu_get_msip+0x2a>
+
+20011b9e <__metal_driver_cpu_controller_interrupt>:
+__metal_driver_cpu_controller_interrupt():
+20011b9e:	800007b7          	lui	a5,0x80000
+20011ba2:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011ba6:	00a78463          	beq	a5,a0,20011bae <__metal_driver_cpu_controller_interrupt+0x10>
+20011baa:	4501                	li	a0,0
+20011bac:	8082                	ret
+20011bae:	80000537          	lui	a0,0x80000
+20011bb2:	0b850513          	addi	a0,a0,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011bb6:	8082                	ret
+
+20011bb8 <__metal_driver_cpu_get_instruction_length>:
+__metal_driver_cpu_get_instruction_length():
+20011bb8:	0005d783          	lhu	a5,0(a1)
+20011bbc:	470d                	li	a4,3
+20011bbe:	4511                	li	a0,4
+20011bc0:	8b8d                	andi	a5,a5,3
+20011bc2:	00e78363          	beq	a5,a4,20011bc8 <__metal_driver_cpu_get_instruction_length+0x10>
+20011bc6:	4509                	li	a0,2
+20011bc8:	8082                	ret
+
+20011bca <__metal_driver_cpu_get_exception_pc>:
+__metal_driver_cpu_get_exception_pc():
+20011bca:	34102573          	csrr	a0,mepc
+20011bce:	8082                	ret
+
+20011bd0 <__metal_driver_cpu_set_exception_pc>:
+__metal_driver_cpu_set_exception_pc():
+20011bd0:	34159073          	csrw	mepc,a1
+20011bd4:	4501                	li	a0,0
+20011bd6:	8082                	ret
+
+20011bd8 <__metal_driver_cpu_get_buserror>:
+__metal_driver_cpu_get_buserror():
+20011bd8:	4501                	li	a0,0
+20011bda:	8082                	ret
+
+20011bdc <__metal_default_exception_handler>:
+__metal_default_exception_handler():
+20011bdc:	1141                	addi	sp,sp,-16
+20011bde:	06400513          	li	a0,100
+20011be2:	c606                	sw	ra,12(sp)
+20011be4:	78d000ef          	jal	ra,20012b70 <metal_shutdown>
+
+20011be8 <__metal_default_interrupt_handler>:
+__metal_default_interrupt_handler():
+20011be8:	1141                	addi	sp,sp,-16
+20011bea:	0c800513          	li	a0,200
+20011bee:	c606                	sw	ra,12(sp)
+20011bf0:	781000ef          	jal	ra,20012b70 <metal_shutdown>
+
+20011bf4 <__metal_driver_cpu_mtimecmp_set>:
+__metal_driver_cpu_mtimecmp_set():
+20011bf4:	800007b7          	lui	a5,0x80000
+20011bf8:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011bfc:	86b2                	mv	a3,a2
+20011bfe:	862e                	mv	a2,a1
+20011c00:	00a79b63          	bne	a5,a0,20011c16 <__metal_driver_cpu_mtimecmp_set+0x22>
+20011c04:	800007b7          	lui	a5,0x80000
+20011c08:	1f47a503          	lw	a0,500(a5) # 800001f4 <__global_pointer$+0xfffff56c>
+20011c0c:	c509                	beqz	a0,20011c16 <__metal_driver_cpu_mtimecmp_set+0x22>
+20011c0e:	411c                	lw	a5,0(a0)
+20011c10:	4581                	li	a1,0
+20011c12:	4bbc                	lw	a5,80(a5)
+20011c14:	8782                	jr	a5
+20011c16:	557d                	li	a0,-1
+20011c18:	8082                	ret
+
+20011c1a <__metal_driver_riscv_cpu_controller_interrupt_init>:
+__metal_driver_riscv_cpu_controller_interrupt_init():
+20011c1a:	415c                	lw	a5,4(a0)
+20011c1c:	efa9                	bnez	a5,20011c76 <__metal_driver_riscv_cpu_controller_interrupt_init+0x5c>
+20011c1e:	09050793          	addi	a5,a0,144
+20011c22:	39050713          	addi	a4,a0,912
+20011c26:	0007a023          	sw	zero,0(a5)
+20011c2a:	0007a223          	sw	zero,4(a5)
+20011c2e:	0007a423          	sw	zero,8(a5)
+20011c32:	07e1                	addi	a5,a5,24
+20011c34:	fee799e3          	bne	a5,a4,20011c26 <__metal_driver_riscv_cpu_controller_interrupt_init+0xc>
+20011c38:	20012737          	lui	a4,0x20012
+20011c3c:	3a050793          	addi	a5,a0,928
+20011c40:	3d050693          	addi	a3,a0,976
+20011c44:	bdc70713          	addi	a4,a4,-1060 # 20011bdc <__metal_default_exception_handler>
+20011c48:	c398                	sw	a4,0(a5)
+20011c4a:	0791                	addi	a5,a5,4
+20011c4c:	fef69ee3          	bne	a3,a5,20011c48 <__metal_driver_riscv_cpu_controller_interrupt_init+0x2e>
+20011c50:	30502773          	csrr	a4,mtvec
+20011c54:	200107b7          	lui	a5,0x20010
+20011c58:	13478793          	addi	a5,a5,308 # 20010134 <early_trap_vector>
+20011c5c:	00f71b63          	bne	a4,a5,20011c72 <__metal_driver_riscv_cpu_controller_interrupt_init+0x58>
+20011c60:	305027f3          	csrr	a5,mtvec
+20011c64:	200127b7          	lui	a5,0x20012
+20011c68:	98078793          	addi	a5,a5,-1664 # 20011980 <__metal_exception_handler>
+20011c6c:	9bf1                	andi	a5,a5,-4
+20011c6e:	30579073          	csrw	mtvec,a5
+20011c72:	4785                	li	a5,1
+20011c74:	c15c                	sw	a5,4(a0)
+20011c76:	8082                	ret
+
+20011c78 <__metal_driver_cpu_sw_controller_interrupt>:
+__metal_driver_cpu_sw_controller_interrupt():
+20011c78:	80000537          	lui	a0,0x80000
+20011c7c:	48c50513          	addi	a0,a0,1164 # 8000048c <__global_pointer$+0xfffff804>
+20011c80:	8082                	ret
+
+20011c82 <__metal_driver_riscv_cpu_controller_set_vector_mode>:
+__metal_driver_riscv_cpu_controller_set_vector_mode():
+20011c82:	ed81                	bnez	a1,20011c9a <__metal_driver_riscv_cpu_controller_set_vector_mode+0x18>
+20011c84:	305027f3          	csrr	a5,mtvec
+20011c88:	200127b7          	lui	a5,0x20012
+20011c8c:	98078793          	addi	a5,a5,-1664 # 20011980 <__metal_exception_handler>
+20011c90:	9bf1                	andi	a5,a5,-4
+20011c92:	30579073          	csrw	mtvec,a5
+20011c96:	4501                	li	a0,0
+20011c98:	8082                	ret
+20011c9a:	4785                	li	a5,1
+20011c9c:	557d                	li	a0,-1
+20011c9e:	fef59de3          	bne	a1,a5,20011c98 <__metal_driver_riscv_cpu_controller_set_vector_mode+0x16>
+20011ca2:	305027f3          	csrr	a5,mtvec
+20011ca6:	200137b7          	lui	a5,0x20013
+20011caa:	b8078793          	addi	a5,a5,-1152 # 20012b80 <__metal_vector_table>
+20011cae:	0017e793          	ori	a5,a5,1
+20011cb2:	b7c5                	j	20011c92 <__metal_driver_riscv_cpu_controller_set_vector_mode+0x10>
+
+20011cb4 <__metal_driver_cpu_get>:
+__metal_driver_cpu_get():
+20011cb4:	00a04863          	bgtz	a0,20011cc4 <__metal_driver_cpu_get+0x10>
+20011cb8:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20011cbc:	050a                	slli	a0,a0,0x2
+20011cbe:	953e                	add	a0,a0,a5
+20011cc0:	4108                	lw	a0,0(a0)
+20011cc2:	8082                	ret
+20011cc4:	4501                	li	a0,0
+20011cc6:	8082                	ret
+
+20011cc8 <__metal_default_timer_handler>:
+__metal_default_timer_handler():
+20011cc8:	1141                	addi	sp,sp,-16
+20011cca:	c606                	sw	ra,12(sp)
+20011ccc:	c422                	sw	s0,8(sp)
+20011cce:	f1402573          	csrr	a0,mhartid
+20011cd2:	37cd                	jal	20011cb4 <__metal_driver_cpu_get>
+20011cd4:	842a                	mv	s0,a0
+20011cd6:	33d5                	jal	20011aba <__metal_driver_cpu_mtime_get>
+20011cd8:	87ae                	mv	a5,a1
+20011cda:	00a50593          	addi	a1,a0,10
+20011cde:	00a5b633          	sltu	a2,a1,a0
+20011ce2:	8522                	mv	a0,s0
+20011ce4:	4422                	lw	s0,8(sp)
+20011ce6:	40b2                	lw	ra,12(sp)
+20011ce8:	963e                	add	a2,a2,a5
+20011cea:	0141                	addi	sp,sp,16
+20011cec:	b721                	j	20011bf4 <__metal_driver_cpu_mtimecmp_set>
+
+20011cee <metal_interrupt_vector_handler>:
+metal_interrupt_vector_handler():
+20011cee:	7139                	addi	sp,sp,-64
+20011cf0:	d62a                	sw	a0,44(sp)
+20011cf2:	12c00513          	li	a0,300
+20011cf6:	de06                	sw	ra,60(sp)
+20011cf8:	dc16                	sw	t0,56(sp)
+20011cfa:	da1a                	sw	t1,52(sp)
+20011cfc:	d81e                	sw	t2,48(sp)
+20011cfe:	d42e                	sw	a1,40(sp)
+20011d00:	d232                	sw	a2,36(sp)
+20011d02:	d036                	sw	a3,32(sp)
+20011d04:	ce3a                	sw	a4,28(sp)
+20011d06:	cc3e                	sw	a5,24(sp)
+20011d08:	ca42                	sw	a6,20(sp)
+20011d0a:	c846                	sw	a7,16(sp)
+20011d0c:	c672                	sw	t3,12(sp)
+20011d0e:	c476                	sw	t4,8(sp)
+20011d10:	c27a                	sw	t5,4(sp)
+20011d12:	c07e                	sw	t6,0(sp)
+20011d14:	65d000ef          	jal	ra,20012b70 <metal_shutdown>
+
+20011d18 <metal_software_interrupt_vector_handler>:
+metal_software_interrupt_vector_handler():
+20011d18:	7139                	addi	sp,sp,-64
+20011d1a:	de06                	sw	ra,60(sp)
+20011d1c:	dc16                	sw	t0,56(sp)
+20011d1e:	da1a                	sw	t1,52(sp)
+20011d20:	d81e                	sw	t2,48(sp)
+20011d22:	d62a                	sw	a0,44(sp)
+20011d24:	d42e                	sw	a1,40(sp)
+20011d26:	d232                	sw	a2,36(sp)
+20011d28:	d036                	sw	a3,32(sp)
+20011d2a:	ce3a                	sw	a4,28(sp)
+20011d2c:	cc3e                	sw	a5,24(sp)
+20011d2e:	ca42                	sw	a6,20(sp)
+20011d30:	c846                	sw	a7,16(sp)
+20011d32:	c672                	sw	t3,12(sp)
+20011d34:	c476                	sw	t4,8(sp)
+20011d36:	c27a                	sw	t5,4(sp)
+20011d38:	c07e                	sw	t6,0(sp)
+20011d3a:	f14027f3          	csrr	a5,mhartid
+20011d3e:	00279713          	slli	a4,a5,0x2
+20011d42:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20011d46:	97ba                	add	a5,a5,a4
+20011d48:	4398                	lw	a4,0(a5)
+20011d4a:	c30d                	beqz	a4,20011d6c <metal_software_interrupt_vector_handler+0x54>
+20011d4c:	800007b7          	lui	a5,0x80000
+20011d50:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011d54:	02f71f63          	bne	a4,a5,20011d92 <metal_software_interrupt_vector_handler+0x7a>
+20011d58:	800007b7          	lui	a5,0x80000
+20011d5c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011d60:	0d87a703          	lw	a4,216(a5)
+20011d64:	0e07a583          	lw	a1,224(a5)
+20011d68:	450d                	li	a0,3
+20011d6a:	9702                	jalr	a4
+20011d6c:	50f2                	lw	ra,60(sp)
+20011d6e:	52e2                	lw	t0,56(sp)
+20011d70:	5352                	lw	t1,52(sp)
+20011d72:	53c2                	lw	t2,48(sp)
+20011d74:	5532                	lw	a0,44(sp)
+20011d76:	55a2                	lw	a1,40(sp)
+20011d78:	5612                	lw	a2,36(sp)
+20011d7a:	5682                	lw	a3,32(sp)
+20011d7c:	4772                	lw	a4,28(sp)
+20011d7e:	47e2                	lw	a5,24(sp)
+20011d80:	4852                	lw	a6,20(sp)
+20011d82:	48c2                	lw	a7,16(sp)
+20011d84:	4e32                	lw	t3,12(sp)
+20011d86:	4ea2                	lw	t4,8(sp)
+20011d88:	4f12                	lw	t5,4(sp)
+20011d8a:	4f82                	lw	t6,0(sp)
+20011d8c:	6121                	addi	sp,sp,64
+20011d8e:	30200073          	mret
+20011d92:	0e002783          	lw	a5,224(zero) # e0 <__metal_chicken_bit+0xdf>
+20011d96:	9002                	ebreak
+
+20011d98 <metal_timer_interrupt_vector_handler>:
+metal_timer_interrupt_vector_handler():
+20011d98:	7139                	addi	sp,sp,-64
+20011d9a:	de06                	sw	ra,60(sp)
+20011d9c:	dc16                	sw	t0,56(sp)
+20011d9e:	da1a                	sw	t1,52(sp)
+20011da0:	d81e                	sw	t2,48(sp)
+20011da2:	d62a                	sw	a0,44(sp)
+20011da4:	d42e                	sw	a1,40(sp)
+20011da6:	d232                	sw	a2,36(sp)
+20011da8:	d036                	sw	a3,32(sp)
+20011daa:	ce3a                	sw	a4,28(sp)
+20011dac:	cc3e                	sw	a5,24(sp)
+20011dae:	ca42                	sw	a6,20(sp)
+20011db0:	c846                	sw	a7,16(sp)
+20011db2:	c672                	sw	t3,12(sp)
+20011db4:	c476                	sw	t4,8(sp)
+20011db6:	c27a                	sw	t5,4(sp)
+20011db8:	c07e                	sw	t6,0(sp)
+20011dba:	f14027f3          	csrr	a5,mhartid
+20011dbe:	00279713          	slli	a4,a5,0x2
+20011dc2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20011dc6:	97ba                	add	a5,a5,a4
+20011dc8:	4398                	lw	a4,0(a5)
+20011dca:	c30d                	beqz	a4,20011dec <metal_timer_interrupt_vector_handler+0x54>
+20011dcc:	800007b7          	lui	a5,0x80000
+20011dd0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011dd4:	02f71f63          	bne	a4,a5,20011e12 <metal_timer_interrupt_vector_handler+0x7a>
+20011dd8:	800007b7          	lui	a5,0x80000
+20011ddc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011de0:	1387a703          	lw	a4,312(a5)
+20011de4:	1407a583          	lw	a1,320(a5)
+20011de8:	451d                	li	a0,7
+20011dea:	9702                	jalr	a4
+20011dec:	50f2                	lw	ra,60(sp)
+20011dee:	52e2                	lw	t0,56(sp)
+20011df0:	5352                	lw	t1,52(sp)
+20011df2:	53c2                	lw	t2,48(sp)
+20011df4:	5532                	lw	a0,44(sp)
+20011df6:	55a2                	lw	a1,40(sp)
+20011df8:	5612                	lw	a2,36(sp)
+20011dfa:	5682                	lw	a3,32(sp)
+20011dfc:	4772                	lw	a4,28(sp)
+20011dfe:	47e2                	lw	a5,24(sp)
+20011e00:	4852                	lw	a6,20(sp)
+20011e02:	48c2                	lw	a7,16(sp)
+20011e04:	4e32                	lw	t3,12(sp)
+20011e06:	4ea2                	lw	t4,8(sp)
+20011e08:	4f12                	lw	t5,4(sp)
+20011e0a:	4f82                	lw	t6,0(sp)
+20011e0c:	6121                	addi	sp,sp,64
+20011e0e:	30200073          	mret
+20011e12:	14002783          	lw	a5,320(zero) # 140 <__metal_chicken_bit+0x13f>
+20011e16:	9002                	ebreak
+
+20011e18 <metal_lc0_interrupt_vector_handler>:
+metal_lc0_interrupt_vector_handler():
+20011e18:	7139                	addi	sp,sp,-64
+20011e1a:	de06                	sw	ra,60(sp)
+20011e1c:	dc16                	sw	t0,56(sp)
+20011e1e:	da1a                	sw	t1,52(sp)
+20011e20:	d81e                	sw	t2,48(sp)
+20011e22:	d62a                	sw	a0,44(sp)
+20011e24:	d42e                	sw	a1,40(sp)
+20011e26:	d232                	sw	a2,36(sp)
+20011e28:	d036                	sw	a3,32(sp)
+20011e2a:	ce3a                	sw	a4,28(sp)
+20011e2c:	cc3e                	sw	a5,24(sp)
+20011e2e:	ca42                	sw	a6,20(sp)
+20011e30:	c846                	sw	a7,16(sp)
+20011e32:	c672                	sw	t3,12(sp)
+20011e34:	c476                	sw	t4,8(sp)
+20011e36:	c27a                	sw	t5,4(sp)
+20011e38:	c07e                	sw	t6,0(sp)
+20011e3a:	f14027f3          	csrr	a5,mhartid
+20011e3e:	00279713          	slli	a4,a5,0x2
+20011e42:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20011e46:	97ba                	add	a5,a5,a4
+20011e48:	4398                	lw	a4,0(a5)
+20011e4a:	c30d                	beqz	a4,20011e6c <metal_lc0_interrupt_vector_handler+0x54>
+20011e4c:	800007b7          	lui	a5,0x80000
+20011e50:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011e54:	02f71f63          	bne	a4,a5,20011e92 <metal_lc0_interrupt_vector_handler+0x7a>
+20011e58:	800007b7          	lui	a5,0x80000
+20011e5c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011e60:	2107a703          	lw	a4,528(a5)
+20011e64:	2187a583          	lw	a1,536(a5)
+20011e68:	4541                	li	a0,16
+20011e6a:	9702                	jalr	a4
+20011e6c:	50f2                	lw	ra,60(sp)
+20011e6e:	52e2                	lw	t0,56(sp)
+20011e70:	5352                	lw	t1,52(sp)
+20011e72:	53c2                	lw	t2,48(sp)
+20011e74:	5532                	lw	a0,44(sp)
+20011e76:	55a2                	lw	a1,40(sp)
+20011e78:	5612                	lw	a2,36(sp)
+20011e7a:	5682                	lw	a3,32(sp)
+20011e7c:	4772                	lw	a4,28(sp)
+20011e7e:	47e2                	lw	a5,24(sp)
+20011e80:	4852                	lw	a6,20(sp)
+20011e82:	48c2                	lw	a7,16(sp)
+20011e84:	4e32                	lw	t3,12(sp)
+20011e86:	4ea2                	lw	t4,8(sp)
+20011e88:	4f12                	lw	t5,4(sp)
+20011e8a:	4f82                	lw	t6,0(sp)
+20011e8c:	6121                	addi	sp,sp,64
+20011e8e:	30200073          	mret
+20011e92:	21802783          	lw	a5,536(zero) # 218 <__metal_chicken_bit+0x217>
+20011e96:	9002                	ebreak
+
+20011e98 <metal_lc1_interrupt_vector_handler>:
+metal_lc1_interrupt_vector_handler():
+20011e98:	7139                	addi	sp,sp,-64
+20011e9a:	de06                	sw	ra,60(sp)
+20011e9c:	dc16                	sw	t0,56(sp)
+20011e9e:	da1a                	sw	t1,52(sp)
+20011ea0:	d81e                	sw	t2,48(sp)
+20011ea2:	d62a                	sw	a0,44(sp)
+20011ea4:	d42e                	sw	a1,40(sp)
+20011ea6:	d232                	sw	a2,36(sp)
+20011ea8:	d036                	sw	a3,32(sp)
+20011eaa:	ce3a                	sw	a4,28(sp)
+20011eac:	cc3e                	sw	a5,24(sp)
+20011eae:	ca42                	sw	a6,20(sp)
+20011eb0:	c846                	sw	a7,16(sp)
+20011eb2:	c672                	sw	t3,12(sp)
+20011eb4:	c476                	sw	t4,8(sp)
+20011eb6:	c27a                	sw	t5,4(sp)
+20011eb8:	c07e                	sw	t6,0(sp)
+20011eba:	f14027f3          	csrr	a5,mhartid
+20011ebe:	00279713          	slli	a4,a5,0x2
+20011ec2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20011ec6:	97ba                	add	a5,a5,a4
+20011ec8:	4398                	lw	a4,0(a5)
+20011eca:	c30d                	beqz	a4,20011eec <metal_lc1_interrupt_vector_handler+0x54>
+20011ecc:	800007b7          	lui	a5,0x80000
+20011ed0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011ed4:	02f71f63          	bne	a4,a5,20011f12 <metal_lc1_interrupt_vector_handler+0x7a>
+20011ed8:	800007b7          	lui	a5,0x80000
+20011edc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011ee0:	2287a703          	lw	a4,552(a5)
+20011ee4:	2307a583          	lw	a1,560(a5)
+20011ee8:	4545                	li	a0,17
+20011eea:	9702                	jalr	a4
+20011eec:	50f2                	lw	ra,60(sp)
+20011eee:	52e2                	lw	t0,56(sp)
+20011ef0:	5352                	lw	t1,52(sp)
+20011ef2:	53c2                	lw	t2,48(sp)
+20011ef4:	5532                	lw	a0,44(sp)
+20011ef6:	55a2                	lw	a1,40(sp)
+20011ef8:	5612                	lw	a2,36(sp)
+20011efa:	5682                	lw	a3,32(sp)
+20011efc:	4772                	lw	a4,28(sp)
+20011efe:	47e2                	lw	a5,24(sp)
+20011f00:	4852                	lw	a6,20(sp)
+20011f02:	48c2                	lw	a7,16(sp)
+20011f04:	4e32                	lw	t3,12(sp)
+20011f06:	4ea2                	lw	t4,8(sp)
+20011f08:	4f12                	lw	t5,4(sp)
+20011f0a:	4f82                	lw	t6,0(sp)
+20011f0c:	6121                	addi	sp,sp,64
+20011f0e:	30200073          	mret
+20011f12:	23002783          	lw	a5,560(zero) # 230 <__metal_chicken_bit+0x22f>
+20011f16:	9002                	ebreak
+
+20011f18 <metal_lc2_interrupt_vector_handler>:
+metal_lc2_interrupt_vector_handler():
+20011f18:	7139                	addi	sp,sp,-64
+20011f1a:	de06                	sw	ra,60(sp)
+20011f1c:	dc16                	sw	t0,56(sp)
+20011f1e:	da1a                	sw	t1,52(sp)
+20011f20:	d81e                	sw	t2,48(sp)
+20011f22:	d62a                	sw	a0,44(sp)
+20011f24:	d42e                	sw	a1,40(sp)
+20011f26:	d232                	sw	a2,36(sp)
+20011f28:	d036                	sw	a3,32(sp)
+20011f2a:	ce3a                	sw	a4,28(sp)
+20011f2c:	cc3e                	sw	a5,24(sp)
+20011f2e:	ca42                	sw	a6,20(sp)
+20011f30:	c846                	sw	a7,16(sp)
+20011f32:	c672                	sw	t3,12(sp)
+20011f34:	c476                	sw	t4,8(sp)
+20011f36:	c27a                	sw	t5,4(sp)
+20011f38:	c07e                	sw	t6,0(sp)
+20011f3a:	f14027f3          	csrr	a5,mhartid
+20011f3e:	00279713          	slli	a4,a5,0x2
+20011f42:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20011f46:	97ba                	add	a5,a5,a4
+20011f48:	4398                	lw	a4,0(a5)
+20011f4a:	c30d                	beqz	a4,20011f6c <metal_lc2_interrupt_vector_handler+0x54>
+20011f4c:	800007b7          	lui	a5,0x80000
+20011f50:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011f54:	02f71f63          	bne	a4,a5,20011f92 <metal_lc2_interrupt_vector_handler+0x7a>
+20011f58:	800007b7          	lui	a5,0x80000
+20011f5c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011f60:	2407a703          	lw	a4,576(a5)
+20011f64:	2487a583          	lw	a1,584(a5)
+20011f68:	4549                	li	a0,18
+20011f6a:	9702                	jalr	a4
+20011f6c:	50f2                	lw	ra,60(sp)
+20011f6e:	52e2                	lw	t0,56(sp)
+20011f70:	5352                	lw	t1,52(sp)
+20011f72:	53c2                	lw	t2,48(sp)
+20011f74:	5532                	lw	a0,44(sp)
+20011f76:	55a2                	lw	a1,40(sp)
+20011f78:	5612                	lw	a2,36(sp)
+20011f7a:	5682                	lw	a3,32(sp)
+20011f7c:	4772                	lw	a4,28(sp)
+20011f7e:	47e2                	lw	a5,24(sp)
+20011f80:	4852                	lw	a6,20(sp)
+20011f82:	48c2                	lw	a7,16(sp)
+20011f84:	4e32                	lw	t3,12(sp)
+20011f86:	4ea2                	lw	t4,8(sp)
+20011f88:	4f12                	lw	t5,4(sp)
+20011f8a:	4f82                	lw	t6,0(sp)
+20011f8c:	6121                	addi	sp,sp,64
+20011f8e:	30200073          	mret
+20011f92:	24802783          	lw	a5,584(zero) # 248 <__metal_chicken_bit+0x247>
+20011f96:	9002                	ebreak
+
+20011f98 <metal_lc3_interrupt_vector_handler>:
+metal_lc3_interrupt_vector_handler():
+20011f98:	7139                	addi	sp,sp,-64
+20011f9a:	de06                	sw	ra,60(sp)
+20011f9c:	dc16                	sw	t0,56(sp)
+20011f9e:	da1a                	sw	t1,52(sp)
+20011fa0:	d81e                	sw	t2,48(sp)
+20011fa2:	d62a                	sw	a0,44(sp)
+20011fa4:	d42e                	sw	a1,40(sp)
+20011fa6:	d232                	sw	a2,36(sp)
+20011fa8:	d036                	sw	a3,32(sp)
+20011faa:	ce3a                	sw	a4,28(sp)
+20011fac:	cc3e                	sw	a5,24(sp)
+20011fae:	ca42                	sw	a6,20(sp)
+20011fb0:	c846                	sw	a7,16(sp)
+20011fb2:	c672                	sw	t3,12(sp)
+20011fb4:	c476                	sw	t4,8(sp)
+20011fb6:	c27a                	sw	t5,4(sp)
+20011fb8:	c07e                	sw	t6,0(sp)
+20011fba:	f14027f3          	csrr	a5,mhartid
+20011fbe:	00279713          	slli	a4,a5,0x2
+20011fc2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20011fc6:	97ba                	add	a5,a5,a4
+20011fc8:	4398                	lw	a4,0(a5)
+20011fca:	c30d                	beqz	a4,20011fec <metal_lc3_interrupt_vector_handler+0x54>
+20011fcc:	800007b7          	lui	a5,0x80000
+20011fd0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20011fd4:	02f71f63          	bne	a4,a5,20012012 <metal_lc3_interrupt_vector_handler+0x7a>
+20011fd8:	800007b7          	lui	a5,0x80000
+20011fdc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20011fe0:	2587a703          	lw	a4,600(a5)
+20011fe4:	2607a583          	lw	a1,608(a5)
+20011fe8:	454d                	li	a0,19
+20011fea:	9702                	jalr	a4
+20011fec:	50f2                	lw	ra,60(sp)
+20011fee:	52e2                	lw	t0,56(sp)
+20011ff0:	5352                	lw	t1,52(sp)
+20011ff2:	53c2                	lw	t2,48(sp)
+20011ff4:	5532                	lw	a0,44(sp)
+20011ff6:	55a2                	lw	a1,40(sp)
+20011ff8:	5612                	lw	a2,36(sp)
+20011ffa:	5682                	lw	a3,32(sp)
+20011ffc:	4772                	lw	a4,28(sp)
+20011ffe:	47e2                	lw	a5,24(sp)
+20012000:	4852                	lw	a6,20(sp)
+20012002:	48c2                	lw	a7,16(sp)
+20012004:	4e32                	lw	t3,12(sp)
+20012006:	4ea2                	lw	t4,8(sp)
+20012008:	4f12                	lw	t5,4(sp)
+2001200a:	4f82                	lw	t6,0(sp)
+2001200c:	6121                	addi	sp,sp,64
+2001200e:	30200073          	mret
+20012012:	26002783          	lw	a5,608(zero) # 260 <__metal_chicken_bit+0x25f>
+20012016:	9002                	ebreak
+
+20012018 <metal_lc4_interrupt_vector_handler>:
+metal_lc4_interrupt_vector_handler():
+20012018:	7139                	addi	sp,sp,-64
+2001201a:	de06                	sw	ra,60(sp)
+2001201c:	dc16                	sw	t0,56(sp)
+2001201e:	da1a                	sw	t1,52(sp)
+20012020:	d81e                	sw	t2,48(sp)
+20012022:	d62a                	sw	a0,44(sp)
+20012024:	d42e                	sw	a1,40(sp)
+20012026:	d232                	sw	a2,36(sp)
+20012028:	d036                	sw	a3,32(sp)
+2001202a:	ce3a                	sw	a4,28(sp)
+2001202c:	cc3e                	sw	a5,24(sp)
+2001202e:	ca42                	sw	a6,20(sp)
+20012030:	c846                	sw	a7,16(sp)
+20012032:	c672                	sw	t3,12(sp)
+20012034:	c476                	sw	t4,8(sp)
+20012036:	c27a                	sw	t5,4(sp)
+20012038:	c07e                	sw	t6,0(sp)
+2001203a:	f14027f3          	csrr	a5,mhartid
+2001203e:	00279713          	slli	a4,a5,0x2
+20012042:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20012046:	97ba                	add	a5,a5,a4
+20012048:	4398                	lw	a4,0(a5)
+2001204a:	c30d                	beqz	a4,2001206c <metal_lc4_interrupt_vector_handler+0x54>
+2001204c:	800007b7          	lui	a5,0x80000
+20012050:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20012054:	02f71f63          	bne	a4,a5,20012092 <metal_lc4_interrupt_vector_handler+0x7a>
+20012058:	800007b7          	lui	a5,0x80000
+2001205c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20012060:	2707a703          	lw	a4,624(a5)
+20012064:	2787a583          	lw	a1,632(a5)
+20012068:	4551                	li	a0,20
+2001206a:	9702                	jalr	a4
+2001206c:	50f2                	lw	ra,60(sp)
+2001206e:	52e2                	lw	t0,56(sp)
+20012070:	5352                	lw	t1,52(sp)
+20012072:	53c2                	lw	t2,48(sp)
+20012074:	5532                	lw	a0,44(sp)
+20012076:	55a2                	lw	a1,40(sp)
+20012078:	5612                	lw	a2,36(sp)
+2001207a:	5682                	lw	a3,32(sp)
+2001207c:	4772                	lw	a4,28(sp)
+2001207e:	47e2                	lw	a5,24(sp)
+20012080:	4852                	lw	a6,20(sp)
+20012082:	48c2                	lw	a7,16(sp)
+20012084:	4e32                	lw	t3,12(sp)
+20012086:	4ea2                	lw	t4,8(sp)
+20012088:	4f12                	lw	t5,4(sp)
+2001208a:	4f82                	lw	t6,0(sp)
+2001208c:	6121                	addi	sp,sp,64
+2001208e:	30200073          	mret
+20012092:	27802783          	lw	a5,632(zero) # 278 <__metal_chicken_bit+0x277>
+20012096:	9002                	ebreak
+
+20012098 <metal_lc5_interrupt_vector_handler>:
+metal_lc5_interrupt_vector_handler():
+20012098:	7139                	addi	sp,sp,-64
+2001209a:	de06                	sw	ra,60(sp)
+2001209c:	dc16                	sw	t0,56(sp)
+2001209e:	da1a                	sw	t1,52(sp)
+200120a0:	d81e                	sw	t2,48(sp)
+200120a2:	d62a                	sw	a0,44(sp)
+200120a4:	d42e                	sw	a1,40(sp)
+200120a6:	d232                	sw	a2,36(sp)
+200120a8:	d036                	sw	a3,32(sp)
+200120aa:	ce3a                	sw	a4,28(sp)
+200120ac:	cc3e                	sw	a5,24(sp)
+200120ae:	ca42                	sw	a6,20(sp)
+200120b0:	c846                	sw	a7,16(sp)
+200120b2:	c672                	sw	t3,12(sp)
+200120b4:	c476                	sw	t4,8(sp)
+200120b6:	c27a                	sw	t5,4(sp)
+200120b8:	c07e                	sw	t6,0(sp)
+200120ba:	f14027f3          	csrr	a5,mhartid
+200120be:	00279713          	slli	a4,a5,0x2
+200120c2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+200120c6:	97ba                	add	a5,a5,a4
+200120c8:	4398                	lw	a4,0(a5)
+200120ca:	c30d                	beqz	a4,200120ec <metal_lc5_interrupt_vector_handler+0x54>
+200120cc:	800007b7          	lui	a5,0x80000
+200120d0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+200120d4:	02f71f63          	bne	a4,a5,20012112 <metal_lc5_interrupt_vector_handler+0x7a>
+200120d8:	800007b7          	lui	a5,0x80000
+200120dc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+200120e0:	2887a703          	lw	a4,648(a5)
+200120e4:	2907a583          	lw	a1,656(a5)
+200120e8:	4555                	li	a0,21
+200120ea:	9702                	jalr	a4
+200120ec:	50f2                	lw	ra,60(sp)
+200120ee:	52e2                	lw	t0,56(sp)
+200120f0:	5352                	lw	t1,52(sp)
+200120f2:	53c2                	lw	t2,48(sp)
+200120f4:	5532                	lw	a0,44(sp)
+200120f6:	55a2                	lw	a1,40(sp)
+200120f8:	5612                	lw	a2,36(sp)
+200120fa:	5682                	lw	a3,32(sp)
+200120fc:	4772                	lw	a4,28(sp)
+200120fe:	47e2                	lw	a5,24(sp)
+20012100:	4852                	lw	a6,20(sp)
+20012102:	48c2                	lw	a7,16(sp)
+20012104:	4e32                	lw	t3,12(sp)
+20012106:	4ea2                	lw	t4,8(sp)
+20012108:	4f12                	lw	t5,4(sp)
+2001210a:	4f82                	lw	t6,0(sp)
+2001210c:	6121                	addi	sp,sp,64
+2001210e:	30200073          	mret
+20012112:	29002783          	lw	a5,656(zero) # 290 <__metal_chicken_bit+0x28f>
+20012116:	9002                	ebreak
+
+20012118 <metal_lc6_interrupt_vector_handler>:
+metal_lc6_interrupt_vector_handler():
+20012118:	7139                	addi	sp,sp,-64
+2001211a:	de06                	sw	ra,60(sp)
+2001211c:	dc16                	sw	t0,56(sp)
+2001211e:	da1a                	sw	t1,52(sp)
+20012120:	d81e                	sw	t2,48(sp)
+20012122:	d62a                	sw	a0,44(sp)
+20012124:	d42e                	sw	a1,40(sp)
+20012126:	d232                	sw	a2,36(sp)
+20012128:	d036                	sw	a3,32(sp)
+2001212a:	ce3a                	sw	a4,28(sp)
+2001212c:	cc3e                	sw	a5,24(sp)
+2001212e:	ca42                	sw	a6,20(sp)
+20012130:	c846                	sw	a7,16(sp)
+20012132:	c672                	sw	t3,12(sp)
+20012134:	c476                	sw	t4,8(sp)
+20012136:	c27a                	sw	t5,4(sp)
+20012138:	c07e                	sw	t6,0(sp)
+2001213a:	f14027f3          	csrr	a5,mhartid
+2001213e:	00279713          	slli	a4,a5,0x2
+20012142:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20012146:	97ba                	add	a5,a5,a4
+20012148:	4398                	lw	a4,0(a5)
+2001214a:	c30d                	beqz	a4,2001216c <metal_lc6_interrupt_vector_handler+0x54>
+2001214c:	800007b7          	lui	a5,0x80000
+20012150:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20012154:	02f71f63          	bne	a4,a5,20012192 <metal_lc6_interrupt_vector_handler+0x7a>
+20012158:	800007b7          	lui	a5,0x80000
+2001215c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20012160:	2a07a703          	lw	a4,672(a5)
+20012164:	2a87a583          	lw	a1,680(a5)
+20012168:	4559                	li	a0,22
+2001216a:	9702                	jalr	a4
+2001216c:	50f2                	lw	ra,60(sp)
+2001216e:	52e2                	lw	t0,56(sp)
+20012170:	5352                	lw	t1,52(sp)
+20012172:	53c2                	lw	t2,48(sp)
+20012174:	5532                	lw	a0,44(sp)
+20012176:	55a2                	lw	a1,40(sp)
+20012178:	5612                	lw	a2,36(sp)
+2001217a:	5682                	lw	a3,32(sp)
+2001217c:	4772                	lw	a4,28(sp)
+2001217e:	47e2                	lw	a5,24(sp)
+20012180:	4852                	lw	a6,20(sp)
+20012182:	48c2                	lw	a7,16(sp)
+20012184:	4e32                	lw	t3,12(sp)
+20012186:	4ea2                	lw	t4,8(sp)
+20012188:	4f12                	lw	t5,4(sp)
+2001218a:	4f82                	lw	t6,0(sp)
+2001218c:	6121                	addi	sp,sp,64
+2001218e:	30200073          	mret
+20012192:	2a802783          	lw	a5,680(zero) # 2a8 <__metal_chicken_bit+0x2a7>
+20012196:	9002                	ebreak
+
+20012198 <metal_lc7_interrupt_vector_handler>:
+metal_lc7_interrupt_vector_handler():
+20012198:	7139                	addi	sp,sp,-64
+2001219a:	de06                	sw	ra,60(sp)
+2001219c:	dc16                	sw	t0,56(sp)
+2001219e:	da1a                	sw	t1,52(sp)
+200121a0:	d81e                	sw	t2,48(sp)
+200121a2:	d62a                	sw	a0,44(sp)
+200121a4:	d42e                	sw	a1,40(sp)
+200121a6:	d232                	sw	a2,36(sp)
+200121a8:	d036                	sw	a3,32(sp)
+200121aa:	ce3a                	sw	a4,28(sp)
+200121ac:	cc3e                	sw	a5,24(sp)
+200121ae:	ca42                	sw	a6,20(sp)
+200121b0:	c846                	sw	a7,16(sp)
+200121b2:	c672                	sw	t3,12(sp)
+200121b4:	c476                	sw	t4,8(sp)
+200121b6:	c27a                	sw	t5,4(sp)
+200121b8:	c07e                	sw	t6,0(sp)
+200121ba:	f14027f3          	csrr	a5,mhartid
+200121be:	00279713          	slli	a4,a5,0x2
+200121c2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+200121c6:	97ba                	add	a5,a5,a4
+200121c8:	4398                	lw	a4,0(a5)
+200121ca:	c30d                	beqz	a4,200121ec <metal_lc7_interrupt_vector_handler+0x54>
+200121cc:	800007b7          	lui	a5,0x80000
+200121d0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+200121d4:	02f71f63          	bne	a4,a5,20012212 <metal_lc7_interrupt_vector_handler+0x7a>
+200121d8:	800007b7          	lui	a5,0x80000
+200121dc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+200121e0:	2b87a703          	lw	a4,696(a5)
+200121e4:	2c07a583          	lw	a1,704(a5)
+200121e8:	455d                	li	a0,23
+200121ea:	9702                	jalr	a4
+200121ec:	50f2                	lw	ra,60(sp)
+200121ee:	52e2                	lw	t0,56(sp)
+200121f0:	5352                	lw	t1,52(sp)
+200121f2:	53c2                	lw	t2,48(sp)
+200121f4:	5532                	lw	a0,44(sp)
+200121f6:	55a2                	lw	a1,40(sp)
+200121f8:	5612                	lw	a2,36(sp)
+200121fa:	5682                	lw	a3,32(sp)
+200121fc:	4772                	lw	a4,28(sp)
+200121fe:	47e2                	lw	a5,24(sp)
+20012200:	4852                	lw	a6,20(sp)
+20012202:	48c2                	lw	a7,16(sp)
+20012204:	4e32                	lw	t3,12(sp)
+20012206:	4ea2                	lw	t4,8(sp)
+20012208:	4f12                	lw	t5,4(sp)
+2001220a:	4f82                	lw	t6,0(sp)
+2001220c:	6121                	addi	sp,sp,64
+2001220e:	30200073          	mret
+20012212:	2c002783          	lw	a5,704(zero) # 2c0 <__metal_chicken_bit+0x2bf>
+20012216:	9002                	ebreak
+
+20012218 <metal_lc8_interrupt_vector_handler>:
+metal_lc8_interrupt_vector_handler():
+20012218:	7139                	addi	sp,sp,-64
+2001221a:	de06                	sw	ra,60(sp)
+2001221c:	dc16                	sw	t0,56(sp)
+2001221e:	da1a                	sw	t1,52(sp)
+20012220:	d81e                	sw	t2,48(sp)
+20012222:	d62a                	sw	a0,44(sp)
+20012224:	d42e                	sw	a1,40(sp)
+20012226:	d232                	sw	a2,36(sp)
+20012228:	d036                	sw	a3,32(sp)
+2001222a:	ce3a                	sw	a4,28(sp)
+2001222c:	cc3e                	sw	a5,24(sp)
+2001222e:	ca42                	sw	a6,20(sp)
+20012230:	c846                	sw	a7,16(sp)
+20012232:	c672                	sw	t3,12(sp)
+20012234:	c476                	sw	t4,8(sp)
+20012236:	c27a                	sw	t5,4(sp)
+20012238:	c07e                	sw	t6,0(sp)
+2001223a:	f14027f3          	csrr	a5,mhartid
+2001223e:	00279713          	slli	a4,a5,0x2
+20012242:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20012246:	97ba                	add	a5,a5,a4
+20012248:	4398                	lw	a4,0(a5)
+2001224a:	c30d                	beqz	a4,2001226c <metal_lc8_interrupt_vector_handler+0x54>
+2001224c:	800007b7          	lui	a5,0x80000
+20012250:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20012254:	02f71f63          	bne	a4,a5,20012292 <metal_lc8_interrupt_vector_handler+0x7a>
+20012258:	800007b7          	lui	a5,0x80000
+2001225c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20012260:	2d07a703          	lw	a4,720(a5)
+20012264:	2d87a583          	lw	a1,728(a5)
+20012268:	4561                	li	a0,24
+2001226a:	9702                	jalr	a4
+2001226c:	50f2                	lw	ra,60(sp)
+2001226e:	52e2                	lw	t0,56(sp)
+20012270:	5352                	lw	t1,52(sp)
+20012272:	53c2                	lw	t2,48(sp)
+20012274:	5532                	lw	a0,44(sp)
+20012276:	55a2                	lw	a1,40(sp)
+20012278:	5612                	lw	a2,36(sp)
+2001227a:	5682                	lw	a3,32(sp)
+2001227c:	4772                	lw	a4,28(sp)
+2001227e:	47e2                	lw	a5,24(sp)
+20012280:	4852                	lw	a6,20(sp)
+20012282:	48c2                	lw	a7,16(sp)
+20012284:	4e32                	lw	t3,12(sp)
+20012286:	4ea2                	lw	t4,8(sp)
+20012288:	4f12                	lw	t5,4(sp)
+2001228a:	4f82                	lw	t6,0(sp)
+2001228c:	6121                	addi	sp,sp,64
+2001228e:	30200073          	mret
+20012292:	2d802783          	lw	a5,728(zero) # 2d8 <__metal_chicken_bit+0x2d7>
+20012296:	9002                	ebreak
+
+20012298 <metal_lc9_interrupt_vector_handler>:
+metal_lc9_interrupt_vector_handler():
+20012298:	7139                	addi	sp,sp,-64
+2001229a:	de06                	sw	ra,60(sp)
+2001229c:	dc16                	sw	t0,56(sp)
+2001229e:	da1a                	sw	t1,52(sp)
+200122a0:	d81e                	sw	t2,48(sp)
+200122a2:	d62a                	sw	a0,44(sp)
+200122a4:	d42e                	sw	a1,40(sp)
+200122a6:	d232                	sw	a2,36(sp)
+200122a8:	d036                	sw	a3,32(sp)
+200122aa:	ce3a                	sw	a4,28(sp)
+200122ac:	cc3e                	sw	a5,24(sp)
+200122ae:	ca42                	sw	a6,20(sp)
+200122b0:	c846                	sw	a7,16(sp)
+200122b2:	c672                	sw	t3,12(sp)
+200122b4:	c476                	sw	t4,8(sp)
+200122b6:	c27a                	sw	t5,4(sp)
+200122b8:	c07e                	sw	t6,0(sp)
+200122ba:	f14027f3          	csrr	a5,mhartid
+200122be:	00279713          	slli	a4,a5,0x2
+200122c2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+200122c6:	97ba                	add	a5,a5,a4
+200122c8:	4398                	lw	a4,0(a5)
+200122ca:	c30d                	beqz	a4,200122ec <metal_lc9_interrupt_vector_handler+0x54>
+200122cc:	800007b7          	lui	a5,0x80000
+200122d0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+200122d4:	02f71f63          	bne	a4,a5,20012312 <metal_lc9_interrupt_vector_handler+0x7a>
+200122d8:	800007b7          	lui	a5,0x80000
+200122dc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+200122e0:	2e87a703          	lw	a4,744(a5)
+200122e4:	2f07a583          	lw	a1,752(a5)
+200122e8:	4565                	li	a0,25
+200122ea:	9702                	jalr	a4
+200122ec:	50f2                	lw	ra,60(sp)
+200122ee:	52e2                	lw	t0,56(sp)
+200122f0:	5352                	lw	t1,52(sp)
+200122f2:	53c2                	lw	t2,48(sp)
+200122f4:	5532                	lw	a0,44(sp)
+200122f6:	55a2                	lw	a1,40(sp)
+200122f8:	5612                	lw	a2,36(sp)
+200122fa:	5682                	lw	a3,32(sp)
+200122fc:	4772                	lw	a4,28(sp)
+200122fe:	47e2                	lw	a5,24(sp)
+20012300:	4852                	lw	a6,20(sp)
+20012302:	48c2                	lw	a7,16(sp)
+20012304:	4e32                	lw	t3,12(sp)
+20012306:	4ea2                	lw	t4,8(sp)
+20012308:	4f12                	lw	t5,4(sp)
+2001230a:	4f82                	lw	t6,0(sp)
+2001230c:	6121                	addi	sp,sp,64
+2001230e:	30200073          	mret
+20012312:	2f002783          	lw	a5,752(zero) # 2f0 <__metal_chicken_bit+0x2ef>
+20012316:	9002                	ebreak
+
+20012318 <metal_lc10_interrupt_vector_handler>:
+metal_lc10_interrupt_vector_handler():
+20012318:	7139                	addi	sp,sp,-64
+2001231a:	de06                	sw	ra,60(sp)
+2001231c:	dc16                	sw	t0,56(sp)
+2001231e:	da1a                	sw	t1,52(sp)
+20012320:	d81e                	sw	t2,48(sp)
+20012322:	d62a                	sw	a0,44(sp)
+20012324:	d42e                	sw	a1,40(sp)
+20012326:	d232                	sw	a2,36(sp)
+20012328:	d036                	sw	a3,32(sp)
+2001232a:	ce3a                	sw	a4,28(sp)
+2001232c:	cc3e                	sw	a5,24(sp)
+2001232e:	ca42                	sw	a6,20(sp)
+20012330:	c846                	sw	a7,16(sp)
+20012332:	c672                	sw	t3,12(sp)
+20012334:	c476                	sw	t4,8(sp)
+20012336:	c27a                	sw	t5,4(sp)
+20012338:	c07e                	sw	t6,0(sp)
+2001233a:	f14027f3          	csrr	a5,mhartid
+2001233e:	00279713          	slli	a4,a5,0x2
+20012342:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20012346:	97ba                	add	a5,a5,a4
+20012348:	4398                	lw	a4,0(a5)
+2001234a:	c30d                	beqz	a4,2001236c <metal_lc10_interrupt_vector_handler+0x54>
+2001234c:	800007b7          	lui	a5,0x80000
+20012350:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20012354:	02f71f63          	bne	a4,a5,20012392 <metal_lc10_interrupt_vector_handler+0x7a>
+20012358:	800007b7          	lui	a5,0x80000
+2001235c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20012360:	3007a703          	lw	a4,768(a5)
+20012364:	3087a583          	lw	a1,776(a5)
+20012368:	4569                	li	a0,26
+2001236a:	9702                	jalr	a4
+2001236c:	50f2                	lw	ra,60(sp)
+2001236e:	52e2                	lw	t0,56(sp)
+20012370:	5352                	lw	t1,52(sp)
+20012372:	53c2                	lw	t2,48(sp)
+20012374:	5532                	lw	a0,44(sp)
+20012376:	55a2                	lw	a1,40(sp)
+20012378:	5612                	lw	a2,36(sp)
+2001237a:	5682                	lw	a3,32(sp)
+2001237c:	4772                	lw	a4,28(sp)
+2001237e:	47e2                	lw	a5,24(sp)
+20012380:	4852                	lw	a6,20(sp)
+20012382:	48c2                	lw	a7,16(sp)
+20012384:	4e32                	lw	t3,12(sp)
+20012386:	4ea2                	lw	t4,8(sp)
+20012388:	4f12                	lw	t5,4(sp)
+2001238a:	4f82                	lw	t6,0(sp)
+2001238c:	6121                	addi	sp,sp,64
+2001238e:	30200073          	mret
+20012392:	30802783          	lw	a5,776(zero) # 308 <__metal_chicken_bit+0x307>
+20012396:	9002                	ebreak
+
+20012398 <metal_lc11_interrupt_vector_handler>:
+metal_lc11_interrupt_vector_handler():
+20012398:	7139                	addi	sp,sp,-64
+2001239a:	de06                	sw	ra,60(sp)
+2001239c:	dc16                	sw	t0,56(sp)
+2001239e:	da1a                	sw	t1,52(sp)
+200123a0:	d81e                	sw	t2,48(sp)
+200123a2:	d62a                	sw	a0,44(sp)
+200123a4:	d42e                	sw	a1,40(sp)
+200123a6:	d232                	sw	a2,36(sp)
+200123a8:	d036                	sw	a3,32(sp)
+200123aa:	ce3a                	sw	a4,28(sp)
+200123ac:	cc3e                	sw	a5,24(sp)
+200123ae:	ca42                	sw	a6,20(sp)
+200123b0:	c846                	sw	a7,16(sp)
+200123b2:	c672                	sw	t3,12(sp)
+200123b4:	c476                	sw	t4,8(sp)
+200123b6:	c27a                	sw	t5,4(sp)
+200123b8:	c07e                	sw	t6,0(sp)
+200123ba:	f14027f3          	csrr	a5,mhartid
+200123be:	00279713          	slli	a4,a5,0x2
+200123c2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+200123c6:	97ba                	add	a5,a5,a4
+200123c8:	4398                	lw	a4,0(a5)
+200123ca:	c30d                	beqz	a4,200123ec <metal_lc11_interrupt_vector_handler+0x54>
+200123cc:	800007b7          	lui	a5,0x80000
+200123d0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+200123d4:	02f71f63          	bne	a4,a5,20012412 <metal_lc11_interrupt_vector_handler+0x7a>
+200123d8:	800007b7          	lui	a5,0x80000
+200123dc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+200123e0:	3187a703          	lw	a4,792(a5)
+200123e4:	3207a583          	lw	a1,800(a5)
+200123e8:	456d                	li	a0,27
+200123ea:	9702                	jalr	a4
+200123ec:	50f2                	lw	ra,60(sp)
+200123ee:	52e2                	lw	t0,56(sp)
+200123f0:	5352                	lw	t1,52(sp)
+200123f2:	53c2                	lw	t2,48(sp)
+200123f4:	5532                	lw	a0,44(sp)
+200123f6:	55a2                	lw	a1,40(sp)
+200123f8:	5612                	lw	a2,36(sp)
+200123fa:	5682                	lw	a3,32(sp)
+200123fc:	4772                	lw	a4,28(sp)
+200123fe:	47e2                	lw	a5,24(sp)
+20012400:	4852                	lw	a6,20(sp)
+20012402:	48c2                	lw	a7,16(sp)
+20012404:	4e32                	lw	t3,12(sp)
+20012406:	4ea2                	lw	t4,8(sp)
+20012408:	4f12                	lw	t5,4(sp)
+2001240a:	4f82                	lw	t6,0(sp)
+2001240c:	6121                	addi	sp,sp,64
+2001240e:	30200073          	mret
+20012412:	32002783          	lw	a5,800(zero) # 320 <__metal_chicken_bit+0x31f>
+20012416:	9002                	ebreak
+
+20012418 <metal_lc12_interrupt_vector_handler>:
+metal_lc12_interrupt_vector_handler():
+20012418:	7139                	addi	sp,sp,-64
+2001241a:	de06                	sw	ra,60(sp)
+2001241c:	dc16                	sw	t0,56(sp)
+2001241e:	da1a                	sw	t1,52(sp)
+20012420:	d81e                	sw	t2,48(sp)
+20012422:	d62a                	sw	a0,44(sp)
+20012424:	d42e                	sw	a1,40(sp)
+20012426:	d232                	sw	a2,36(sp)
+20012428:	d036                	sw	a3,32(sp)
+2001242a:	ce3a                	sw	a4,28(sp)
+2001242c:	cc3e                	sw	a5,24(sp)
+2001242e:	ca42                	sw	a6,20(sp)
+20012430:	c846                	sw	a7,16(sp)
+20012432:	c672                	sw	t3,12(sp)
+20012434:	c476                	sw	t4,8(sp)
+20012436:	c27a                	sw	t5,4(sp)
+20012438:	c07e                	sw	t6,0(sp)
+2001243a:	f14027f3          	csrr	a5,mhartid
+2001243e:	00279713          	slli	a4,a5,0x2
+20012442:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20012446:	97ba                	add	a5,a5,a4
+20012448:	4398                	lw	a4,0(a5)
+2001244a:	c30d                	beqz	a4,2001246c <metal_lc12_interrupt_vector_handler+0x54>
+2001244c:	800007b7          	lui	a5,0x80000
+20012450:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20012454:	02f71f63          	bne	a4,a5,20012492 <metal_lc12_interrupt_vector_handler+0x7a>
+20012458:	800007b7          	lui	a5,0x80000
+2001245c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20012460:	3307a703          	lw	a4,816(a5)
+20012464:	3387a583          	lw	a1,824(a5)
+20012468:	4571                	li	a0,28
+2001246a:	9702                	jalr	a4
+2001246c:	50f2                	lw	ra,60(sp)
+2001246e:	52e2                	lw	t0,56(sp)
+20012470:	5352                	lw	t1,52(sp)
+20012472:	53c2                	lw	t2,48(sp)
+20012474:	5532                	lw	a0,44(sp)
+20012476:	55a2                	lw	a1,40(sp)
+20012478:	5612                	lw	a2,36(sp)
+2001247a:	5682                	lw	a3,32(sp)
+2001247c:	4772                	lw	a4,28(sp)
+2001247e:	47e2                	lw	a5,24(sp)
+20012480:	4852                	lw	a6,20(sp)
+20012482:	48c2                	lw	a7,16(sp)
+20012484:	4e32                	lw	t3,12(sp)
+20012486:	4ea2                	lw	t4,8(sp)
+20012488:	4f12                	lw	t5,4(sp)
+2001248a:	4f82                	lw	t6,0(sp)
+2001248c:	6121                	addi	sp,sp,64
+2001248e:	30200073          	mret
+20012492:	33802783          	lw	a5,824(zero) # 338 <__metal_chicken_bit+0x337>
+20012496:	9002                	ebreak
+
+20012498 <metal_lc13_interrupt_vector_handler>:
+metal_lc13_interrupt_vector_handler():
+20012498:	7139                	addi	sp,sp,-64
+2001249a:	de06                	sw	ra,60(sp)
+2001249c:	dc16                	sw	t0,56(sp)
+2001249e:	da1a                	sw	t1,52(sp)
+200124a0:	d81e                	sw	t2,48(sp)
+200124a2:	d62a                	sw	a0,44(sp)
+200124a4:	d42e                	sw	a1,40(sp)
+200124a6:	d232                	sw	a2,36(sp)
+200124a8:	d036                	sw	a3,32(sp)
+200124aa:	ce3a                	sw	a4,28(sp)
+200124ac:	cc3e                	sw	a5,24(sp)
+200124ae:	ca42                	sw	a6,20(sp)
+200124b0:	c846                	sw	a7,16(sp)
+200124b2:	c672                	sw	t3,12(sp)
+200124b4:	c476                	sw	t4,8(sp)
+200124b6:	c27a                	sw	t5,4(sp)
+200124b8:	c07e                	sw	t6,0(sp)
+200124ba:	f14027f3          	csrr	a5,mhartid
+200124be:	00279713          	slli	a4,a5,0x2
+200124c2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+200124c6:	97ba                	add	a5,a5,a4
+200124c8:	4398                	lw	a4,0(a5)
+200124ca:	c30d                	beqz	a4,200124ec <metal_lc13_interrupt_vector_handler+0x54>
+200124cc:	800007b7          	lui	a5,0x80000
+200124d0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+200124d4:	02f71f63          	bne	a4,a5,20012512 <metal_lc13_interrupt_vector_handler+0x7a>
+200124d8:	800007b7          	lui	a5,0x80000
+200124dc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+200124e0:	3487a703          	lw	a4,840(a5)
+200124e4:	3507a583          	lw	a1,848(a5)
+200124e8:	4575                	li	a0,29
+200124ea:	9702                	jalr	a4
+200124ec:	50f2                	lw	ra,60(sp)
+200124ee:	52e2                	lw	t0,56(sp)
+200124f0:	5352                	lw	t1,52(sp)
+200124f2:	53c2                	lw	t2,48(sp)
+200124f4:	5532                	lw	a0,44(sp)
+200124f6:	55a2                	lw	a1,40(sp)
+200124f8:	5612                	lw	a2,36(sp)
+200124fa:	5682                	lw	a3,32(sp)
+200124fc:	4772                	lw	a4,28(sp)
+200124fe:	47e2                	lw	a5,24(sp)
+20012500:	4852                	lw	a6,20(sp)
+20012502:	48c2                	lw	a7,16(sp)
+20012504:	4e32                	lw	t3,12(sp)
+20012506:	4ea2                	lw	t4,8(sp)
+20012508:	4f12                	lw	t5,4(sp)
+2001250a:	4f82                	lw	t6,0(sp)
+2001250c:	6121                	addi	sp,sp,64
+2001250e:	30200073          	mret
+20012512:	35002783          	lw	a5,848(zero) # 350 <__metal_chicken_bit+0x34f>
+20012516:	9002                	ebreak
+
+20012518 <metal_lc14_interrupt_vector_handler>:
+metal_lc14_interrupt_vector_handler():
+20012518:	7139                	addi	sp,sp,-64
+2001251a:	de06                	sw	ra,60(sp)
+2001251c:	dc16                	sw	t0,56(sp)
+2001251e:	da1a                	sw	t1,52(sp)
+20012520:	d81e                	sw	t2,48(sp)
+20012522:	d62a                	sw	a0,44(sp)
+20012524:	d42e                	sw	a1,40(sp)
+20012526:	d232                	sw	a2,36(sp)
+20012528:	d036                	sw	a3,32(sp)
+2001252a:	ce3a                	sw	a4,28(sp)
+2001252c:	cc3e                	sw	a5,24(sp)
+2001252e:	ca42                	sw	a6,20(sp)
+20012530:	c846                	sw	a7,16(sp)
+20012532:	c672                	sw	t3,12(sp)
+20012534:	c476                	sw	t4,8(sp)
+20012536:	c27a                	sw	t5,4(sp)
+20012538:	c07e                	sw	t6,0(sp)
+2001253a:	f14027f3          	csrr	a5,mhartid
+2001253e:	00279713          	slli	a4,a5,0x2
+20012542:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+20012546:	97ba                	add	a5,a5,a4
+20012548:	4398                	lw	a4,0(a5)
+2001254a:	c30d                	beqz	a4,2001256c <metal_lc14_interrupt_vector_handler+0x54>
+2001254c:	800007b7          	lui	a5,0x80000
+20012550:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+20012554:	02f71f63          	bne	a4,a5,20012592 <metal_lc14_interrupt_vector_handler+0x7a>
+20012558:	800007b7          	lui	a5,0x80000
+2001255c:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+20012560:	3607a703          	lw	a4,864(a5)
+20012564:	3687a583          	lw	a1,872(a5)
+20012568:	4579                	li	a0,30
+2001256a:	9702                	jalr	a4
+2001256c:	50f2                	lw	ra,60(sp)
+2001256e:	52e2                	lw	t0,56(sp)
+20012570:	5352                	lw	t1,52(sp)
+20012572:	53c2                	lw	t2,48(sp)
+20012574:	5532                	lw	a0,44(sp)
+20012576:	55a2                	lw	a1,40(sp)
+20012578:	5612                	lw	a2,36(sp)
+2001257a:	5682                	lw	a3,32(sp)
+2001257c:	4772                	lw	a4,28(sp)
+2001257e:	47e2                	lw	a5,24(sp)
+20012580:	4852                	lw	a6,20(sp)
+20012582:	48c2                	lw	a7,16(sp)
+20012584:	4e32                	lw	t3,12(sp)
+20012586:	4ea2                	lw	t4,8(sp)
+20012588:	4f12                	lw	t5,4(sp)
+2001258a:	4f82                	lw	t6,0(sp)
+2001258c:	6121                	addi	sp,sp,64
+2001258e:	30200073          	mret
+20012592:	36802783          	lw	a5,872(zero) # 368 <__metal_chicken_bit+0x367>
+20012596:	9002                	ebreak
+
+20012598 <metal_lc15_interrupt_vector_handler>:
+metal_lc15_interrupt_vector_handler():
+20012598:	7139                	addi	sp,sp,-64
+2001259a:	de06                	sw	ra,60(sp)
+2001259c:	dc16                	sw	t0,56(sp)
+2001259e:	da1a                	sw	t1,52(sp)
+200125a0:	d81e                	sw	t2,48(sp)
+200125a2:	d62a                	sw	a0,44(sp)
+200125a4:	d42e                	sw	a1,40(sp)
+200125a6:	d232                	sw	a2,36(sp)
+200125a8:	d036                	sw	a3,32(sp)
+200125aa:	ce3a                	sw	a4,28(sp)
+200125ac:	cc3e                	sw	a5,24(sp)
+200125ae:	ca42                	sw	a6,20(sp)
+200125b0:	c846                	sw	a7,16(sp)
+200125b2:	c672                	sw	t3,12(sp)
+200125b4:	c476                	sw	t4,8(sp)
+200125b6:	c27a                	sw	t5,4(sp)
+200125b8:	c07e                	sw	t6,0(sp)
+200125ba:	f14027f3          	csrr	a5,mhartid
+200125be:	00279713          	slli	a4,a5,0x2
+200125c2:	81818793          	addi	a5,gp,-2024 # 800004a0 <__metal_dt_prci_10008000+0x4>
+200125c6:	97ba                	add	a5,a5,a4
+200125c8:	4398                	lw	a4,0(a5)
+200125ca:	c30d                	beqz	a4,200125ec <metal_lc15_interrupt_vector_handler+0x54>
+200125cc:	800007b7          	lui	a5,0x80000
+200125d0:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+200125d4:	02f71f63          	bne	a4,a5,20012612 <metal_lc15_interrupt_vector_handler+0x7a>
+200125d8:	800007b7          	lui	a5,0x80000
+200125dc:	0b878793          	addi	a5,a5,184 # 800000b8 <__global_pointer$+0xfffff430>
+200125e0:	3787a703          	lw	a4,888(a5)
+200125e4:	3807a583          	lw	a1,896(a5)
+200125e8:	457d                	li	a0,31
+200125ea:	9702                	jalr	a4
+200125ec:	50f2                	lw	ra,60(sp)
+200125ee:	52e2                	lw	t0,56(sp)
+200125f0:	5352                	lw	t1,52(sp)
+200125f2:	53c2                	lw	t2,48(sp)
+200125f4:	5532                	lw	a0,44(sp)
+200125f6:	55a2                	lw	a1,40(sp)
+200125f8:	5612                	lw	a2,36(sp)
+200125fa:	5682                	lw	a3,32(sp)
+200125fc:	4772                	lw	a4,28(sp)
+200125fe:	47e2                	lw	a5,24(sp)
+20012600:	4852                	lw	a6,20(sp)
+20012602:	48c2                	lw	a7,16(sp)
+20012604:	4e32                	lw	t3,12(sp)
+20012606:	4ea2                	lw	t4,8(sp)
+20012608:	4f12                	lw	t5,4(sp)
+2001260a:	4f82                	lw	t6,0(sp)
+2001260c:	6121                	addi	sp,sp,64
+2001260e:	30200073          	mret
+20012612:	38002783          	lw	a5,896(zero) # 380 <__metal_chicken_bit+0x37f>
+20012616:	9002                	ebreak
+
+20012618 <__metal_controller_interrupt_vector_mode>:
+__metal_controller_interrupt_vector_mode():
+20012618:	305027f3          	csrr	a5,mtvec
+2001261c:	03f7f793          	andi	a5,a5,63
+20012620:	17fd                	addi	a5,a5,-1
+20012622:	4709                	li	a4,2
+20012624:	4501                	li	a0,0
+20012626:	00f76963          	bltu	a4,a5,20012638 <__metal_controller_interrupt_vector_mode+0x20>
+2001262a:	20011737          	lui	a4,0x20011
+2001262e:	f2470713          	addi	a4,a4,-220 # 20010f24 <CSWTCH.79>
+20012632:	97ba                	add	a5,a5,a4
+20012634:	0007c503          	lbu	a0,0(a5)
+20012638:	8082                	ret
+
+2001263a <__metal_driver_riscv_cpu_controller_get_vector_mode>:
+__metal_driver_riscv_cpu_controller_get_vector_mode():
+2001263a:	bff9                	j	20012618 <__metal_controller_interrupt_vector_mode>
+
+2001263c <__metal_valid_interrupt_id>:
+__metal_valid_interrupt_id():
+2001263c:	47fd                	li	a5,31
+2001263e:	872a                	mv	a4,a0
+20012640:	02a7c063          	blt	a5,a0,20012660 <__metal_valid_interrupt_id+0x24>
+20012644:	4789                	li	a5,2
+20012646:	4501                	li	a0,0
+20012648:	02e7d063          	bge	a5,a4,20012668 <__metal_valid_interrupt_id+0x2c>
+2001264c:	4785                	li	a5,1
+2001264e:	00e79533          	sll	a0,a5,a4
+20012652:	77c5                	lui	a5,0xffff1
+20012654:	88878793          	addi	a5,a5,-1912 # ffff0888 <__global_pointer$+0x7ffefc00>
+20012658:	8d7d                	and	a0,a0,a5
+2001265a:	00a03533          	snez	a0,a0
+2001265e:	8082                	ret
+20012660:	f8050513          	addi	a0,a0,-128
+20012664:	00153513          	seqz	a0,a0
+20012668:	8082                	ret
+
+2001266a <__metal_driver_riscv_cpu_controller_interrupt_register>:
+__metal_driver_riscv_cpu_controller_interrupt_register():
+2001266a:	1101                	addi	sp,sp,-32
+2001266c:	ca26                	sw	s1,20(sp)
+2001266e:	84aa                	mv	s1,a0
+20012670:	852e                	mv	a0,a1
+20012672:	cc22                	sw	s0,24(sp)
+20012674:	c84a                	sw	s2,16(sp)
+20012676:	c64e                	sw	s3,12(sp)
+20012678:	ce06                	sw	ra,28(sp)
+2001267a:	842e                	mv	s0,a1
+2001267c:	89b2                	mv	s3,a2
+2001267e:	8936                	mv	s2,a3
+20012680:	3f75                	jal	2001263c <__metal_valid_interrupt_id>
+20012682:	57d5                	li	a5,-11
+20012684:	c901                	beqz	a0,20012694 <__metal_driver_riscv_cpu_controller_interrupt_register+0x2a>
+20012686:	08000793          	li	a5,128
+2001268a:	08f41b63          	bne	s0,a5,20012720 <__metal_driver_riscv_cpu_controller_interrupt_register+0xb6>
+2001268e:	3769                	jal	20012618 <__metal_controller_interrupt_vector_mode>
+20012690:	57cd                	li	a5,-13
+20012692:	cd35                	beqz	a0,2001270e <__metal_driver_riscv_cpu_controller_interrupt_register+0xa4>
+20012694:	40f2                	lw	ra,28(sp)
+20012696:	4462                	lw	s0,24(sp)
+20012698:	44d2                	lw	s1,20(sp)
+2001269a:	4942                	lw	s2,16(sp)
+2001269c:	49b2                	lw	s3,12(sp)
+2001269e:	853e                	mv	a0,a5
+200126a0:	6105                	addi	sp,sp,32
+200126a2:	8082                	ret
+200126a4:	3934a823          	sw	s3,912(s1)
+200126a8:	3924ac23          	sw	s2,920(s1)
+200126ac:	a809                	j	200126be <__metal_driver_riscv_cpu_controller_interrupt_register+0x54>
+200126ae:	45e1                	li	a1,24
+200126b0:	02b40433          	mul	s0,s0,a1
+200126b4:	9426                	add	s0,s0,s1
+200126b6:	09342823          	sw	s3,144(s0)
+200126ba:	09242c23          	sw	s2,152(s0)
+200126be:	4781                	li	a5,0
+200126c0:	bfd1                	j	20012694 <__metal_driver_riscv_cpu_controller_interrupt_register+0x2a>
+200126c2:	477d                	li	a4,31
+200126c4:	57d1                	li	a5,-12
+200126c6:	fc8747e3          	blt	a4,s0,20012694 <__metal_driver_riscv_cpu_controller_interrupt_register+0x2a>
+200126ca:	473d                	li	a4,15
+200126cc:	fc8754e3          	bge	a4,s0,20012694 <__metal_driver_riscv_cpu_controller_interrupt_register+0x2a>
+200126d0:	45e1                	li	a1,24
+200126d2:	02b40433          	mul	s0,s0,a1
+200126d6:	200127b7          	lui	a5,0x20012
+200126da:	be878793          	addi	a5,a5,-1048 # 20011be8 <__metal_default_interrupt_handler>
+200126de:	9426                	add	s0,s0,s1
+200126e0:	08f42823          	sw	a5,144(s0)
+200126e4:	09242a23          	sw	s2,148(s0)
+200126e8:	bfd9                	j	200126be <__metal_driver_riscv_cpu_controller_interrupt_register+0x54>
+200126ea:	200127b7          	lui	a5,0x20012
+200126ee:	8e078793          	addi	a5,a5,-1824 # 200118e0 <__metal_default_sw_handler>
+200126f2:	0cf4ac23          	sw	a5,216(s1)
+200126f6:	0d24ae23          	sw	s2,220(s1)
+200126fa:	b7d1                	j	200126be <__metal_driver_riscv_cpu_controller_interrupt_register+0x54>
+200126fc:	200127b7          	lui	a5,0x20012
+20012700:	cc878793          	addi	a5,a5,-824 # 20011cc8 <__metal_default_timer_handler>
+20012704:	12f4ac23          	sw	a5,312(s1)
+20012708:	1324ae23          	sw	s2,316(s1)
+2001270c:	bf4d                	j	200126be <__metal_driver_riscv_cpu_controller_interrupt_register+0x54>
+2001270e:	f8099be3          	bnez	s3,200126a4 <__metal_driver_riscv_cpu_controller_interrupt_register+0x3a>
+20012712:	200127b7          	lui	a5,0x20012
+20012716:	92478793          	addi	a5,a5,-1756 # 20011924 <__metal_default_beu_handler>
+2001271a:	38f4a823          	sw	a5,912(s1)
+2001271e:	b769                	j	200126a8 <__metal_driver_riscv_cpu_controller_interrupt_register+0x3e>
+20012720:	f80997e3          	bnez	s3,200126ae <__metal_driver_riscv_cpu_controller_interrupt_register+0x44>
+20012724:	47ad                	li	a5,11
+20012726:	faf405e3          	beq	s0,a5,200126d0 <__metal_driver_riscv_cpu_controller_interrupt_register+0x66>
+2001272a:	f887cce3          	blt	a5,s0,200126c2 <__metal_driver_riscv_cpu_controller_interrupt_register+0x58>
+2001272e:	478d                	li	a5,3
+20012730:	faf40de3          	beq	s0,a5,200126ea <__metal_driver_riscv_cpu_controller_interrupt_register+0x80>
+20012734:	479d                	li	a5,7
+20012736:	fcf403e3          	beq	s0,a5,200126fc <__metal_driver_riscv_cpu_controller_interrupt_register+0x92>
+2001273a:	57d1                	li	a5,-12
+2001273c:	bfa1                	j	20012694 <__metal_driver_riscv_cpu_controller_interrupt_register+0x2a>
+
+2001273e <__metal_local_interrupt_enable>:
+__metal_local_interrupt_enable():
+2001273e:	c911                	beqz	a0,20012752 <__metal_local_interrupt_enable+0x14>
+20012740:	479d                	li	a5,7
+20012742:	04f58863          	beq	a1,a5,20012792 <__metal_local_interrupt_enable+0x54>
+20012746:	00b7e863          	bltu	a5,a1,20012756 <__metal_local_interrupt_enable+0x18>
+2001274a:	c58d                	beqz	a1,20012774 <__metal_local_interrupt_enable+0x36>
+2001274c:	478d                	li	a5,3
+2001274e:	02f58d63          	beq	a1,a5,20012788 <__metal_local_interrupt_enable+0x4a>
+20012752:	567d                	li	a2,-1
+20012754:	a805                	j	20012784 <__metal_local_interrupt_enable+0x46>
+20012756:	47ad                	li	a5,11
+20012758:	04f58063          	beq	a1,a5,20012798 <__metal_local_interrupt_enable+0x5a>
+2001275c:	ff058793          	addi	a5,a1,-16
+20012760:	473d                	li	a4,15
+20012762:	fef768e3          	bltu	a4,a5,20012752 <__metal_local_interrupt_enable+0x14>
+20012766:	4785                	li	a5,1
+20012768:	00b795b3          	sll	a1,a5,a1
+2001276c:	ee0d                	bnez	a2,200127a6 <__metal_local_interrupt_enable+0x68>
+2001276e:	3045b5f3          	csrrc	a1,mie,a1
+20012772:	a809                	j	20012784 <__metal_local_interrupt_enable+0x46>
+20012774:	47a1                	li	a5,8
+20012776:	c609                	beqz	a2,20012780 <__metal_local_interrupt_enable+0x42>
+20012778:	3007a7f3          	csrrs	a5,mstatus,a5
+2001277c:	4601                	li	a2,0
+2001277e:	a019                	j	20012784 <__metal_local_interrupt_enable+0x46>
+20012780:	3007b7f3          	csrrc	a5,mstatus,a5
+20012784:	8532                	mv	a0,a2
+20012786:	8082                	ret
+20012788:	47a1                	li	a5,8
+2001278a:	ca19                	beqz	a2,200127a0 <__metal_local_interrupt_enable+0x62>
+2001278c:	3047a7f3          	csrrs	a5,mie,a5
+20012790:	b7f5                	j	2001277c <__metal_local_interrupt_enable+0x3e>
+20012792:	08000793          	li	a5,128
+20012796:	bfd5                	j	2001278a <__metal_local_interrupt_enable+0x4c>
+20012798:	6785                	lui	a5,0x1
+2001279a:	80078793          	addi	a5,a5,-2048 # 800 <__heap_size>
+2001279e:	b7f5                	j	2001278a <__metal_local_interrupt_enable+0x4c>
+200127a0:	3047b7f3          	csrrc	a5,mie,a5
+200127a4:	b7c5                	j	20012784 <__metal_local_interrupt_enable+0x46>
+200127a6:	3045a5f3          	csrrs	a1,mie,a1
+200127aa:	bfc9                	j	2001277c <__metal_local_interrupt_enable+0x3e>
+
+200127ac <__metal_driver_riscv_cpu_controller_interrupt_enable>:
+__metal_driver_riscv_cpu_controller_interrupt_enable():
+200127ac:	4605                	li	a2,1
+200127ae:	bf41                	j	2001273e <__metal_local_interrupt_enable>
+
+200127b0 <__metal_driver_riscv_cpu_controller_interrupt_disable>:
+__metal_driver_riscv_cpu_controller_interrupt_disable():
+200127b0:	4601                	li	a2,0
+200127b2:	b771                	j	2001273e <__metal_local_interrupt_enable>
+
+200127b4 <__metal_exception_register>:
+__metal_exception_register():
+200127b4:	472d                	li	a4,11
+200127b6:	87aa                	mv	a5,a0
+200127b8:	557d                	li	a0,-1
+200127ba:	00b74a63          	blt	a4,a1,200127ce <__metal_exception_register+0x1a>
+200127be:	ca01                	beqz	a2,200127ce <__metal_exception_register+0x1a>
+200127c0:	0e858593          	addi	a1,a1,232
+200127c4:	058a                	slli	a1,a1,0x2
+200127c6:	95be                	add	a1,a1,a5
+200127c8:	c190                	sw	a2,0(a1)
+200127ca:	4501                	li	a0,0
+200127cc:	8082                	ret
+200127ce:	8082                	ret
+
+200127d0 <__metal_driver_cpu_exception_register>:
+__metal_driver_cpu_exception_register():
+200127d0:	800007b7          	lui	a5,0x80000
+200127d4:	49478793          	addi	a5,a5,1172 # 80000494 <__global_pointer$+0xfffff80c>
+200127d8:	00a79763          	bne	a5,a0,200127e6 <__metal_driver_cpu_exception_register+0x16>
+200127dc:	80000537          	lui	a0,0x80000
+200127e0:	0b850513          	addi	a0,a0,184 # 800000b8 <__global_pointer$+0xfffff430>
+200127e4:	bfc1                	j	200127b4 <__metal_exception_register>
+200127e6:	557d                	li	a0,-1
+200127e8:	8082                	ret
+
+200127ea <__metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz>:
+__metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz():
+200127ea:	200117b7          	lui	a5,0x20011
+200127ee:	f387a783          	lw	a5,-200(a5) # 20010f38 <__metal_driver_vtable_sifive_fe310_g000_prci>
+200127f2:	1141                	addi	sp,sp,-16
+200127f4:	c422                	sw	s0,8(sp)
+200127f6:	c606                	sw	ra,12(sp)
+200127f8:	4581                	li	a1,0
+200127fa:	81418513          	addi	a0,gp,-2028 # 8000049c <__metal_dt_prci_10008000>
+200127fe:	9782                	jalr	a5
+20012800:	400007b7          	lui	a5,0x40000
+20012804:	8fe9                	and	a5,a5,a0
+20012806:	842a                	mv	s0,a0
+20012808:	557d                	li	a0,-1
+2001280a:	cf89                	beqz	a5,20012824 <__metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz+0x3a>
+2001280c:	00045c63          	bgez	s0,20012824 <__metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz+0x3a>
+20012810:	80000537          	lui	a0,0x80000
+20012814:	07850513          	addi	a0,a0,120 # 80000078 <__global_pointer$+0xfffff3f0>
+20012818:	03f47413          	andi	s0,s0,63
+2001281c:	26b9                	jal	20012b6a <metal_clock_get_rate_hz>
+2001281e:	0405                	addi	s0,s0,1
+20012820:	02855533          	divu	a0,a0,s0
+20012824:	40b2                	lw	ra,12(sp)
+20012826:	4422                	lw	s0,8(sp)
+20012828:	0141                	addi	sp,sp,16
+2001282a:	8082                	ret
+
+2001282c <__metal_driver_sifive_fe310_g000_hfrosc_set_rate_hz>:
+__metal_driver_sifive_fe310_g000_hfrosc_set_rate_hz():
+2001282c:	bf7d                	j	200127ea <__metal_driver_sifive_fe310_g000_hfrosc_get_rate_hz>
+
+2001282e <__metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz>:
+__metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz():
+2001282e:	200117b7          	lui	a5,0x20011
+20012832:	f387a783          	lw	a5,-200(a5) # 20010f38 <__metal_driver_vtable_sifive_fe310_g000_prci>
+20012836:	1141                	addi	sp,sp,-16
+20012838:	c606                	sw	ra,12(sp)
+2001283a:	4591                	li	a1,4
+2001283c:	81418513          	addi	a0,gp,-2028 # 8000049c <__metal_dt_prci_10008000>
+20012840:	9782                	jalr	a5
+20012842:	400007b7          	lui	a5,0x40000
+20012846:	8fe9                	and	a5,a5,a0
+20012848:	cb91                	beqz	a5,2001285c <__metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz+0x2e>
+2001284a:	00055963          	bgez	a0,2001285c <__metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz+0x2e>
+2001284e:	40b2                	lw	ra,12(sp)
+20012850:	80000537          	lui	a0,0x80000
+20012854:	06050513          	addi	a0,a0,96 # 80000060 <__global_pointer$+0xfffff3d8>
+20012858:	0141                	addi	sp,sp,16
+2001285a:	ae01                	j	20012b6a <metal_clock_get_rate_hz>
+2001285c:	40b2                	lw	ra,12(sp)
+2001285e:	557d                	li	a0,-1
+20012860:	0141                	addi	sp,sp,16
+20012862:	8082                	ret
+
+20012864 <__metal_driver_sifive_fe310_g000_hfxosc_set_rate_hz>:
+__metal_driver_sifive_fe310_g000_hfxosc_set_rate_hz():
+20012864:	b7e9                	j	2001282e <__metal_driver_sifive_fe310_g000_hfxosc_get_rate_hz>
+
+20012866 <__metal_driver_sifive_fe310_g000_pll_init>:
+__metal_driver_sifive_fe310_g000_pll_init():
+20012866:	1141                	addi	sp,sp,-16
+20012868:	c422                	sw	s0,8(sp)
+2001286a:	842a                	mv	s0,a0
+2001286c:	4148                	lw	a0,4(a0)
+2001286e:	c606                	sw	ra,12(sp)
+20012870:	2cf9                	jal	20012b4e <_metal_clock_call_all_callbacks>
+20012872:	100087b7          	lui	a5,0x10008
+20012876:	4798                	lw	a4,8(a5)
+20012878:	66c1                	lui	a3,0x10
+2001287a:	8f75                	and	a4,a4,a3
+2001287c:	c711                	beqz	a4,20012888 <__metal_driver_sifive_fe310_g000_pll_init+0x22>
+2001287e:	4798                	lw	a4,8(a5)
+20012880:	76c1                	lui	a3,0xffff0
+20012882:	16fd                	addi	a3,a3,-1
+20012884:	8f75                	and	a4,a4,a3
+20012886:	c798                	sw	a4,8(a5)
+20012888:	10008737          	lui	a4,0x10008
+2001288c:	471c                	lw	a5,8(a4)
+2001288e:	000206b7          	lui	a3,0x20
+20012892:	00f425b7          	lui	a1,0xf42
+20012896:	8fd5                	or	a5,a5,a3
+20012898:	c71c                	sw	a5,8(a4)
+2001289a:	401c                	lw	a5,0(s0)
+2001289c:	8522                	mv	a0,s0
+2001289e:	40058593          	addi	a1,a1,1024 # f42400 <__heap_size+0xf41c00>
+200128a2:	43dc                	lw	a5,4(a5)
+200128a4:	9782                	jalr	a5
+200128a6:	4408                	lw	a0,8(s0)
+200128a8:	4422                	lw	s0,8(sp)
+200128aa:	40b2                	lw	ra,12(sp)
+200128ac:	0141                	addi	sp,sp,16
+200128ae:	a445                	j	20012b4e <_metal_clock_call_all_callbacks>
+
+200128b0 <__metal_driver_sifive_fe310_g000_pll_get_rate_hz>:
+__metal_driver_sifive_fe310_g000_pll_get_rate_hz():
+200128b0:	1141                	addi	sp,sp,-16
+200128b2:	200117b7          	lui	a5,0x20011
+200128b6:	c226                	sw	s1,4(sp)
+200128b8:	f387a483          	lw	s1,-200(a5) # 20010f38 <__metal_driver_vtable_sifive_fe310_g000_prci>
+200128bc:	c04a                	sw	s2,0(sp)
+200128be:	c606                	sw	ra,12(sp)
+200128c0:	c422                	sw	s0,8(sp)
+200128c2:	45a1                	li	a1,8
+200128c4:	81418513          	addi	a0,gp,-2028 # 8000049c <__metal_dt_prci_10008000>
+200128c8:	9482                	jalr	s1
+200128ca:	842a                	mv	s0,a0
+200128cc:	45b1                	li	a1,12
+200128ce:	81418513          	addi	a0,gp,-2028 # 8000049c <__metal_dt_prci_10008000>
+200128d2:	9482                	jalr	s1
+200128d4:	67c1                	lui	a5,0x10
+200128d6:	8fe1                	and	a5,a5,s0
+200128d8:	eb99                	bnez	a5,200128ee <__metal_driver_sifive_fe310_g000_pll_get_rate_hz+0x3e>
+200128da:	4422                	lw	s0,8(sp)
+200128dc:	40b2                	lw	ra,12(sp)
+200128de:	4492                	lw	s1,4(sp)
+200128e0:	4902                	lw	s2,0(sp)
+200128e2:	80000537          	lui	a0,0x80000
+200128e6:	08450513          	addi	a0,a0,132 # 80000084 <__global_pointer$+0xfffff3fc>
+200128ea:	0141                	addi	sp,sp,16
+200128ec:	acbd                	j	20012b6a <metal_clock_get_rate_hz>
+200128ee:	000207b7          	lui	a5,0x20
+200128f2:	8fe1                	and	a5,a5,s0
+200128f4:	84aa                	mv	s1,a0
+200128f6:	e7a5                	bnez	a5,2001295e <__metal_driver_sifive_fe310_g000_pll_get_rate_hz+0xae>
+200128f8:	80000537          	lui	a0,0x80000
+200128fc:	08450513          	addi	a0,a0,132 # 80000084 <__global_pointer$+0xfffff3fc>
+20012900:	24ad                	jal	20012b6a <metal_clock_get_rate_hz>
+20012902:	000407b7          	lui	a5,0x40
+20012906:	8fe1                	and	a5,a5,s0
+20012908:	e7a9                	bnez	a5,20012952 <__metal_driver_sifive_fe310_g000_pll_get_rate_hz+0xa2>
+2001290a:	00445793          	srli	a5,s0,0x4
+2001290e:	6685                	lui	a3,0x1
+20012910:	c0068693          	addi	a3,a3,-1024 # c00 <__heap_size+0x400>
+20012914:	03f7f793          	andi	a5,a5,63
+20012918:	00747713          	andi	a4,s0,7
+2001291c:	0785                	addi	a5,a5,1
+2001291e:	8c75                	and	s0,s0,a3
+20012920:	3ff00693          	li	a3,1023
+20012924:	0705                	addi	a4,a4,1
+20012926:	0786                	slli	a5,a5,0x1
+20012928:	0486f063          	bgeu	a3,s0,20012968 <__metal_driver_sifive_fe310_g000_pll_get_rate_hz+0xb8>
+2001292c:	02e54533          	div	a0,a0,a4
+20012930:	8029                	srli	s0,s0,0xa
+20012932:	02f507b3          	mul	a5,a0,a5
+20012936:	4505                	li	a0,1
+20012938:	00851433          	sll	s0,a0,s0
+2001293c:	0287c533          	div	a0,a5,s0
+20012940:	1004f793          	andi	a5,s1,256
+20012944:	e799                	bnez	a5,20012952 <__metal_driver_sifive_fe310_g000_pll_get_rate_hz+0xa2>
+20012946:	03f4f493          	andi	s1,s1,63
+2001294a:	0485                	addi	s1,s1,1
+2001294c:	0486                	slli	s1,s1,0x1
+2001294e:	02955533          	divu	a0,a0,s1
+20012952:	40b2                	lw	ra,12(sp)
+20012954:	4422                	lw	s0,8(sp)
+20012956:	4492                	lw	s1,4(sp)
+20012958:	4902                	lw	s2,0(sp)
+2001295a:	0141                	addi	sp,sp,16
+2001295c:	8082                	ret
+2001295e:	80000537          	lui	a0,0x80000
+20012962:	06c50513          	addi	a0,a0,108 # 8000006c <__global_pointer$+0xfffff3e4>
+20012966:	bf69                	j	20012900 <__metal_driver_sifive_fe310_g000_pll_get_rate_hz+0x50>
+20012968:	557d                	li	a0,-1
+2001296a:	b7e5                	j	20012952 <__metal_driver_sifive_fe310_g000_pll_get_rate_hz+0xa2>
+
+2001296c <__metal_driver_sifive_fe310_g000_pll_set_rate_hz>:
+__metal_driver_sifive_fe310_g000_pll_set_rate_hz():
+2001296c:	100087b7          	lui	a5,0x10008
+20012970:	4798                	lw	a4,8(a5)
+20012972:	7179                	addi	sp,sp,-48
+20012974:	66c1                	lui	a3,0x10
+20012976:	d422                	sw	s0,40(sp)
+20012978:	d226                	sw	s1,36(sp)
+2001297a:	d606                	sw	ra,44(sp)
+2001297c:	d04a                	sw	s2,32(sp)
+2001297e:	ce4e                	sw	s3,28(sp)
+20012980:	8f75                	and	a4,a4,a3
+20012982:	842a                	mv	s0,a0
+20012984:	84ae                	mv	s1,a1
+20012986:	c711                	beqz	a4,20012992 <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x26>
+20012988:	4798                	lw	a4,8(a5)
+2001298a:	76c1                	lui	a3,0xffff0
+2001298c:	16fd                	addi	a3,a3,-1
+2001298e:	8f75                	and	a4,a4,a3
+20012990:	c798                	sw	a4,8(a5)
+20012992:	100087b7          	lui	a5,0x10008
+20012996:	479c                	lw	a5,8(a5)
+20012998:	00020737          	lui	a4,0x20
+2001299c:	8ff9                	and	a5,a5,a4
+2001299e:	ef8d                	bnez	a5,200129d8 <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x6c>
+200129a0:	80000537          	lui	a0,0x80000
+200129a4:	08450513          	addi	a0,a0,132 # 80000084 <__global_pointer$+0xfffff3fc>
+200129a8:	22c9                	jal	20012b6a <metal_clock_get_rate_hz>
+200129aa:	470d                	li	a4,3
+200129ac:	02e50733          	mul	a4,a0,a4
+200129b0:	4691                	li	a3,4
+200129b2:	02d74733          	div	a4,a4,a3
+200129b6:	02e4c663          	blt	s1,a4,200129e2 <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x76>
+200129ba:	4795                	li	a5,5
+200129bc:	02f507b3          	mul	a5,a0,a5
+200129c0:	02d7c7b3          	div	a5,a5,a3
+200129c4:	0097cf63          	blt	a5,s1,200129e2 <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x76>
+200129c8:	10008737          	lui	a4,0x10008
+200129cc:	471c                	lw	a5,8(a4)
+200129ce:	000406b7          	lui	a3,0x40
+200129d2:	8fd5                	or	a5,a5,a3
+200129d4:	c71c                	sw	a5,8(a4)
+200129d6:	aa39                	j	20012af4 <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x188>
+200129d8:	80000537          	lui	a0,0x80000
+200129dc:	06c50513          	addi	a0,a0,108 # 8000006c <__global_pointer$+0xfffff3e4>
+200129e0:	b7e1                	j	200129a8 <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x3c>
+200129e2:	200116b7          	lui	a3,0x20011
+200129e6:	800005b7          	lui	a1,0x80000
+200129ea:	f0068693          	addi	a3,a3,-256 # 20010f00 <pll_configs+0x860>
+200129ee:	567d                	li	a2,-1
+200129f0:	fff5c593          	not	a1,a1
+200129f4:	04300713          	li	a4,67
+200129f8:	587d                	li	a6,-1
+200129fa:	469c                	lw	a5,8(a3)
+200129fc:	02f56963          	bltu	a0,a5,20012a2e <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0xc2>
+20012a00:	46dc                	lw	a5,12(a3)
+20012a02:	02a7e663          	bltu	a5,a0,20012a2e <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0xc2>
+20012a06:	429c                	lw	a5,0(a3)
+20012a08:	0046a883          	lw	a7,4(a3)
+20012a0c:	02f507b3          	mul	a5,a0,a5
+20012a10:	0317d7b3          	divu	a5,a5,a7
+20012a14:	01078d63          	beq	a5,a6,20012a2e <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0xc2>
+20012a18:	8f85                	sub	a5,a5,s1
+20012a1a:	41f7d893          	srai	a7,a5,0x1f
+20012a1e:	00f8c7b3          	xor	a5,a7,a5
+20012a22:	411787b3          	sub	a5,a5,a7
+20012a26:	00b7d463          	bge	a5,a1,20012a2e <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0xc2>
+20012a2a:	85be                	mv	a1,a5
+20012a2c:	863a                	mv	a2,a4
+20012a2e:	177d                	addi	a4,a4,-1
+20012a30:	1681                	addi	a3,a3,-32
+20012a32:	fd0714e3          	bne	a4,a6,200129fa <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x8e>
+20012a36:	f8e609e3          	beq	a2,a4,200129c8 <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x5c>
+20012a3a:	100087b7          	lui	a5,0x10008
+20012a3e:	4798                	lw	a4,8(a5)
+20012a40:	0616                	slli	a2,a2,0x5
+20012a42:	9b61                	andi	a4,a4,-8
+20012a44:	c798                	sw	a4,8(a5)
+20012a46:	20010737          	lui	a4,0x20010
+20012a4a:	6a070713          	addi	a4,a4,1696 # 200106a0 <pll_configs>
+20012a4e:	9732                	add	a4,a4,a2
+20012a50:	4b14                	lw	a3,16(a4)
+20012a52:	478c                	lw	a1,8(a5)
+20012a54:	8a9d                	andi	a3,a3,7
+20012a56:	8ecd                	or	a3,a3,a1
+20012a58:	c794                	sw	a3,8(a5)
+20012a5a:	4794                	lw	a3,8(a5)
+20012a5c:	c0f6f693          	andi	a3,a3,-1009
+20012a60:	c794                	sw	a3,8(a5)
+20012a62:	4b54                	lw	a3,20(a4)
+20012a64:	4790                	lw	a2,8(a5)
+20012a66:	0692                	slli	a3,a3,0x4
+20012a68:	3f06f693          	andi	a3,a3,1008
+20012a6c:	8ed1                	or	a3,a3,a2
+20012a6e:	c794                	sw	a3,8(a5)
+20012a70:	4794                	lw	a3,8(a5)
+20012a72:	767d                	lui	a2,0xfffff
+20012a74:	3ff60613          	addi	a2,a2,1023 # fffff3ff <__global_pointer$+0x7fffe777>
+20012a78:	8ef1                	and	a3,a3,a2
+20012a7a:	c794                	sw	a3,8(a5)
+20012a7c:	4f14                	lw	a3,24(a4)
+20012a7e:	478c                	lw	a1,8(a5)
+20012a80:	6605                	lui	a2,0x1
+20012a82:	06aa                	slli	a3,a3,0xa
+20012a84:	c0060613          	addi	a2,a2,-1024 # c00 <__heap_size+0x400>
+20012a88:	8ef1                	and	a3,a3,a2
+20012a8a:	4f58                	lw	a4,28(a4)
+20012a8c:	8ecd                	or	a3,a3,a1
+20012a8e:	c794                	sw	a3,8(a5)
+20012a90:	08075063          	bgez	a4,20012b10 <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x1a4>
+20012a94:	47d8                	lw	a4,12(a5)
+20012a96:	10076713          	ori	a4,a4,256
+20012a9a:	c7d8                	sw	a4,12(a5)
+20012a9c:	47d8                	lw	a4,12(a5)
+20012a9e:	fc077713          	andi	a4,a4,-64
+20012aa2:	c7d8                	sw	a4,12(a5)
+20012aa4:	47d8                	lw	a4,12(a5)
+20012aa6:	00176713          	ori	a4,a4,1
+20012aaa:	c7d8                	sw	a4,12(a5)
+20012aac:	100086b7          	lui	a3,0x10008
+20012ab0:	469c                	lw	a5,8(a3)
+20012ab2:	fffc0737          	lui	a4,0xfffc0
+20012ab6:	177d                	addi	a4,a4,-1
+20012ab8:	8ff9                	and	a5,a5,a4
+20012aba:	80000937          	lui	s2,0x80000
+20012abe:	c69c                	sw	a5,8(a3)
+20012ac0:	0030                	addi	a2,sp,8
+20012ac2:	4585                	li	a1,1
+20012ac4:	48c90513          	addi	a0,s2,1164 # 8000048c <__global_pointer$+0xfffff804>
+20012ac8:	d5dfe0ef          	jal	ra,20011824 <__metal_driver_riscv_clint0_command_request>
+20012acc:	44a2                	lw	s1,8(sp)
+20012ace:	47b2                	lw	a5,12(sp)
+20012ad0:	00448993          	addi	s3,s1,4
+20012ad4:	0099b4b3          	sltu	s1,s3,s1
+20012ad8:	94be                	add	s1,s1,a5
+20012ada:	47b2                	lw	a5,12(sp)
+20012adc:	00f4e763          	bltu	s1,a5,20012aea <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x17e>
+20012ae0:	04979563          	bne	a5,s1,20012b2a <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x1be>
+20012ae4:	47a2                	lw	a5,8(sp)
+20012ae6:	04f9f263          	bgeu	s3,a5,20012b2a <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x1be>
+20012aea:	10008737          	lui	a4,0x10008
+20012aee:	471c                	lw	a5,8(a4)
+20012af0:	fe07dfe3          	bgez	a5,20012aee <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x182>
+20012af4:	10008737          	lui	a4,0x10008
+20012af8:	471c                	lw	a5,8(a4)
+20012afa:	66c1                	lui	a3,0x10
+20012afc:	8522                	mv	a0,s0
+20012afe:	5422                	lw	s0,40(sp)
+20012b00:	50b2                	lw	ra,44(sp)
+20012b02:	5492                	lw	s1,36(sp)
+20012b04:	5902                	lw	s2,32(sp)
+20012b06:	49f2                	lw	s3,28(sp)
+20012b08:	8fd5                	or	a5,a5,a3
+20012b0a:	c71c                	sw	a5,8(a4)
+20012b0c:	6145                	addi	sp,sp,48
+20012b0e:	b34d                	j	200128b0 <__metal_driver_sifive_fe310_g000_pll_get_rate_hz>
+20012b10:	47d4                	lw	a3,12(a5)
+20012b12:	03f77713          	andi	a4,a4,63
+20012b16:	eff6f693          	andi	a3,a3,-257
+20012b1a:	c7d4                	sw	a3,12(a5)
+20012b1c:	47d4                	lw	a3,12(a5)
+20012b1e:	fc06f693          	andi	a3,a3,-64
+20012b22:	c7d4                	sw	a3,12(a5)
+20012b24:	47d4                	lw	a3,12(a5)
+20012b26:	8f55                	or	a4,a4,a3
+20012b28:	b749                	j	20012aaa <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x13e>
+20012b2a:	0030                	addi	a2,sp,8
+20012b2c:	4585                	li	a1,1
+20012b2e:	48c90513          	addi	a0,s2,1164
+20012b32:	cf3fe0ef          	jal	ra,20011824 <__metal_driver_riscv_clint0_command_request>
+20012b36:	b755                	j	20012ada <__metal_driver_sifive_fe310_g000_pll_set_rate_hz+0x16e>
+
+20012b38 <__metal_driver_sifive_fe310_g000_prci_get_reg>:
+__metal_driver_sifive_fe310_g000_prci_get_reg():
+20012b38:	100087b7          	lui	a5,0x10008
+20012b3c:	95be                	add	a1,a1,a5
+20012b3e:	4188                	lw	a0,0(a1)
+20012b40:	8082                	ret
+
+20012b42 <__metal_driver_sifive_fe310_g000_prci_set_reg>:
+__metal_driver_sifive_fe310_g000_prci_set_reg():
+20012b42:	100087b7          	lui	a5,0x10008
+20012b46:	95be                	add	a1,a1,a5
+20012b48:	8532                	mv	a0,a2
+20012b4a:	c190                	sw	a2,0(a1)
+20012b4c:	8082                	ret
+
+20012b4e <_metal_clock_call_all_callbacks>:
+_metal_clock_call_all_callbacks():
+20012b4e:	1141                	addi	sp,sp,-16
+20012b50:	c422                	sw	s0,8(sp)
+20012b52:	c606                	sw	ra,12(sp)
+20012b54:	842a                	mv	s0,a0
+20012b56:	e409                	bnez	s0,20012b60 <_metal_clock_call_all_callbacks+0x12>
+20012b58:	40b2                	lw	ra,12(sp)
+20012b5a:	4422                	lw	s0,8(sp)
+20012b5c:	0141                	addi	sp,sp,16
+20012b5e:	8082                	ret
+20012b60:	401c                	lw	a5,0(s0)
+20012b62:	4048                	lw	a0,4(s0)
+20012b64:	9782                	jalr	a5
+20012b66:	4400                	lw	s0,8(s0)
+20012b68:	b7fd                	j	20012b56 <_metal_clock_call_all_callbacks+0x8>
+
+20012b6a <metal_clock_get_rate_hz>:
+metal_clock_get_rate_hz():
+20012b6a:	411c                	lw	a5,0(a0)
+20012b6c:	439c                	lw	a5,0(a5)
+20012b6e:	8782                	jr	a5
+
+20012b70 <metal_shutdown>:
+metal_shutdown():
+20012b70:	0001                	nop
+20012b72:	bffd                	j	20012b70 <metal_shutdown>
+	...
+
+20012b80 <__metal_vector_table>:
+IRQ_0():
+20012b80:	96eff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012b84 <IRQ_1>:
+IRQ_1():
+20012b84:	96aff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012b88 <IRQ_2>:
+IRQ_2():
+20012b88:	966ff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012b8c <IRQ_3>:
+IRQ_3():
+20012b8c:	98cff06f          	j	20011d18 <metal_software_interrupt_vector_handler>
+
+20012b90 <IRQ_4>:
+IRQ_4():
+20012b90:	95eff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012b94 <IRQ_5>:
+IRQ_5():
+20012b94:	95aff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012b98 <IRQ_6>:
+IRQ_6():
+20012b98:	956ff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012b9c <IRQ_7>:
+IRQ_7():
+20012b9c:	9fcff06f          	j	20011d98 <metal_timer_interrupt_vector_handler>
+
+20012ba0 <IRQ_8>:
+IRQ_8():
+20012ba0:	94eff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012ba4 <IRQ_9>:
+IRQ_9():
+20012ba4:	94aff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012ba8 <IRQ_10>:
+IRQ_10():
+20012ba8:	946ff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012bac <IRQ_11>:
+IRQ_11():
+20012bac:	942ff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012bb0 <IRQ_12>:
+IRQ_12():
+20012bb0:	93eff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012bb4 <IRQ_13>:
+IRQ_13():
+20012bb4:	93aff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012bb8 <IRQ_14>:
+IRQ_14():
+20012bb8:	936ff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012bbc <IRQ_15>:
+IRQ_15():
+20012bbc:	932ff06f          	j	20011cee <metal_interrupt_vector_handler>
+
+20012bc0 <IRQ_LC0>:
+IRQ_LC0():
+20012bc0:	a58ff06f          	j	20011e18 <metal_lc0_interrupt_vector_handler>
+
+20012bc4 <IRQ_LC1>:
+IRQ_LC1():
+20012bc4:	ad4ff06f          	j	20011e98 <metal_lc1_interrupt_vector_handler>
+
+20012bc8 <IRQ_LC2>:
+IRQ_LC2():
+20012bc8:	b50ff06f          	j	20011f18 <metal_lc2_interrupt_vector_handler>
+
+20012bcc <IRQ_LC3>:
+IRQ_LC3():
+20012bcc:	bccff06f          	j	20011f98 <metal_lc3_interrupt_vector_handler>
+
+20012bd0 <IRQ_LC4>:
+IRQ_LC4():
+20012bd0:	c48ff06f          	j	20012018 <metal_lc4_interrupt_vector_handler>
+
+20012bd4 <IRQ_LC5>:
+IRQ_LC5():
+20012bd4:	cc4ff06f          	j	20012098 <metal_lc5_interrupt_vector_handler>
+
+20012bd8 <IRQ_LC6>:
+IRQ_LC6():
+20012bd8:	d40ff06f          	j	20012118 <metal_lc6_interrupt_vector_handler>
+
+20012bdc <IRQ_LC7>:
+IRQ_LC7():
+20012bdc:	dbcff06f          	j	20012198 <metal_lc7_interrupt_vector_handler>
+
+20012be0 <IRQ_LC8>:
+IRQ_LC8():
+20012be0:	e38ff06f          	j	20012218 <metal_lc8_interrupt_vector_handler>
+
+20012be4 <IRQ_LC9>:
+IRQ_LC9():
+20012be4:	eb4ff06f          	j	20012298 <metal_lc9_interrupt_vector_handler>
+
+20012be8 <IRQ_LC10>:
+IRQ_LC10():
+20012be8:	f30ff06f          	j	20012318 <metal_lc10_interrupt_vector_handler>
+
+20012bec <IRQ_LC11>:
+IRQ_LC11():
+20012bec:	facff06f          	j	20012398 <metal_lc11_interrupt_vector_handler>
+
+20012bf0 <IRQ_LC12>:
+IRQ_LC12():
+20012bf0:	829ff06f          	j	20012418 <metal_lc12_interrupt_vector_handler>
+
+20012bf4 <IRQ_LC13>:
+IRQ_LC13():
+20012bf4:	8a5ff06f          	j	20012498 <metal_lc13_interrupt_vector_handler>
+
+20012bf8 <IRQ_LC14>:
+IRQ_LC14():
+20012bf8:	921ff06f          	j	20012518 <metal_lc14_interrupt_vector_handler>
+
+20012bfc <IRQ_LC15>:
+IRQ_LC15():
+20012bfc:	99dff06f          	j	20012598 <metal_lc15_interrupt_vector_handler>
+
+20012c00 <__metal_driver_fixed_clock_get_rate_hz>:
+__metal_driver_fixed_clock_get_rate_hz():
+20012c00:	80000737          	lui	a4,0x80000
+20012c04:	06070713          	addi	a4,a4,96 # 80000060 <__global_pointer$+0xfffff3d8>
+20012c08:	87aa                	mv	a5,a0
+20012c0a:	02e50763          	beq	a0,a4,20012c38 <__metal_driver_fixed_clock_get_rate_hz+0x38>
+20012c0e:	80000737          	lui	a4,0x80000
+20012c12:	07870713          	addi	a4,a4,120 # 80000078 <__global_pointer$+0xfffff3f0>
+20012c16:	02e50663          	beq	a0,a4,20012c42 <__metal_driver_fixed_clock_get_rate_hz+0x42>
+20012c1a:	80000737          	lui	a4,0x80000
+20012c1e:	09c70713          	addi	a4,a4,156 # 8000009c <__global_pointer$+0xfffff414>
+20012c22:	6521                	lui	a0,0x8
+20012c24:	02e78363          	beq	a5,a4,20012c4a <__metal_driver_fixed_clock_get_rate_hz+0x4a>
+20012c28:	80000737          	lui	a4,0x80000
+20012c2c:	0a870713          	addi	a4,a4,168 # 800000a8 <__global_pointer$+0xfffff420>
+20012c30:	00e78d63          	beq	a5,a4,20012c4a <__metal_driver_fixed_clock_get_rate_hz+0x4a>
+20012c34:	4501                	li	a0,0
+20012c36:	8082                	ret
+20012c38:	00f42537          	lui	a0,0xf42
+20012c3c:	40050513          	addi	a0,a0,1024 # f42400 <__heap_size+0xf41c00>
+20012c40:	8082                	ret
+20012c42:	044aa537          	lui	a0,0x44aa
+20012c46:	20050513          	addi	a0,a0,512 # 44aa200 <__heap_size+0x44a9a00>
+20012c4a:	8082                	ret
+
+20012c4c <__metal_driver_fixed_clock_set_rate_hz>:
+__metal_driver_fixed_clock_set_rate_hz():
+20012c4c:	80000737          	lui	a4,0x80000
+20012c50:	06070713          	addi	a4,a4,96 # 80000060 <__global_pointer$+0xfffff3d8>
+20012c54:	87aa                	mv	a5,a0
+20012c56:	02e50763          	beq	a0,a4,20012c84 <__metal_driver_fixed_clock_set_rate_hz+0x38>
+20012c5a:	80000737          	lui	a4,0x80000
+20012c5e:	07870713          	addi	a4,a4,120 # 80000078 <__global_pointer$+0xfffff3f0>
+20012c62:	02e50663          	beq	a0,a4,20012c8e <__metal_driver_fixed_clock_set_rate_hz+0x42>
+20012c66:	80000737          	lui	a4,0x80000
+20012c6a:	09c70713          	addi	a4,a4,156 # 8000009c <__global_pointer$+0xfffff414>
+20012c6e:	6521                	lui	a0,0x8
+20012c70:	02e78363          	beq	a5,a4,20012c96 <__metal_driver_fixed_clock_set_rate_hz+0x4a>
+20012c74:	80000737          	lui	a4,0x80000
+20012c78:	0a870713          	addi	a4,a4,168 # 800000a8 <__global_pointer$+0xfffff420>
+20012c7c:	00e78d63          	beq	a5,a4,20012c96 <__metal_driver_fixed_clock_set_rate_hz+0x4a>
+20012c80:	4501                	li	a0,0
+20012c82:	8082                	ret
+20012c84:	00f42537          	lui	a0,0xf42
+20012c88:	40050513          	addi	a0,a0,1024 # f42400 <__heap_size+0xf41c00>
+20012c8c:	8082                	ret
+20012c8e:	044aa537          	lui	a0,0x44aa
+20012c92:	20050513          	addi	a0,a0,512 # 44aa200 <__heap_size+0x44a9a00>
+20012c96:	8082                	ret
+
+20012c98 <_exit>:
+_exit():
+20012c98:	1141                	addi	sp,sp,-16
+20012c9a:	c606                	sw	ra,12(sp)
+20012c9c:	3dd1                	jal	20012b70 <metal_shutdown>

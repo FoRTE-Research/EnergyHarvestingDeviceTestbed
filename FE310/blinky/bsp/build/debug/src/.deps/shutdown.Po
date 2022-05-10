@@ -1,0 +1,87 @@
+src/shutdown.o: \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/src/shutdown.c \
+ metal/machine.h metal/machine/platform.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/fixed-clock.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/clock.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/compiler.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/memory.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stdint.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/stdint.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_intsup.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/riscv_clint0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/riscv_cpu.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/cpu.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/interrupt.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/riscv_plic0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/pmp.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_gpio0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/gpio.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_gpio-leds.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/led.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_i2c0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/i2c.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_pwm0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/pwm.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_rtc0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/io.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/rtc.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_spi0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/spi.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_uart0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/uart.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_wdog0.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/watchdog.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/shutdown.h
+metal/machine.h:
+metal/machine/platform.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/fixed-clock.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/clock.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/compiler.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/memory.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stdint.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/stdint.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_intsup.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/riscv_clint0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/riscv_cpu.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/cpu.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/interrupt.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/riscv_plic0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/pmp.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_gpio0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/gpio.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_gpio-leds.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/led.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_i2c0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/i2c.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_pwm0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/pwm.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_rtc0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/io.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/rtc.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_spi0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/spi.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_uart0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/uart.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_wdog0.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/watchdog.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_hfrosc.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_prci.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_hfxosc.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_lfrosc.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/drivers/sifive_fe310-g000_pll.h:
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/shutdown.h:

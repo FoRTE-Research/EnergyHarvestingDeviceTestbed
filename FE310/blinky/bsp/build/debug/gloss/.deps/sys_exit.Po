@@ -1,0 +1,4 @@
+gloss/sys_exit.o: \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/gloss/sys_exit.c \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/shutdown.h
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/shutdown.h:

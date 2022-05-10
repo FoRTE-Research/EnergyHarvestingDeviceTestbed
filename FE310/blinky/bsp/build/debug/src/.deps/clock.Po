@@ -1,0 +1,6 @@
+src/clock.o: \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/src/clock.c \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/clock.h \
+ /home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h
+/home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/metal/clock.h:
+/home/jubayer/Downloads/freedomstd/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h:

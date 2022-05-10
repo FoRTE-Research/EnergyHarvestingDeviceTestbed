@@ -1,0 +1,2 @@
+src/trap.o: \
+ /home/jubayer/Documents/riscV/sifive_hifive1_revb_hello/freedom-metal/src/trap.S

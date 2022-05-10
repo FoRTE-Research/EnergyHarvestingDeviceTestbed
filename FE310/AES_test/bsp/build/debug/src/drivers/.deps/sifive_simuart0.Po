@@ -1,0 +1,4 @@
+src/drivers/sifive_simuart0.o: \
+ /home/jubayer/Documents/riscV/AES_test/freedom-metal/src/drivers/sifive_simuart0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

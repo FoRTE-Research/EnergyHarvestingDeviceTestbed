@@ -1,0 +1,20 @@
+src/privilege.o: \
+ /home/jubayer/Documents/riscV/AES_test/freedom-metal/src/privilege.c \
+ /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h \
+ /home/jubayer/Documents/riscV/AES_test/freedom-metal/metal/privilege.h \
+ /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stdint.h \
+ /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/stdint.h \
+ /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h \
+ /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h \
+ /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h \
+ /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_intsup.h \
+ /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h
+/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h:
+/home/jubayer/Documents/riscV/AES_test/freedom-metal/metal/privilege.h:
+/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stdint.h:
+/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/stdint.h:
+/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h:
+/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h:
+/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h:
+/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_intsup.h:
+/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h:

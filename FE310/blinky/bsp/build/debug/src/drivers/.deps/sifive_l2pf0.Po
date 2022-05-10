@@ -1,0 +1,4 @@
+src/drivers/sifive_l2pf0.o: \
+ /home/jubayer/Documents/riscV/EnergyHarvestingDeviceTestbed/FE310/blinky/freedom-metal/src/drivers/sifive_l2pf0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

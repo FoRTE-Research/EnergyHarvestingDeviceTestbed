@@ -1,0 +1,4 @@
+src/drivers/ucb_htif0.o: \
+ /home/jubayer/Documents/riscV/sifive_hifive1_revb_hello/freedom-metal/src/drivers/ucb_htif0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:
