@@ -40,7 +40,7 @@ Measuring execution time
 **The clock used in the measurement is a 1MHz source that is used in standard clock() function. Note that there is an inter-device frequency variation, which depends on the trim-level set up at the manufacturing time. Unless you explicitly set up the frequency, there should be some variations in the measured data. 
 For comparison, you can hook a scope in GPIO-5 to see the toggles; the pulse width is the execution time of 200 iterations.
 
-FAQ
+Good to know
 -------------------
 1. FreedomStd is not running the code
 Launch the debugger from the project explorer window (left most window) and right-click to find *Debug As* or *Run As*. For there go to *Debug configuration*  and click *Debug*. This will happen if you erased the bootloader, and if this is the case, the CPU will never run on its own even if there is code in the Flash. A good solution is to recover the bootloader. Follow instruction in this repo: [recover](https://github.com/riscv-rust/hifive1-recover).
