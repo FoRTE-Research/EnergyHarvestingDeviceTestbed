@@ -11,6 +11,17 @@ Install Texas Instruments Code Composer Studio: https://www.ti.com/tool/CCSTUDIO
 ## Apollo3 Blue
 Aside from the actual Sparkfun Edge development board (https://www.sparkfun.com/products/15170), you need a CH340C serial to USB adapter (https://www.sparkfun.com/products/15096).
 
+## Adafruit METRO M0 Express
+1. Install [Arduino IDE](https://www.arduino.cc/en/software) 
+2. [Set up board](https://learn.adafruit.com/adafruit-metro-m0-express/using-with-arduino-ide)
+3. Change the name of the file containing the main function to be the same with the directory and change the extension to (ex: If the name of the directory is test, and the main file is main.c, then change the file name from main.c to test.ino)
+4. Change the name of the main function to void loop()
+5. Run the code and get the execution time from the [serial monitor](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor) in Arduino IDE
+
+Resons for using Arduino IDE
+- Arduino CLI does not support Serial as of now (May 11 2022)
+- Arduino extension for VS Code has glitches when running Serial (May 11 2022)
+
 ### Running AES
 First, download the Ambiq Suite SDK for developing on Sparkfun Ambiq boards.
 ```
