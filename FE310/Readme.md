@@ -35,8 +35,9 @@ Measuring execution time
 | Scope  | 10.2ms     | 31.43ms    |         28452* | 19mA   |
 | Timer  | 10.19ms     | 31.49ms    |              |         |
 
-*Freedom metal library is responsible for most of it. Just do -o1 at compilation; you will see a huge change (~75%) in the code size
-**The clock used in the measurement is a 1MHz source that is in standard clock() function. Note that there is an inter-device frequency variation, which depends on the trim-level set up at the manufacturing time. Unless you explicitly set up the frequency, there should be some variations in the measured data. 
+*Freedom metal library is responsible for most of it. Just do -o1 at compilation; you will see a huge change (~75%) in the code size.
+
+**The clock used in the measurement is a 1MHz source that is used in standard clock() function. Note that there is an inter-device frequency variation, which depends on the trim-level set up at the manufacturing time. Unless you explicitly set up the frequency, there should be some variations in the measured data. 
 For comparison, you can hook a scope in GPIO-5 to see the toggles; the pulse width is the execution time of 200 iterations.
 
 FAQ
