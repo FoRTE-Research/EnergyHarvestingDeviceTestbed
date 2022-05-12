@@ -1,5 +1,15 @@
 # EnergyHarvestingDeviceTestbed
 
+|Device|ISA|Default Clock (MHz)|SRAM (KB)|NVM (KB)|Dev. Enivronment|DMIPS/MHz|Coremark/MHz|Purchase Link|
+|---|---|---|---|---|---|---|---|---|
+|MSP430G2553IN20|MSP430 (Flash)|1|0.5|16|Great| |1.11|https://www.digikey.com/en/products/detail/texas-instruments/MSP-EXP430G2ET/9608004?s=N4IgTCBcDaILYGcAOAWAzABgAQHMwFMAXEAXQF8g|
+|MSP430FR5994|MSP430X (FRAM)|1|8|256|Great| |1.11|https://www.ti.com/tool/MSP-EXP430FR5994?utm_source=google&utm_medium=cpc&utm_campaign=epd-msp-430-prodfolderdynamic-cpc-pf-google-wwe&utm_content=prodfolddynamic&ds_k=DYNAMIC+SEARCH+ADS&DCM=yes&gclid=Cj0KCQjwvO2IBhCzARIsALw3ASqUf7gxsO9rVTdfKJMEaIDoS4b-fNDCS6sCe2KYl0S6dPbcUmKdx_waAjakEALw_wcB&gclsrc=aw.ds|
+|Adafruit METRO M0 (ATSAMD21G18)|ARM Cortex-m0+ (v6m)|48|32|256|Bad|0.95|2.46|https://www.adafruit.com/product/3505|
+|MSP432|ARM Cortex-m4F (v7m)|3|64|256|Great|1.27|3.42|https://www.ti.com/tool/MSP-EXP432P401R?utm_source=google&utm_medium=cpc&utm_campaign=epd-null-null-OPN_EN-cpc-evm-google-wwe&utm_content=Device_ToolFolder&ds_k=MSP-EXP432P401R&DCM=yes&gclid=Cj0KCQjwvO2IBhCzARIsALw3ASpg2iltfqWzDLmrjK7SnvtKGD9A2jZRPM57xBkQBrc4LCYNG_xSahUaAihEEALw_wcB&gclsrc=aw.ds|
+|Apollo 3 Blue|ARM Cortex-m4F (v7m) (subthreshold)|48|384|1024|Bad|1.27|3.42|https://www.digikey.com/en/products/detail/sparkfun-electronics/DEV-15170/9962475?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDa4ArAGwIC6AvvYQExkgAiAogGoxgVgA7AAYQDIA|
+|SAML11 UFO Target|ARM Cortex-m23 (v8m)|32|16|64|Good|0.98|2.64|https://www.mouser.com/datasheet/2/894/NAE-CW308T-ATSAML11_datasheet-1601385.pdf|
+|LoFive R1|RV32IMAC|16|16|16384|Good|1.61|2.73|https://store.groupgets.com/products/lofive-risc-v|
+
 ## MSP432
 
 Install Texas Instruments Code Composer Studio: https://www.ti.com/tool/CCSTUDIO
