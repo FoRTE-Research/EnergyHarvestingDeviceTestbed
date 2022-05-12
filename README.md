@@ -12,7 +12,7 @@
 
 ## MSP432
 
-1. Download and install Texas Instruments Code Composer Studio (CCS): https://www.ti.com/tool/CCSTUDIO
+1. Download and install [Texas Instruments Code Composer Studio (CCS)](https://www.ti.com/tool/CCSTUDIO)
 2. Start CCS
 3. Create a new project by clicking **File**->**New**->**CCS Project**
 4. Select **MSP432P401R** as the **Target**
@@ -45,7 +45,7 @@ void main(void)
 
 ## MSP430G2553
 
-1. Download and install Texas Instruments Code Composer Studio (CCS): https://www.ti.com/tool/CCSTUDIO
+1. Download and install [Texas Instruments Code Composer Studio (CCS)](https://www.ti.com/tool/CCSTUDIO)
 2. Start CCS
 3. Create a new project by clicking **File**->**New**->**CCS Project**
 4. Select **MSP430G2553** as the **Target**
@@ -78,7 +78,7 @@ void main(void)
 
 ## MSP430FR5994
 
-1. Download and install Texas Instruments Code Composer Studio (CCS): https://www.ti.com/tool/CCSTUDIO
+1. Download and install [Texas Instruments Code Composer Studio (CCS)](https://www.ti.com/tool/CCSTUDIO)
 2. Start CCS
 3. Create a new project by clicking **File**->**New**->**CCS Project**
 4. Select **MSP430FR5994** as the **Target**
