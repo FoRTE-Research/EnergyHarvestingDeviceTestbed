@@ -10,9 +10,6 @@
 |[SAML11 UFO Target](https://www.mouser.com/datasheet/2/894/NAE-CW308T-ATSAML11_datasheet-1601385.pdf)|ARM Cortex-m23 (v8m)|32|16|64|Good|0.98|2.64|
 |[LoFive R1](https://store.groupgets.com/products/lofive-risc-v)|RV32IMAC|16|16|16384|Good|1.61|2.73|
 
-## Apollo3 Blue
-Aside from the actual Sparkfun Edge development board (https://www.sparkfun.com/products/15170), you need a CH340C serial to USB adapter (https://www.sparkfun.com/products/15096).
-
 ## Adafruit METRO M0 Express
 1. Install [Arduino IDE](https://www.arduino.cc/en/software) 
 2. [Set up board](https://learn.adafruit.com/adafruit-metro-m0-express/using-with-arduino-ide)
@@ -23,6 +20,27 @@ Aside from the actual Sparkfun Edge development board (https://www.sparkfun.com/
 Resons for using Arduino IDE
 - Arduino CLI does not support Serial as of now (May 11 2022)
 - Arduino extension for VS Code has glitches when running Serial (May 11 2022)
+
+### Baremetal
+Getting truly bare-metal access to the SAMD21 chip on this board is a fairly involved process because Adafruit ships it with a locked-down bootloader so that you can use the Arduino IDE, CircuitPython, etc. These instructions are for if you'd rather develop using "normal C".
+
+You need a J-Link debug probe and the J-Link software; we use the [J-Link EDU Mini](https://www.segger.com/products/debug-probes/j-link/models/j-link-edu-mini/).
+You also need the [ARM development toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads).
+Installing the J-Link software and ARM toolchain is left as an exercise for the reader.
+
+#### Erasing the Adafruit bootloader
+1. Connect the JLink probe to the Metro M0 Express board through the 10-pin connector, and power the board through the micro-usb or barrel connector.
+2. Open the JLink GDB server to debug the SAMD21 chip: `JLinkGDBServer -if swd -device ATSAMD21G18A`. It should start waiting for a GDB connection; one of the output lines will be `Listening on TCP/IP port <portNumber>`. Note this port number.
+3. In another terminal, open the ARM debugger: `arm-none-eabi-gdb`. Connect to the SAMD21 through the JLink GDB server: `target remote localhost:<portNumber>`.
+4. The SAMD21 NVM controller locks down the first segment of Flash so that you cannot tamper with the bootloader; if you try to erase the Flash (and, by extension, program the Flash with new firmware), it will fail. We need to disable the Flash bootloader protection in the NVM controller.
+5. The bootloader protection bits are at location 0x00804000. Read these bits out: `monitor MemU8 0x804000`. GDB should return the data at this byte; in my case, it was 0x72. Bits 2:0 of this field indicate the protected boot loader size: 0x72 indicates an 8192-byte write-protected bootloader (see the SAMD21 family datasheet Table 22.6.5).
+6. Modify the protection bits: I'd rather not touch the other NVM control bits so I just set bits 2:0 to 0x7, indicating a bootloader size of 0 (no write protection): `monitor WriteU8 0x804000 0x77`.
+7. Changes to these bits take effect on device reset: `monitor reset`.
+
+You only have to do the above procedure once. At this point, the SAMD21 is programmable through JLink/GDB like any other target: repeat steps 1-3 to connect to the chip, `file <filename>` the executable you wish to program, and `load` it to the board.
+
+## Apollo3 Blue
+Aside from the actual Sparkfun Edge development board (https://www.sparkfun.com/products/15170), you need a CH340C serial to USB adapter (https://www.sparkfun.com/products/15096).
 
 ### Running AES
 First, download the Ambiq Suite SDK for developing on Sparkfun Ambiq boards.
