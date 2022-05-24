@@ -39,6 +39,9 @@ Installing the J-Link software and ARM toolchain is left as an exercise for the 
 
 You only have to do the above procedure once. At this point, the SAMD21 is programmable through JLink/GDB like any other target: repeat steps 1-3 to connect to the chip, `file <filename>` the executable you wish to program, and `load` it to the board.
 
+#### Default NVM user row configuration
+In case you somehow delete the NVM user row like I often do, the default (and most useful; WDT disabled, no bootloader/EEPROM) user row configuration is `D8E0C777 FFFF005A`.
+
 ## Apollo3 Blue
 Aside from the actual Sparkfun Edge development board (https://www.sparkfun.com/products/15170), you need a CH340C serial to USB adapter (https://www.sparkfun.com/products/15096).
 
