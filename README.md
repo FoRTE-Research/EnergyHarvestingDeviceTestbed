@@ -21,6 +21,8 @@ Resons for using Arduino IDE
 - Arduino CLI does not support Serial as of now (May 11 2022)
 - Arduino extension for VS Code has glitches when running Serial (May 11 2022)
 
+Arduino IDE does not recognize .inc files. To solve this problem, include the absolute path for the .inc file.
+
 ### Baremetal
 Getting truly bare-metal access to the SAMD21 chip on this board is a fairly involved process because Adafruit ships it with a locked-down bootloader so that you can use the Arduino IDE, CircuitPython, etc. These instructions are for if you'd rather develop using "normal C".
 
