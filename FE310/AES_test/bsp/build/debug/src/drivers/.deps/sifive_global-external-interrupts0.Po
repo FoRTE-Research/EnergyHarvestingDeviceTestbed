@@ -1,4 +1,0 @@
-src/drivers/sifive_global-external-interrupts0.o: \
- /home/jubayer/Documents/riscV/AES_test/freedom-metal/src/drivers/sifive_global-external-interrupts0.c \
- metal/machine/platform.h
-metal/machine/platform.h:

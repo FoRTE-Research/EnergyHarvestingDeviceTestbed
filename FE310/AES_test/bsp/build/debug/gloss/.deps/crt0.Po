@@ -1,2 +1,0 @@
-gloss/crt0.o: \
- /home/jubayer/Documents/riscV/AES_test/freedom-metal/gloss/crt0.S

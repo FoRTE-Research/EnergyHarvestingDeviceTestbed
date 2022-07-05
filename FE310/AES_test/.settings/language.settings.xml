@@ -5,13 +5,13 @@
 			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
 			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
 			<provider class="com.sifive.freedomstudio.toolchain.providers.SiFiveBuildOutputParser" id="com.sifive.freedomstudio.toolchain.providers.SiFiveBuildOutputParser" keep-relative-paths="false" name="SiFive RISCV Build Output Parser" parameter="riscv64-unknown-elf-(g?cc)|([gc]\+\+)|(clang)" prefer-non-shared="true" resource-scope="per-project"/>
-			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="-2000737939439766105" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Language Settings Provider" parameter="riscv64-unknown-elf-${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="7547541175735364128" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Language Settings Provider" parameter="riscv64-unknown-elf-${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
 				<language-scope id="com.sifive.freedomstudio.toolchain.rvgcc"/>
 				<language-scope id="com.sifive.freedomstudio.toolchain.rvg++"/>
 				<language-scope id="org.eclipse.cdt.core.gcc"/>
 				<language-scope id="org.eclipse.cdt.core.g++"/>
 			</provider>
-			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="654931766930635143" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainAsmSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Asm Language Settings Provider" parameter="riscv64-unknown-elf-as -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="1106841672400669824" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainAsmSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Asm Language Settings Provider" parameter="riscv64-unknown-elf-as -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
 				<language-scope id="com.sifive.freedomstudio.toolchain.rvasm"/>
 				<language-scope id="org.eclipse.cdt.core.assembly"/>
 			</provider>
@@ -23,13 +23,13 @@
 			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
 			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
 			<provider copy-of="extension" id="com.sifive.freedomstudio.toolchain.providers.SiFiveBuildOutputParser"/>
-			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="-2000737939439766105" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Language Settings Provider" parameter="riscv64-unknown-elf-${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="7547541175735364128" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Language Settings Provider" parameter="riscv64-unknown-elf-${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
 				<language-scope id="com.sifive.freedomstudio.toolchain.rvgcc"/>
 				<language-scope id="com.sifive.freedomstudio.toolchain.rvg++"/>
 				<language-scope id="org.eclipse.cdt.core.gcc"/>
 				<language-scope id="org.eclipse.cdt.core.g++"/>
 			</provider>
-			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="654931766930635143" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainAsmSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Asm Language Settings Provider" parameter="riscv64-unknown-elf-as -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+			<provider class="com.sifive.freedomstudio.toolchain.providers.ToolchainGCCSpecsDetector" console="false" env-hash="1106841672400669824" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.SiFiveToolchainAsmSpecsDetector" keep-relative-paths="false" name="SiFive Toolchain Asm Language Settings Provider" parameter="riscv64-unknown-elf-as -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
 				<language-scope id="com.sifive.freedomstudio.toolchain.rvasm"/>
 				<language-scope id="org.eclipse.cdt.core.assembly"/>
 			</provider>

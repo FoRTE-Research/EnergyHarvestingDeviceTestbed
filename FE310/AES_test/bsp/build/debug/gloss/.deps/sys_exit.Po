@@ -1,4 +1,0 @@
-gloss/sys_exit.o: \
- /home/jubayer/Documents/riscV/AES_test/freedom-metal/gloss/sys_exit.c \
- /home/jubayer/Documents/riscV/AES_test/freedom-metal/metal/shutdown.h
-/home/jubayer/Documents/riscV/AES_test/freedom-metal/metal/shutdown.h:

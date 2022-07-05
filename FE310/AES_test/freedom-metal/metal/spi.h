@@ -71,6 +71,10 @@ __inline__ void metal_spi_init(struct metal_spi *spi, int baud_rate) {
  * NULL, the SPI will ignore received bytes.
  * @return 0 if the transfer succeeds
  */
+__attribute__ ((section (".data"), optimize ("Os"))) __inline__ int metal_spi_transfer(struct metal_spi *spi,
+                                  struct metal_spi_config *config, size_t len,
+                                  char *tx_buf, char *rx_buf);
+
 __inline__ int metal_spi_transfer(struct metal_spi *spi,
                                   struct metal_spi_config *config, size_t len,
                                   char *tx_buf, char *rx_buf) {

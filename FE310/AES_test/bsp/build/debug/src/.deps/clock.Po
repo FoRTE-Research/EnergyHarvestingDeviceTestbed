@@ -1,6 +1,0 @@
-src/clock.o: \
- /home/jubayer/Documents/riscV/AES_test/freedom-metal/src/clock.c \
- /home/jubayer/Documents/riscV/AES_test/freedom-metal/metal/clock.h \
- /home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h
-/home/jubayer/Documents/riscV/AES_test/freedom-metal/metal/clock.h:
-/home/jubayer/Downloads/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h:

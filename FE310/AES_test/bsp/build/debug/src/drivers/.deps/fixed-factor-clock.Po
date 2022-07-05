@@ -1,4 +1,0 @@
-src/drivers/fixed-factor-clock.o: \
- /home/jubayer/Documents/riscV/AES_test/freedom-metal/src/drivers/fixed-factor-clock.c \
- metal/machine/platform.h
-metal/machine/platform.h:
