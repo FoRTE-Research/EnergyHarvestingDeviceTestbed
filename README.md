@@ -25,12 +25,12 @@ Arduino IDE does not recognize .inc files. To solve this problem, include the ab
 
 - On the optimize menu for Adafruit METRO M0 Express, there isn't an option for -O0. In order to add the option for no optimization, find the boards.txt file and add these two lines:
 
-`adafruit_metro_m0.menu.opt.no=No (-O0) (no optimization)`
+`adafruit_metro_m0.menu.opt.no=No (-O0) (no optimization)`      
 `adafruit_metro_m0.menu.opt.no.build.flags.optimize=-O0`
 
 above 
 
-`adafruit_metro_m0.menu.opt.small=Small (-Os) (standard)`
+`adafruit_metro_m0.menu.opt.small=Small (-Os) (standard)`       
 `adafruit_metro_m0.menu.opt.small.build.flags.optimize=-Os`
 
 This will add an option for no optimization on the menu.
