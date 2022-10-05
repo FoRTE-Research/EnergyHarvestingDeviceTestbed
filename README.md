@@ -25,19 +25,19 @@
 
 - On the optimize menu for Adafruit METRO M0 Express, there isn't an option for -O0. In order to add the option for no optimization, find the boards.txt file and add these two lines:
 
-```
-adafruit_metro_m0.menu.opt.no=No (-O0) (no optimization)      
-adafruit_metro_m0.menu.opt.no.build.flags.optimize=-O0
-```
+  ```
+  adafruit_metro_m0.menu.opt.no=No (-O0) (no optimization)      
+  adafruit_metro_m0.menu.opt.no.build.flags.optimize=-O0
+  ```
 
-above 
+  above 
 
-```
-adafruit_metro_m0.menu.opt.small=Small (-Os) (standard)`       
-adafruit_metro_m0.menu.opt.small.build.flags.optimize=-Os`
-```
+  ```
+  adafruit_metro_m0.menu.opt.small=Small (-Os) (standard)`       
+  adafruit_metro_m0.menu.opt.small.build.flags.optimize=-Os`
+  ```
 
-This will add an option for no optimization on the menu.
+  This will add an option for no optimization on the menu.
 
 ### Baremetal
 Getting truly bare-metal access to the SAMD21 chip on this board is a fairly involved process because Adafruit ships it with a locked-down bootloader so that you can use the Arduino IDE, CircuitPython, etc. These instructions are for if you'd rather develop using "normal C".
