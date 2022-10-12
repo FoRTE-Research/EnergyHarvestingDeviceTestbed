@@ -33,8 +33,8 @@
   above 
 
   ```
-  adafruit_metro_m0.menu.opt.small=Small (-Os) (standard)`       
-  adafruit_metro_m0.menu.opt.small.build.flags.optimize=-Os`
+  adafruit_metro_m0.menu.opt.small=Small (-Os) (standard)       
+  adafruit_metro_m0.menu.opt.small.build.flags.optimize=-Os
   ```
 
   This will add an option for no optimization on the menu.
