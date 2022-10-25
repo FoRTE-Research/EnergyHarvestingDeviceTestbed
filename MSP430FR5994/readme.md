@@ -1,3 +1,7 @@
+## Getting Started
+
+### Installing
+
 1. Download and install [Texas Instruments Code Composer Studio (CCS)](https://www.ti.com/tool/CCSTUDIO)
 2. Start CCS
 3. Create a new project by clicking **File**->**New**->**CCS Project**
@@ -30,3 +34,7 @@ void main(void)
 9. Connect the board to the host using the provided USB cable
 10. Press the green bug tool symbol in the top toolbar to debug the program on the board
 11. Press the button that looks like a play button to run the program (the LED should blink)
+
+### Compiler
+
+* To use MSP430-GCC-OPENSOURCE — GCC - Open Source Compiler for MSP Microcontrollers, need to download it from [here](https://www.ti.com/tool/MSP430-GCC-OPENSOURCE#downloads).
