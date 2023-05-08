@@ -1,0 +1,6 @@
+src/clock.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/clock.c \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/clock.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/clock.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h:

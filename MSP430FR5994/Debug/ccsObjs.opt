@@ -1,0 +1,14 @@
+"./aes/aes.obj"
+"./aes/gladman/aes_modes.obj"
+"./aes/gladman/aesaux.obj"
+"./aes/gladman/aescrypt.obj"
+"./aes/gladman/aeskey.obj"
+"./aes/gladman/aestab.obj"
+"./aes/gladman/aestst.obj"
+"./mac/cmac/cmac.obj"
+"./mac/cmac/main.obj"
+"./mac/cmac/utils.obj"
+"../lnk_msp430fr5994.cmd"
+-llibmpu_init.a
+-llibmath.a
+-llibc.a

@@ -1,0 +1,2 @@
+src/trap.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/trap.S

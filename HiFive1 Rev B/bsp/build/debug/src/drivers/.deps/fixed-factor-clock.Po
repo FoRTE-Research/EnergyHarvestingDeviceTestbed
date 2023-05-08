@@ -1,0 +1,4 @@
+src/drivers/fixed-factor-clock.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/drivers/fixed-factor-clock.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

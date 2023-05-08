@@ -1,0 +1,70 @@
+src/time.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/time.c \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/time.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/time.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_ansi.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/newlib-nano/newlib.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/config.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/ieeefp.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/cdefs.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/reent.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_ansi.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_types.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_types.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/lock.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/assert.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/time.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/types.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/endian.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_endian.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/select.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_sigset.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_timeval.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/timespec.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_timespec.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_pthreadtypes.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/sched.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/types.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_locale.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/time.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_time.h \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/timer.h
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/time.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/time.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_ansi.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/newlib-nano/newlib.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/config.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/ieeefp.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/cdefs.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/reent.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_ansi.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_types.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_types.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/lock.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/assert.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/time.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/types.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/endian.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_endian.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/select.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_sigset.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_timeval.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/timespec.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_timespec.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_pthreadtypes.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/sched.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/types.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_locale.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/time.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_time.h:
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/timer.h:

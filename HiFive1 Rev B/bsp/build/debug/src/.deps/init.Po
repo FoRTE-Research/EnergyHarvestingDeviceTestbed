@@ -1,0 +1,4 @@
+src/init.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/init.c \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/init.h
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/init.h:

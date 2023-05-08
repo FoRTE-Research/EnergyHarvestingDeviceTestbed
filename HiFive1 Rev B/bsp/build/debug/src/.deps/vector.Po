@@ -1,0 +1,2 @@
+src/vector.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/vector.S

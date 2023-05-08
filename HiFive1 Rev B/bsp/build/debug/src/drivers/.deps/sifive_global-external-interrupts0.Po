@@ -1,0 +1,4 @@
+src/drivers/sifive_global-external-interrupts0.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/drivers/sifive_global-external-interrupts0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

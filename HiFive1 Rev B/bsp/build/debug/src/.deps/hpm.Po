@@ -1,0 +1,28 @@
+src/hpm.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/hpm.c \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/drivers/riscv_cpu.h \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/compiler.h \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/cpu.h \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/interrupt.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stdint.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/stdint.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_intsup.h \
+ /Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/hpm.h
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/drivers/riscv_cpu.h:
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/compiler.h:
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/cpu.h:
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/interrupt.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stddef.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/lib/gcc/riscv64-unknown-elf/10.2.0/include/stdint.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/stdint.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/machine/_default_types.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/features.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/_newlib_version.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_intsup.h:
+/Applications/FreedomStudio.app/Contents/Eclipse/SiFive/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8/riscv64-unknown-elf/include/sys/_stdint.h:
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/hpm.h:

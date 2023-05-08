@@ -1,0 +1,4 @@
+gloss/sys_exit.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/gloss/sys_exit.c \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/shutdown.h
+/Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/metal/shutdown.h:

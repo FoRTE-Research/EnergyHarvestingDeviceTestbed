@@ -1,0 +1,2 @@
+src/entry.o: \
+ /Users/zeezooryu/wsFreedomStudio/EmbeddedCrypto/freedom-metal/src/entry.S
