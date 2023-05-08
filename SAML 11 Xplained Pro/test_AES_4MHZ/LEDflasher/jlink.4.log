@@ -1,0 +1,27 @@
+T52C0 506:495.845   SEGGER J-Link V7.52a Log File
+T52C0 506:495.938   DLL Compiled: Jul 28 2021 11:08:12
+T52C0 506:495.954   Logging started @ 2022-12-07 12:05
+T52C0 506:495.969 - 102533.992ms
+T52C0 506:496.120 JLINK_EMU_SelectByUSBSN(SerialNo = 801026729)
+T52C0 506:496.777 - 0.674ms returns 0x00
+T52C0 506:496.830 JLINK_OpenEx(...)
+T52C0 506:750.692   Firmware: J-Link EDU Mini V1 compiled Jul 28 2021 10:10:36
+T52C0 506:751.109   Firmware: J-Link EDU Mini V1 compiled Jul 28 2021 10:10:36
+T52C0 506:751.229   Decompressing FW timestamp took 90 us
+T52C0 506:764.397   Hardware: V1.00
+T52C0 506:764.455   S/N: 801026729
+T52C0 506:764.475   OEM: SEGGER
+T52C0 506:764.496   Feature(s): FlashBP, GDB
+T52C0 506:766.004   TELNET listener socket opened on port 19021
+T52C0 506:766.566   WEBSRV Starting webserver
+T52C0 506:766.631   WEBSRV Failed to put socket into listener state (port 19080)
+T52C0 506:766.769   WEBSRV Webserver running on local port 19081
+T52C0 506:777.111 - 280.303ms returns "O.K."
+T52C0 506:777.156 JLINK_ExecCommand("ProjectFile = C:\Users\Zeezoo\Desktop\EnergyHarvestingDeviceTestbed-main\EnergyHarvestingDeviceTestbed-main\SAML11\test_AES_4MHZ\LEDflasher\jlink.config", ...). 
+T52C0 506:777.855 - 0.707ms returns 0x00
+T52C0 506:780.216 JLINK_SetLogFile(...)
+T52C0 506:780.242 - 0.029ms
+T52C0 506:788.598 JLINK_Close()
+T52C0 506:797.071 - 8.493ms
+T52C0 506:797.095   
+T52C0 506:797.100   Closed
