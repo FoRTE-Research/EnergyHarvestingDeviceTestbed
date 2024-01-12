@@ -1,0 +1,2 @@
+gloss/crt0.o: \
+ C\:/Users/kuthe/wsFreedomStudio/EnergyHarvestingTestCode/sifive_hifive1_revb_sifive_welcome/freedom-metal/gloss/crt0.S

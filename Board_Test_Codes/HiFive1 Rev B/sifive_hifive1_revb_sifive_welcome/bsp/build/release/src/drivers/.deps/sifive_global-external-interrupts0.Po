@@ -1,0 +1,4 @@
+src/drivers/sifive_global-external-interrupts0.o: \
+ C\:/Users/kuthe/wsFreedomStudio/EnergyHarvestingTestCode/sifive_hifive1_revb_sifive_welcome/freedom-metal/src/drivers/sifive_global-external-interrupts0.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

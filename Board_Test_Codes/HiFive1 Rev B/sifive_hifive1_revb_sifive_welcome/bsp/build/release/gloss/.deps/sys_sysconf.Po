@@ -1,0 +1,66 @@
+gloss/sys_sysconf.o: \
+ C\:/Users/kuthe/wsFreedomStudio/EnergyHarvestingTestCode/sifive_hifive1_revb_sifive_welcome/freedom-metal/gloss/sys_sysconf.c \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\time.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_ansi.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\newlib-nano\newlib.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_newlib_version.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\config.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\ieeefp.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\features.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\cdefs.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_default_types.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stddef.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\reent.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_ansi.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_types.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_types.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\lock.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\assert.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\time.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\types.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_stdint.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\endian.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_endian.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\select.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_sigset.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_timeval.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\timespec.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_timespec.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_pthreadtypes.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\sched.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\types.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_locale.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\unistd.h \
+ c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\unistd.h
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\time.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_ansi.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\newlib-nano\newlib.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_newlib_version.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\config.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\ieeefp.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\features.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\cdefs.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_default_types.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\lib\gcc\riscv64-unknown-elf\10.2.0\include\stddef.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\reent.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\_ansi.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_types.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_types.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\lock.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\assert.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\time.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\types.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_stdint.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\endian.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\_endian.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\select.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_sigset.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_timeval.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\timespec.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_timespec.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_pthreadtypes.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\sched.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\machine\types.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\_locale.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\unistd.h:
+c\:\users\kuthe\downloads\freedomstudio-4.18.0.2021-04-1-x86_64-w64-mingw32\sifive\riscv64-unknown-elf-toolchain-10.2.0-2020.12.8\riscv64-unknown-elf\include\sys\unistd.h:

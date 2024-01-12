@@ -1,0 +1,4 @@
+src/drivers/fixed-factor-clock.o: \
+ C\:/Users/kuthe/wsFreedomStudio/EnergyHarvestingTestCode/sifive_hifive1_revb_sifive_welcome/freedom-metal/src/drivers/fixed-factor-clock.c \
+ metal/machine/platform.h
+metal/machine/platform.h:

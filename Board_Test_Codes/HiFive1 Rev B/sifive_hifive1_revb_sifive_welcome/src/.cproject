@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.sifive.toolchain.riscv64.unknown.elf.gcc.1276897602">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.1276897602" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" id="com.sifive.toolchain.riscv64.unknown.elf.gcc.1276897602" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.sifive.toolchain.riscv64.unknown.elf.gcc.1276897602.959902191" name="/" resourcePath="">
+						<toolChain id="com.sifive.toolchain.riscv64.unknown.elf.gcc.1025355884" name="SiFive RISC-V GNU GCC Newlib" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.sifive.riscv64.unknown.elf.gcc.target.platform.397477610" isAbstract="false" osList="all" superClass="com.sifive.riscv64.unknown.elf.gcc.target.platform"/>
+							<builder id="com.sifive.toolchain.riscv64.unknown.elf.gcc.builder.1742072087" managedBuildOn="false" name="Gnu Make Builder.Default" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.builder"/>
+							<tool id="com.sifive.toolchain.riscv64.unknown.elf.gcc.c.compiler.1539043739" name="SiFive GNU C Compiler" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.c.compiler">
+								<option id="com.sifive.toolchain.riscv64.unknown.elf.gcc.c.option.march.299720279" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.c.option.march" value="rv64imafdc" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.19325966" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+								<inputType id="com.sifive.toolchain.riscv64.unknown.elf.gcc.rvc.input.1270017938" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.rvc.input"/>
+								<inputType id="com.sifive.toolchain.riscv64.unknown.elf.gcc.rvasm.input.1965181934" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.rvasm.input"/>
+								<inputType id="com.sifive.toolchain.riscv64.unknown.elf.gcc.assembler.input.75667242" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.assembler.input"/>
+							</tool>
+							<tool id="com.sifive.toolchain.riscv64.unknown.elf.gcc.cpp.compiler.622991120" name="SiFive GNU C++ Compiler" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.cpp.compiler">
+								<option id="com.sifive.toolchain.riscv64.unknown.elf.gcc.cpp.option.march.1338591045" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.cpp.option.march" value="rv64imafdc" valueType="string"/>
+							</tool>
+							<tool id="com.sifive.toolchain.riscv64.unknown.elf.gcc.c.linker.1986573582" name="SiFive GNU C Linker" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1015182413" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.sifive.toolchain.riscv64.unknown.elf.gcc.cpp.linker.1126657559" name="SiFive GNU C++ Linker" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.cpp.linker"/>
+							<tool id="com.sifive.toolchain.riscv64.unknown.elf.gcc.archiver.488198483" name="SiFive GNU Archiver" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.archiver"/>
+							<tool id="com.sifive.toolchain.riscv64.unknown.elf.gcc.assembler.1628956280" name="SiFive GNU Assembler" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.assembler">
+								<option id="com.sifive.toolchain.riscv64.unknown.elf.gcc.assembler.option.march.802135466" superClass="com.sifive.toolchain.riscv64.unknown.elf.gcc.assembler.option.march" value="rv64imafdc" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.105413162" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.sifive.toolchain.riscv64.unknown.elf.as.rvasm.input.1120221145" superClass="com.sifive.toolchain.riscv64.unknown.elf.as.rvasm.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="src.null.1676887375" name="src"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>clean CONFIGURATION=${ConfigName}</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="sifive-welcome" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>sifive-welcome CONFIGURATION=${ConfigName}</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.asmSource" language="com.sifive.freedomstudio.toolchain.rvasm"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.sifive.freedomstudio.toolchain.rvgcc"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.sifive.freedomstudio.toolchain.rvgcc"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.sifive.freedomstudio.toolchain.rvg++"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.sifive.freedomstudio.toolchain.rvg++"/>
+		</project-mappings>
+	</storageModule>
+</cproject>

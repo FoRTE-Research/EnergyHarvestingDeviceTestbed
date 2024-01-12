@@ -1,0 +1,2 @@
+src/vector.o: \
+ C\:/Users/kuthe/wsFreedomStudio/sifive_hifive1_revb_sifive_welcome/freedom-metal/src/vector.S
