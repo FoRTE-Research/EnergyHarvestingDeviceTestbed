@@ -3,28 +3,30 @@
 3. Create a new project by clicking **File**->**New**->**CCS Project**
 4. Select **MSP430G2553** as the **Target**
 5. Type in a name for the project
-6. Select **Empty Project (with main.c)** from **Project templates and examples**
+6. Select **Blink The LED** from **Basic Examples**
 7. Click **Finish**
 8. Modify `main.c` so that it looks like the source code below:
 ```
-#include "msp.h"
+#include <msp430.h>				
 
+
+/**
+ * blink.c
+ */
 void main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;		// stop watchdog timer
-	P1OUT = 0x0;
-	P1DIR = 0x1; // setup pin direction to output
-	
-	unsigned int x = 0;
-	while(1) {
-	    ++x;
-	    if(x % 1000000 == 0) {
-	        x = 0;
-	        P1OUT ^= 0x1; // toggle LED
-	    }
+	P1DIR |= 0x01;					// configure P1.0 as output
+
+	volatile unsigned int i;		// volatile to prevent optimization
+
+	while(1)
+	{
+		P1OUT ^= 0x01;				// toggle P1.0
+		for(i=10000; i>0; i--);     // delay
 	}
 }
 ```
 9. Connect the board to the host using the provided USB cable
-10. Press the green bug tool symbol in the top toolbar to debug the program on the board
-11. Press the button that looks like a play button to run the program (the LED should blink)
+10. Press the button that looks like a Folder with curly braces to Flash the program.
+11. After a few moments, the LED should blink.
