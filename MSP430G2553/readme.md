@@ -5,7 +5,7 @@
 5. Type in a name for the project
 6. Select **Blink The LED** from **Basic Examples**
 7. Click **Finish**
-8. Modify `main.c` so that it looks like the source code below:
+8. Your source code should look like the following:
 ```
 #include <msp430.h>				
 
