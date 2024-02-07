@@ -1,0 +1,2 @@
+src/trap.o: \
+ C\:/Users/kuthe/wsFreedomStudio/sifive_hifive1_revb_sifive_welcome/freedom-metal/src/trap.S

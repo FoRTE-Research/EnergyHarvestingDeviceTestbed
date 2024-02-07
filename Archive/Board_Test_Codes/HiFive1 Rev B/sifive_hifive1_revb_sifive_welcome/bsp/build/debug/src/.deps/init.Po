@@ -1,0 +1,4 @@
+src/init.o: \
+ C\:/Users/kuthe/wsFreedomStudio/sifive_hifive1_revb_sifive_welcome/freedom-metal/src/init.c \
+ C\:/Users/kuthe/wsFreedomStudio/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/init.h
+C\:/Users/kuthe/wsFreedomStudio/sifive_hifive1_revb_sifive_welcome/freedom-metal/metal/init.h:
