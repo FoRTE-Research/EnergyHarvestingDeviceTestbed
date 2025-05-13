@@ -12,7 +12,7 @@ This repository contains the codes for an emmbedded device 'Hello World' that bl
 |[SAML11 UFO Target](https://www.mouser.com/datasheet/2/894/NAE-CW308T-ATSAML11_datasheet-1601385.pdf)|ARM Cortex-m23 (v8m)|32|16|64|Good|0.98|2.64|
 |[SAML11 Xplained Pro](https://www.microchip.com/en-us/development-tool/dm320205)|ARM Cortex-m23 (v8m)|32|16|64|Good|0.98|2.64|
 |[LoFive R1](https://store.groupgets.com/products/lofive-risc-v)|RV32IMAC|16|16|16384|Good|1.61|2.73|
-|[Hifive 1 Rev B]([https://store.groupgets.com/products/lofive-risc-v](https://www.sifive.com/boards/hifive1-rev-b))|RV32IMAC|320|16|32,000|Good|1.61|2.73|
+|[Hifive 1 Rev B](https://store.groupgets.com/products/lofive-risc-v](https://www.sifive.com/boards/hifive1-rev-b)|RV32IMAC|320|16|32,000|Good|1.61|2.73|
 
 To test the blinky LED-based 'Hello World', comment the "UART_LED" macro at the top of the code.
 To test the both the LED- and UART-based 'Hello World', uncomment the "UART_LED" macro at the top of every code.
