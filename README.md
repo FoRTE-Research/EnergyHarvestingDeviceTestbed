@@ -15,5 +15,7 @@ This repository contains the codes for an emmbedded device 'Hello World' that bl
 |[Hifive 1 Rev B](https://www.sifive.com/boards/hifive1-rev-b)|RV32IMAC|320|16|32,000|Good|1.61|2.73|
 
 To test the blinky LED-based 'Hello World', comment the "UART_LED" macro at the top of the code.
+
 To test the both the LED- and UART-based 'Hello World', uncomment the "UART_LED" macro at the top of every code.
+
 Detailed instructions to setup and test the boards are included in the target-dedicated folders.
