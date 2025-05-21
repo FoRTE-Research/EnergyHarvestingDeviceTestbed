@@ -1,4 +1,16 @@
-## HW1: Blinky
+# Video Guides
+
+In addition to the written instructions below, we also provide video walkthroughs to help you bring-up the development board and get it running on harvested energy.
+
+* Blinky Hello World: https://www.youtube.com/watch?v=_AOnwK1jpwI&list=PLAO6cGFgDlRa5qvxas2Wk4Mk0hi23b50c&index=43
+* UART Hello World: https://www.youtube.com/watch?v=XSrGpGdHqwM&list=PLAO6cGFgDlRa5qvxas2Wk4Mk0hi23b50c&index=35
+* Running Crypto (AES vs. Chacha20): https://www.youtube.com/watch?v=LyFqdbcOnGY&list=PLAO6cGFgDlRa5qvxas2Wk4Mk0hi23b50c&index=31
+* Recording enregy harvesting traces: https://www.youtube.com/watch?v=p-In6DExedg&list=PLAO6cGFgDlRa5qvxas2Wk4Mk0hi23b50c&index=19
+* Intermittent computation (AES): https://www.youtube.com/watch?v=BvluBox5_kI&list=PLAO6cGFgDlRa5qvxas2Wk4Mk0hi23b50c&index=22
+
+# Written Guides
+
+## Blinky Hello World
 
 1. Download and install [Texas Instruments Code Composer Studio (CCS)](https://www.ti.com/tool/CCSTUDIO)
 2. Start CCS
@@ -33,7 +45,7 @@ void main(void)
 10. Press the button that looks like a Folder with curly braces to Flash the program.
 11. After a few moments, the LED should blink.
 
-## HW2: Hello World
+## UART Hello World
 1. Start CCS
 2. Create a new project by clicking **File**->**New**->**CCS Project**
 3. Select **MSP430G2553** as the **Target**
